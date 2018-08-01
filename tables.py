@@ -1102,7 +1102,28 @@ OBJECT = [
     "Strong but ornate chain",
 ]
 
-PERPLEXITY_COMMON = []
+PERPLEXITY_COMMON = [
+    "Hidden door north",
+    "Hidden door south",
+    "Hidden door east",
+    "Hidden door west",
+    "Hidden door up",
+    "Hidden door down",
+    "Full of corpses",
+    "Floor rotted away",
+    "Half flooded",
+    "Has Looking Glass wall",
+    "Doors all change position if characters return to this room",
+    "Has Anonymity (roll on Anonymities Table, p150)",
+    "Room tilted, characters walking through entrance end up walking on wall.",
+    "Room inverted, furniture and door aligned along ceiling, gravity still pulls “down” in same direction on both sides of the door, so characters must climb down to “ceiling”.",
+    "Room completely changes if re-entered.",
+    "Exit doors all 6” tall",
+    "Exit doors all locked.",
+    "Floor decaying— as pit trap.",
+    "Strangely narrow considering furnishings (d4’ wide)",
+    "Long bent hall or shaft turning left or right. After all characters have rounded the bend they will find there is no exit. After this happens, roll d4: - 1 An Anonymity appears - 2 Roll another Common Perplexity for this room - 3 Roll an Uncommon Perplexity for this room - 4 Roll a random Interior Encounter for this room. If resolving that doesn’t get the characters out of the room, roll d4 again."
+]
 
 PERPLEXITY_UNCOMMON = []
 
