@@ -922,7 +922,28 @@ INTERIOR_ROOM = [
     "Fountain"
 ]
 
-COMPLICATION = []
+COMPLICATION = [
+    "NPC",
+    "Aftermath of battle",
+    "Croquet game",
+    "Creature’s den",
+    "Battle",
+    "Two NPCs meeting",
+    "Spatial distortion: walk away from target location to reach it",
+    "Time distortion: 25% of rounds are undone afterward (Warning: this is a pain to Referee, but fun)",
+    "Time distortion: move forward by staying still and occupying square",
+    "Name loss. Anyone passing through this square must make a Wisdom check or else lose their name. They will not be able to remember it, neither will anyone else, and no targeted spell or ritual will affect them (including beneficial ones)— though area effect spells still can. One can regain one’s name by finding a village and being rechristened (their real name will be remembered) or by committing a deed resulting in gaining at least half of the experience points needed to reach the next level and renaming yourself after the deed (Frederic the Larcenous, Morgotte Hogslayer, etc.). One cannot gain levels or be healed by Clerical magic without a name.",
+    "NPCs fighting duel",
+    "Lurking spy",
+    "Trap",
+    "Hunters chasing game",
+    "Thief hiding",
+    "Spatial distortion: crossing square eastward leads north, west leads south and vice versa",
+    "Nearby object/landmark is illusory",
+    "Wild magic zone",
+    "Sunlight does not reach this square",
+    "Time distortion: time stopped"
+]
 
 LOCATION = {}
 
