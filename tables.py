@@ -1281,8 +1281,49 @@ NPC_RELATIONSHIP = {
     00: "... roll twice.",
 }
 
-DOING_RELATIONSHIP = []
+DOING_RELATIONSHIP = [
+    "Eating ______",
+    "Killing ______",
+    "Negotiating with ______",
+    "Selling something to ______",
+    "Aiding a wounded ______",
+    "Looking for ______",
+    "Babbling about ______",
+    "Hunting with the aid of ______",
+    "Traveling with______",
+    "Seducing ______",
+    "Eating several ______",
+    "Killing several ______",
+    "Negotiating with several ______",
+    "Aiding wounded ______ ",
+    "Looking for several _____",
+    "Babbling about several ______",
+    "Traveling with several ______",
+    "Seducing several ______"
+]
 
-DOING_WANT = []
+DOING_WANT = [
+    "To get out of Interior.",
+    "Revenge on another creature in the Interior.",
+    "A fantastic treasure hoard they believe to be located nearby.",
+    "The character with the highest Charisma.",
+    "A magic item believed to be in the Interior; either one you already put in there, or a regular item that this loser thinks is magical.",
+    "To desecrate one of the altars.",
+    "To stir up dissent within one of the occupying factions in the Interior.",
+    "To locate the rest of his/her party.",
+    "To invent preposterous but plausible objectives to keep the characters busy while s/he bumps them off one by one.",
+    "To slay and replace the head of one of the factions in the Interior."
+]
 
-DOING_CARE = []
+DOING_CARE = [
+    "NPC secretly or overtly controls a powerful faction in the interior.",
+    "NPC demonstrates extensive knowledge of much that is hidden— and will reveal more in exchange for aid.",
+    "NPC has a bad temper, and a map of the local Interior.",
+    "NPC is really hot.",
+    "NPC is on good terms with powerful creature in the Interior and can get the characters past it.",
+    "NPC has oracular powers or is a Cleric with a few Cure Moderate Wounds up his/her embroidered sleeves.",
+    "NPC is in a position to offer the characters a sizable monetary reward once they are safely out of the Interior.",
+    "NPC is delivering a message to one of the kings or queens and if they are interrupted the characters will suffer.",
+    "NPC is valuable if captured alive and brought to a wealthy patron.",
+    "NPC knows the code to interpret the message s/he carries."
+]

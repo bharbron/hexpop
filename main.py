@@ -1,3 +1,11 @@
+# Maximum number of levels deep we should go on embedded random tables
+MAX_DEPTH = 10
+
+# Keywords that have special meaning and should be ignored by parse_and_replace()
+RESTRICTED_KEYWORDS = [
+	"RANDOM_HEX"
+]
+
 def parse_and_replace(text):
     """
     Parses the text for the first instance of a %TABLE_REFERNCE% and replaces it with the result from that table
