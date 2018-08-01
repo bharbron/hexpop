@@ -547,11 +547,74 @@ EVENT = {
     00: "Red battle plan secretly discovered by Heart forces."
 }
 
-FOREST_LANDMARK = []
+FOREST_LANDMARK = [
+    "Bridge",
+    "Entrance to interior (in tree, etc.)",
+    "Pond",
+    "Corpse or corpses",
+    "Crumbling tower",
+    "Thornchoked thicket",
+    "Mushroom field",
+    "Clearing",
+    "Wall",
+    "Well",
+    "Sheer rise to next square",
+    "Sheer drop to next square",
+    "Stitch in space— Settlement in the distance",
+    "Border with garden",
+    "Swamp",
+    "Remains of old castle",
+    "Remains of graveyard",
+    "Orb Loc",
+    "Creature/NPC",
+    "Exposed interior filled with rainwater/blood"
+]
 
-GARDEN_LANDMARK = []
+GARDEN_LANDMARK = [
+    "Bridge",
+    "Entrance to interior",
+    "Fountain",
+    "Corpse/corpses",
+    "Gazebo",
+    "Crumbling ground",
+    "Tower",
+    "Sundial",
+    "Wall",
+    "Exterior stairway",
+    "Sheer rise to next square",
+    "Sheer drop to next square",
+    "Pond or pool",
+    "Overgrown/Border with Forest",
+    "Well",
+    "Merchant’s shop",
+    "Statue",
+    "Exposed remains of interior",
+    "Creature/NPC",
+    "Exposed interior filled with rainwater/blood"
+]
 
-INTERIOR_ROOM = []
+INTERIOR_ROOM = [
+    "Hall",
+    "Parlor",
+    "Dining room",
+    "Bedroom",
+    "Kitchen",
+    "Stairwell",
+    "Library",
+    "Pantry",
+    "WC",
+    "Entrance/exit to garden",
+    "Shaftway",
+    "Closet",
+    "Gallery",
+    "Storage room",
+    "Game room",
+    "Pool",
+    "Music room",
+    "Fountain",
+    "Tower room overlooking garden",
+    "Looking glass room"
+]
 
 COMPLICATION = []
 
