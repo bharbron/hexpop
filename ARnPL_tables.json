@@ -1166,6 +1166,10 @@
     "LOCATION_OTHER": [
         "{{LOCATION}} On Quiet Side of Looking Glass"
     ],
+    "HERE_OR_THERE": {
+        "1": "",
+        "2": "in square {{RANDOM_HEX}}"
+    },
     "OBJECT": [
         "Teacup",
         "Hat",
@@ -1268,6 +1272,10 @@
         "Key. Roll d100. That's the percent chance it will fit any given lock. Once it fits a lock, that's the door it was for.",
         "Strong but ornate chain"
     ],
+    "TREASURE": {
+        "1": "Valuable {{OBJECT}}",
+        "2": "Magical {{OBJECT}}"
+    },
     "PERPLEXITY_COMMON": [
         "Hidden door north",
         "Hidden door south",
@@ -1480,31 +1488,31 @@
         "is seducing several {{ENCOUNTER_INTELLIGENT}}"
     ],
     "DOING_WANT": [
-        "wants to get into or out of Interior.",
-        "wants revenge on {{ENCOUNTER_INTERIOR}} in the Interior.",
-        "wants a fantastic treasure hoard they believe to be located nearby.",
-        "wants the character with the highest Charisma.",
-        "wants a magic item believed to be in the Interior; either one you already put in there, or a regular item that this loser thinks is magical.",
-        "wants to desecrate one of the altars.",
-        "wants to stir up dissent within occupying factions of {{ENCOUNTER_INTERIOR}} in the Interior.",
-        "wants to locate the rest of his/her party.",
-        "wants to invent preposterous but plausible objectives to keep the characters busy while s/he bumps them off one by one.",
-        "wants to slay and replace the head of faction of {{ENCOUNTER_INTERIOR}} in the Interior."
+        "wants to get into or out of Interior",
+        "wants revenge on {{ENCOUNTER_INTERIOR}} in the Interior",
+        "wants a fantastic treasure hoard they believe to be located nearby",
+        "wants the character with the highest Charisma",
+        "wants a magic item believed to be in the Interior; either one you already put in there, or a regular item that this loser thinks is magical",
+        "wants to desecrate one of the altars",
+        "wants to stir up dissent within occupying factions of {{ENCOUNTER_INTERIOR}} in the Interior",
+        "wants to locate the rest of his/her party",
+        "wants to invent preposterous but plausible objectives to keep the characters busy while s/he bumps them off one by one",
+        "wants to slay and replace the head of faction of {{ENCOUNTER_INTERIOR}} in the Interior"
     ],
     "DOING_CARE": [
-        "NPC secretly or overtly controls a powerful faction in the interior.",
-        "NPC demonstrates extensive knowledge of much that is hidden- and will reveal more in exchange for aid.",
-        "NPC has a bad temper, and a map of the local Interior.",
-        "NPC is really hot.",
-        "NPC is on good terms with powerful creature in the Interior and can get the characters past it.",
-        "NPC has oracular powers or is a Cleric with a few Cure Moderate Wounds up his/her embroidered sleeves.",
-        "NPC is in a position to offer the characters a sizable monetary reward once they are safely out of the Interior.",
-        "NPC is delivering a message to one of the kings or queens and if they are interrupted the characters will suffer.",
-        "NPC is valuable if captured alive and brought to a wealthy patron.",
-        "NPC knows the code to interpret the message s/he carries."
+        "NPC secretly or overtly controls a powerful faction in the interior",
+        "NPC demonstrates extensive knowledge of much that is hidden- and will reveal more in exchange for aid",
+        "NPC has a bad temper, and a map of the local Interior",
+        "NPC is really hot",
+        "NPC is on good terms with powerful creature in the Interior and can get the characters past it",
+        "NPC has oracular powers or is a Cleric with a few Cure Moderate Wounds up his/her embroidered sleeves",
+        "NPC is in a position to offer the characters a sizable monetary reward once they are safely out of the Interior",
+        "NPC is delivering a message to one of the kings or queens and if they are interrupted the characters will suffer",
+        "NPC is valuable if captured alive and brought to a wealthy patron",
+        "NPC knows the code to interpret the message s/he carries"
     ],
     "GARDEN": [
-        "{{GARDEN_LANDMARK}} {{COMPLICATION_OR_NO}} | DAY {{ENCOUNTER_GARDEN_DAY}} {{DOING_RELATIONSHIP}}, {{DOING_WANT}} {{DOING_CARE}} {{NPC_RELATIONSHIP}} | NIGHT {{ENCOUNTER_GARDEN_NIGHT}} {{DOING_RELATIONSHIP}}, {{DOING_WANT}} {{DOING_CARE}} {{NPC_RELATIONSHIP}} {{INTERIOR_OR_NO}} {{ADVENTURE_HOOK_OR_NO}}"
+        "{{GARDEN_LANDMARK}}{{COMPLICATION_OR_NO}}. | DAY {{ENCOUNTER_GARDEN_DAY}} {{DOING_RELATIONSHIP}}, {{DOING_WANT}}. {{DOING_CARE}}. {{NPC_RELATIONSHIP}}. | NIGHT {{ENCOUNTER_GARDEN_NIGHT}} {{DOING_RELATIONSHIP}}, {{DOING_WANT}}. {{DOING_CARE}}. {{NPC_RELATIONSHIP}}.{{INTERIOR_OR_NO}}{{ADVENTURE_HOOK_OR_NO}}"
     ],
     "MOUNTAIN": [
     ],
@@ -1512,16 +1520,16 @@
     ],
     "COMPLICATION_OR_NO": {
         "1": "",
-        "2": "with {{COMPLICATION}}"
+        "2": " with {{COMPLICATION}}"
     },
     "INTERIOR_OR_NO": {
         "1": "",
-        "2": " | INTERIOR {{INTERIOR_ROOM}} {{PERPLEXITY_OR_NO}}"
+        "2": " | INTERIOR {{INTERIOR_ROOM}}{{PERPLEXITY_OR_NO}}. Contains {{TREASURE}}. {{ENCOUNTER_INTERIOR}} {{DOING_RELATIONSHIP}}, {{DOING_WANT}}. {{DOING_CARE}}. {{NPC_RELATIONSHIP}}."
     },
     "PERPLEXITY_OR_NO": {
         "3": "",
-        "5": "with {{PERPLEXITY_COMMON}}",
-        "6": "with {{PERPLEXITY_UNCOMMON}}"
+        "5": " with {{PERPLEXITY_COMMON}}",
+        "6": " with {{PERPLEXITY_UNCOMMON}}"
     },
     "ADVENTURE_HOOK_OR_NO": {
         "1": "",
