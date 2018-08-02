@@ -11,7 +11,7 @@
         "Frame {{ADVENTURE_HOOK_FRAME}} for a crime",
         "Spy on {{ENCOUNTER_INTELLIGENT}}",
         "{{ADVENTURE_HOOK}}, action must be performed during the event \"{{EVENT}}\"",
-        "Map {{ADVENTURE_HOOK_MAP}}",
+        "Map of {{ADVENTURE_HOOK_MAP}}",
         "Investigate Murder of {{ENCOUNTER_INTELLIGENT}}",
         "Investigate Theft of {{OBJECT}} belonging to {{ENCOUNTER_INTELLIGENT}}",
         "Prevent the event \"{{EVENT}}\"",
@@ -54,9 +54,9 @@
     "ADVENTURE_HOOK_MAP": {
         "1": "Castle Cachtice",
         "2": "Castle Poenari",
-        "8": "Garden",
-        "14": "Forest",
-        "20": "Interior"
+        "8": "Garden at square {{RANDOM_HEX}}",
+        "14": "Forest at square {{RANDOM_HEX}}",
+        "20": "Interior at square {{RANDOM_HEX}}"
     },
     "ANIMAL": [
         "Mouse",
@@ -268,6 +268,9 @@
         "Tapestry-making Type Person",
         "Castle Brewer"
     ],
+    "GUEST": [
+        "Guest"
+    ],
     "ENCOUNTER": [
         "Bat/Undead bird Swarm",
         "Little Crocodile",
@@ -316,7 +319,7 @@
         "Red Bride (Tizala)",
         "Red Bride (Ildana)",
         "King of Hearts",
-        "Guest",
+        "{{GUEST}}",
         "Pale King",
         "Colorless Queen",
         "Heart Queen",
@@ -360,7 +363,7 @@
         "90": "Red Bride (Tizala)",
         "92": "Red Bride (Ildana)",
         "93": "King of Hearts",
-        "96": "Guest",
+        "96": "{{GUEST}}",
         "97": "Pale King",
         "98": "Colorless Queen",
         "99": "Heart Queen",
@@ -407,7 +410,7 @@
         "92": "Red Bride (Tizala)",
         "93": "Red Bride (Ildana)",
         "94": "King of Hearts",
-        "96": "Guest",
+        "96": "{{GUEST}}",
         "97": "Pale King",
         "98": "Colorless Queen",
         "99": "Heart Queen",
@@ -436,7 +439,7 @@
         "90": "Colorless Rook",
         "95": "Red Rook",
         "97": "Sphinx",
-        "100": "Guest"
+        "100": "{{GUEST}}"
     },
     "ENCOUNTER_FOREST_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -483,7 +486,7 @@
         "90": "Red Bride (Tizala)",
         "91": "Red Bride (Ildana)",
         "92": "King of Hearts",
-        "95": "Guest",
+        "95": "{{GUEST}}",
         "96": "Pale King",
         "97": "Colorless Queen",
         "98": "Heart Queen",
@@ -516,7 +519,7 @@
         "92": "Colorless Rook",
         "96": "Red Rook",
         "97": "Sphinx",
-        "99": "Guest",
+        "99": "{{GUEST}}",
         "100": "Jabberwock"
     },
     "ENCOUNTER_HOUSE": [
@@ -613,7 +616,7 @@
         "91": "Red Bride (Tizala)",
         "92": "Red Bride (Ildana)",
         "93": "King of Hearts",
-        "95": "Guest",
+        "95": "{{GUEST}}",
         "96": "Pale King",
         "97": "Colorless Queen",
         "98": "Heart Queen",
@@ -1475,18 +1478,18 @@
         "is negotiating with {{ENCOUNTER_INTELLIGENT}}",
         "is selling something to {{ENCOUNTER_INTELLIGENT}}",
         "is aiding a wounded {{ANIMAL_ENCOUNTER}}",
-        "is looking for {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "is looking for {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
         "is babbling about {{OBJECT_ANIMAL_ENCOUNTER}}",
         "is hunting with the aid of {{ANIMAL_ENCOUNTER}}",
-        "is traveling with {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "is traveling with {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
         "is seducing {{ENCOUNTER_INTELLIGENT}}",
         "is eating several {{ANIMAL_ENCOUNTER}}",
         "is killing several {{ANIMAL_ENCOUNTER}}",
         "is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
         "is aiding wounded {{ANIMAL_ENCOUNTER}}",
-        "is looking for several {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "is looking for several {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
         "is babbling about several {{OBJECT_ANIMAL_ENCOUNTER}}",
-        "is traveling with several {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "is traveling with several {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
         "is seducing several {{ENCOUNTER_INTELLIGENT}}"
     ],
     "DOING_WANT": [

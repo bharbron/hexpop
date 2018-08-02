@@ -4,7 +4,7 @@ import pdb
 from random import randint
 
 # Maximum number of levels deep we should go on embedded random tables
-MAX_DEPTH = 3
+MAX_DEPTH = 10
 
 # Keywords that have special meaning and should be ignored by parse_and_replace()
 RESTRICTED_KEYWORDS = [
@@ -17,20 +17,18 @@ def parse_and_replace(text, tables, depth=0, max_depth=MAX_DEPTH):
 
     Returns the updated string, or the original text if no {{TABLE_REFERENCE[s]}} found
     """
-    if depth >= max_depth:
+    if depth > max_depth:
         return text
-    table_references = re.search(r"{{([A-Za-z0-9_]+)}}", text)
+    updated_text = text
+    table_references = re.findall(r"{{([A-Za-z0-9_]+)}}", updated_text)
     if table_references:
-        for table_name in table_references.groups():
+        for table_name in table_references:
             if table_name not in RESTRICTED_KEYWORDS:
                 table_text = roll_on_table(tables[table_name])
                 # Dive down into the new table result to look for more TABLE_REFERENCE[s]
                 table_text = parse_and_replace(table_text, tables, depth=depth+1)
-                updated_text = text.replace(r"{{" + table_name + r"}}", table_text, 1)
-                # updated_text = re.sub(r"{{[A-Za-z0-9_]+}}", table_text, text, count=1)
-                # Continue across the same text to find more TABLE_REFERENCES[s] at the same depth
-                return parse_and_replace(updated_text, tables, depth=depth)
-    return text
+                updated_text = updated_text.replace(r"{{" + table_name + r"}}", table_text, 1)
+    return updated_text
 
 def roll_on_table(table):
     """
