@@ -1,3 +1,5 @@
+from random import randint
+
 # Maximum number of levels deep we should go on embedded random tables
 MAX_DEPTH = 10
 
@@ -23,4 +25,12 @@ def roll_on_table(table):
 
     If the table is a dict, roll dice and lookup result
     """
-    pass
+    if type(table) is list:
+    	return table[randint(0, len(table)) - 1]
+    if type(table) is dict:
+    	results = sorted(table.keys())
+    	max_roll = results[-1]
+    	roll = randint(1, max_roll)
+    	for result in results:
+    		if roll <= result:
+    			return table.get(result)
