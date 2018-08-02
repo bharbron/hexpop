@@ -26,13 +26,17 @@ def parse_and_replace(text, tables, depth=0, max_depth=MAX_DEPTH):
 #    print "table_references = {0}".format(table_references)
     if table_references:
         table_name = table_references.group(1)
-        if tables_name not in RESTRICTED_KEYWORDS:
-	        table_text = roll_on_table(tables[table_name])
-	        # Dive down into the new table result to look for more TABLE_REFERENCE[s]
-	        table_text = parse_and_replace(table_text, tables, depth=depth+1)
-        updated_text = re.sub(r"{{[A-Za-z0-9_]+}}", table_text, text, count=1)
-        # Continue across the same text to find more TABLE_REFERENCES[s] at the same depth
-        return parse_and_replace(updated_text, tables, depth=depth)
+
+        # TODO: Fix this so it will loop until finding the first non-restricted keyword
+        if table_name not in RESTRICTED_KEYWORDS:
+            table_text = roll_on_table(tables[table_name])
+            # Dive down into the new table result to look for more TABLE_REFERENCE[s]
+            table_text = parse_and_replace(table_text, tables, depth=depth+1)
+            updated_text = re.sub(r"{{[A-Za-z0-9_]+}}", table_text, text, count=1)
+            # Continue across the same text to find more TABLE_REFERENCES[s] at the same depth
+            return parse_and_replace(updated_text, tables, depth=depth)
+        else:
+            return parse_and_replace(text, tables, depth=depth)
     else:
         return text
 
