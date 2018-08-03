@@ -753,10 +753,10 @@
         "21": "{{ENCOUNTER_HOUSE_OF_HEARTS}} murdered at Queen's croquet game",
         "22": "{{ENCOUNTER_PALE_OR_COLORLESS}} murdered at Queen's croquet game",
         "23": "{{OBJECT}} stolen at Heart Queen's croquet game",
-        "30": "{{ENCOUNTER_INTELLIGENT}} slain in battle",
-        "35": "{{ENCOUNTER_INTELLIGENT}} slain in duel with {{ENCOUNTER_INTELLIGENT}}",
+        "30": "{{ENCOUNTER_INTELLIGENT}} slain in battle in square {{RANDOM_HEX}}",
+        "35": "{{ENCOUNTER_INTELLIGENT}} slain in duel with {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}} in square {{RANDOM_HEX}}",
         "36": "{{ENCOUNTER_INTELLIGENT}} slain at banquet",
-        "37": "{{ENCOUNTER_INTELLIGENT}} to be executed after trial",
+        "37": "{{ENCOUNTER_INTELLIGENT}} to be executed by {{HOUSE}} after trial",
         "38": "{{ENCOUNTER_INTELLIGENT}} kidnapped before wedding in square {{RANDOM_HEX}}",
         "39": "{{ENCOUNTER_INTELLIGENT}} slain in Rite of Engagement at {{LOCATION}} in square {{RANDOM_HEX}}",
         "40": "{{ENCOUNTER_INTELLIGENT}}, {{ENCOUNTER_INTELLIGENT}}, {{ENCOUNTER_INTELLIGENT}}, and {{ENCOUNTER_INTELLIGENT}} announce Rites of Engagement",
@@ -808,7 +808,7 @@
         "100": "Red battle plan secretly discovered by Heart forces"
     },
     "FOREST": [
-        "{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}. | DAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}. | NIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.{{INTERIOR_OR_NO}}"
+        "\t{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.\n\t{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.{{INTERIOR_OR_NO}}"
     ],
     "FOREST_LANDMARK": [
         "Bridge",
@@ -823,7 +823,7 @@
         "Well",
         "Sheer rise to next square",
         "Sheer drop to next square",
-        "Stitch in space— Settlement in the distance",
+        "Stitch in space- Settlement in the distance",
         "Border with garden",
         "Swamp",
         "Remains of old castle",
@@ -911,7 +911,7 @@
         "Swamp"
     ],
     "GARDEN": [
-        "{{GARDEN_LANDMARK}}{{COMPLICATION_OR_NO}}. | DAY {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}. | NIGHT {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.{{INTERIOR_OR_NO}}"
+        "\t{{GARDEN_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.\n\t{{GARDEN_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.{{INTERIOR_OR_NO}}"
     ],
     "GARDEN_LANDMARK": [
         "Bridge",
@@ -929,7 +929,7 @@
         "Pond or pool",
         "Overgrown/Border with Forest",
         "Well",
-        "Merchant’s shop",
+        "Merchant's shop",
         "Statue",
         "Exposed remains of interior {{INTERIOR_ROOM}}",
         "Exposed interior {{INTERIOR_ROOM}} filled with rainwater/blood",
@@ -1133,7 +1133,7 @@
     ],
     "INTERIOR_OR_NO": {
         "1": "",
-        "2": " | INTERIOR {{INTERIOR_ROOM}}{{PERPLEXITY_OR_NO}}. Contains {{TREASURE}}. {{ENCOUNTER_INTERIOR}}{{NPC_DETAILS_INTERIOR}}."
+        "2": "\n\tInterior {{INTERIOR_ROOM}}{{PERPLEXITY_OR_NO}}.\n\t\t{{TREASURE_OR_NO}}{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS_INTERIOR}}."
     },
     "LOCATION": {
         "2": "{{LOCATION_CASTLE}}",
@@ -1204,17 +1204,17 @@
         "{{LOCATION}} On Quiet Side of Looking Glass"
     ],
     "MOUNTAIN": [
-        "{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}. | DAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}. | NIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.{{INTERIOR_OR_NO}}"
+        "\t{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.\n\t{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.{{INTERIOR_OR_NO}}"
     ],
     "NPC_DETAILS_EXTERIOR": {
         "2": "",
-        "3": ". Wants you to {{ADVENTURE_HOOK}}",
+        "3": ". Wants you to {{ADVENTURE_HOOK}}{{REWARD_OR_NO}}",
         "4": ". {{NPC_RELATIONSHIP}}"
     },
     "NPC_DETAILS_INTERIOR": {
-        "2": "",
-        "3": ". Wants you to {{ADVENTURE_HOOK}}",
-        "4": ". {{DOING_RELATIONSHIP}}. {{DOING_WANT}}. {{DOING_CARE}}"
+        "3": "",
+        "4": ". Wants you to {{ADVENTURE_HOOK}}",
+        "6": ". {{DOING_RELATIONSHIP}}. {{DOING_WANT}}. {{DOING_CARE}}"
     },
     "NPC_RELATIONSHIP": {
         "2": "Is toying with {{OBJECT_ANIMAL_ENCOUNTER}} or using it/she/he for entertainment",
@@ -1289,7 +1289,7 @@
         "Vorpal blade",
         "Rattle",
         "Umbrella",
-        "Doll or workbox? Hard to tell. It's always in your peripheral vision.",
+        "Doll (or workbox? Hard to tell. It's always in your peripheral vision)",
         "Candle",
         "Upright piano",
         "Idol",
@@ -1367,7 +1367,7 @@
         "Collapsible telescope",
         "Pack of cigarettes",
         "Cosmetics",
-        "Key. Roll d100. That's the percent chance it will fit any given lock. Once it fits a lock, that's the door it was for.",
+        "Key (Roll d100. That's the percent chance it will fit any given lock. Once it fits a lock, that's the door it was for)",
         "Strong but ornate chain"
     ],
     "OBJECT_ANIMAL": [
@@ -1536,12 +1536,25 @@
         "Gingerbread maze matching layout of nearby fortified rooms--eating walls or floors will destroy the real rooms or floors in the complex and throw the enemy into disarray. The gingerbread maze has no figures or other markers clarifying the relationship to the real rooms",
         "3' pool with 6\" wide canals extending through the walls into various other rooms in the interior. The pool is filled with messages in bottles. Senders' names clearly visible from outside the bottles. Read any note and the others are gone next time you look down"
     ],
+    "REWARD": {
+        "20": "{{TREASURE}}",
+        "40": "sizable sum of money",
+        "60": "information",
+        "80": "loyalty",
+        "85": "a title of nobility",
+        "86": "intimate congress"
+    },
+    "REWARD_OR_NO": {
+        "1": "",
+        "2": ". Reward of {{REWARD}}"
+    },
     "TREASURE": {
-        "1": "valuable {{OBJECT}}",
-        "2": "magical {{OBJECT}}"
+        "7": "valuable {{OBJECT}}",
+        "8": "magical {{OBJECT}}",
+        "10": "spellbook"
     },
     "TREASURE_OR_NO": {
         "1": "",
-        "2": ". Contains {{TREASURE}}"
+        "2": "Contains {{TREASURE}}. "
     }
 }

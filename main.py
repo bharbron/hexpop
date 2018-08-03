@@ -61,7 +61,9 @@ def set_random_hex(hex_contents):
     for k, v in hex_contents.iteritems():
         hex_references = re.findall(r"{{RANDOM_HEX}}", v["text"])
         for hex_reference in hex_references:
-            random_hex = roll_on_table(hexes)
+            random_hex = k
+            while random_hex == k:
+                random_hex = roll_on_table(hexes)
             updated_hex_contents[k]["text"] = hex_contents[k]["text"].replace(r"{{RANDOM_HEX}}", random_hex, 1)
             updated_hex_contents[random_hex]["references"].append(k)
     return updated_hex_contents
@@ -79,9 +81,10 @@ def populate_hex_contents(hexmap, tables):
 
 def print_hex_contents(hex_contents):
     for key in sorted(hex_contents.keys()):
-        print("{0}: {1}".format(key, hex_contents[key]["text"]))
+        print(u"{0}: {1}".format(key, hex_contents[key]["text"]))
         if hex_contents[key]["references"]:
-            print("SEE: {0}".format(hex_contents[key]["references"]))
+            print(u"SEE: {0}".format(", ".join(sorted(hex_contents[key]["references"]))))
+        print
 
 
 def main():
