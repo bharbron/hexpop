@@ -1125,6 +1125,35 @@
     "GUEST": [
         "Guest"
     ],
+    "GUEST_CATEGORY": [
+        "The Unholy (Agents of Temptation)",
+        "The Implacable (Agents of Destruction)",
+        "The Unwelcome (Agents of Disruption)",
+        "The Uncreated (Agents of Madness)"
+    ],
+    "GUEST_COLOR": {
+        "5": "Red",
+        "10": "Orange",
+        "15": "Yellow",
+        "20": "Green",
+        "25": "Blue",
+        "30": "Pink",
+        "35": "Purple",
+        "40": "Black",
+        "45": "White",
+        "50": "Grey",
+        "55": "Brown",
+        "60": "Clear",
+        "65": "Bronze",
+        "85": "Color appropriate to base creature",
+        "90": "Beige",
+        "91": "Zebra pattern",
+        "92": "Leopard pattern",
+        "93": "Tiger pattern",
+        "94": "Marble pattern",
+        "95": "Star pattern",
+        "100": "Swirling shifting pattern"
+    },
     "HERE_OR_THERE": {
         "5": "",
         "6": " in square {{RANDOM_HEX}}"
