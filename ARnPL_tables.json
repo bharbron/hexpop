@@ -164,6 +164,10 @@
         "{{ANIMAL}}",
         "{{ENCOUNTER}}"
     ],
+    "CARRYING_SOMETHING_OR_NO": {
+        "3": "",
+        "6": ". Carrying {{I_SEARCH_THE_BODY}}"
+    },
     "CASTLE_CACHTICE_INHABITANT": {
         "1": "King of Hearts",
         "2": "Heart Queen",
@@ -471,7 +475,7 @@
     },
     "ENCOUNTER_FOREST_DAY_OR_NO": {
         "3": "",
-        "6": "\n\t\tDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}."
+        "6": "\n\t\tDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}."
     },
     "ENCOUNTER_FOREST_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -527,7 +531,7 @@
     },
     "ENCOUNTER_FOREST_NIGHT_OR_NO": {
         "3": "",
-        "6": "\n\t\tNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}."
+        "6": "\n\t\tNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}."
     },
     "ENCOUNTER_GARDEN_DAY": {
         "5": "Little Crocodile",
@@ -556,7 +560,7 @@
     },
     "ENCOUNTER_GARDEN_DAY_OR_NO": {
         "3": "",
-        "6": "\n\t\tDAY {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}."
+        "6": "\n\t\tDAY {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}."
     },
     "ENCOUNTER_GARDEN_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -607,7 +611,7 @@
     },
     "ENCOUNTER_GARDEN_NIGHT_OR_NO": {
         "3": "",
-        "6": "\n\t\tNIGHT {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}."
+        "6": "\n\t\tNIGHT {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}."
     },
     "ENCOUNTER_HOUSE": [
         "{{ENCOUNTER_HOUSE_OF_HEARTS}}",
@@ -756,7 +760,7 @@
     },
     "ENCOUNTER_MOUNTAIN_DAY_OR_NO": {
         "3": "",
-        "6": "\n\t\tDAY {{ENCOUNTER_MOUNTAIN_DAY}}{{NPC_DETAILS_EXTERIOR}}."
+        "6": "\n\t\tDAY {{ENCOUNTER_MOUNTAIN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}."
     },
     "ENCOUNTER_MOUNTAIN_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -809,7 +813,7 @@
     },
     "ENCOUNTER_MOUNTAIN_NIGHT_OR_NO": {
         "3": "",
-        "6": "\n\t\tNIGHT {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}."
+        "6": "\n\t\tNIGHT {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}."
     },
     "ENCOUNTER_PALE_HOUSE": {
         "3": "Sleeper",
@@ -1131,6 +1135,103 @@
         "Pale House",
         "Colorless House"
     ],
+    "I_SEARCH_THE_BODY": {
+        "3": "Misericorde",
+        "5": "Random book",
+        "7": "Hastily-drawn recipe/map explaining travel from one part of Voivodja to another",
+        "8": "Coins or jewelry worth 80 gold pieces",
+        "9": "Coins or jewelry worth 90 gold pieces",
+        "10": "Coins or jewelry worth 100 gold pieces",
+        "11": "Coins or jewelry worth 110 gold pieces",
+        "12": "Coins or jewelry worth 120 gold pieces",
+        "13": "Coins or jewelry worth 130 gold pieces",
+        "14": "Coins or jewelry worth 140 gold pieces",
+        "15": "Coins or jewelry worth 150 gold pieces",
+        "16": "Coins or jewelry worth 160 gold pieces",
+        "17": "Coins or jewelry worth 170 gold pieces",
+        "18": "Coins or jewelry worth 180 gold pieces",
+        "19": "Coins or jewelry worth 190 gold pieces",
+        "20": "Coins or jewelry worth 200 gold pieces",
+        "21": "Coins or jewelry worth 210 gold pieces",
+        "22": "Coins or jewelry worth 220 gold pieces",
+        "23": "Coins or jewelry worth 230 gold pieces",
+        "24": "Coins or jewelry worth 240 gold pieces",
+        "25": "Coins or jewelry worth 250 gold pieces",
+        "26": "Coins or jewelry worth 260 gold pieces",
+        "27": "Coins or jewelry worth 270 gold pieces",
+        "28": "Coins or jewelry worth 280 gold pieces",
+        "29": "Coins or jewelry worth 290 gold pieces",
+        "30": "Coins or jewelry worth 300 gold pieces",
+        "31": "Coins or jewelry worth 310 gold pieces",
+        "32": "Coins or jewelry worth 320 gold pieces",
+        "33": "Coins or jewelry worth 330 gold pieces",
+        "34": "Coins or jewelry worth 340 gold pieces",
+        "35": "Coins or jewelry worth 350 gold pieces",
+        "36": "Coins or jewelry worth 360 gold pieces",
+        "37": "Coins or jewelry worth 370 gold pieces",
+        "38": "Coins or jewelry worth 380 gold pieces",
+        "39": "Coins or jewelry worth 390 gold pieces",
+        "40": "Coins or jewelry worth 400 gold pieces",
+        "41": "Coins or jewelry worth 410 gold pieces",
+        "42": "Coins or jewelry worth 420 gold pieces",
+        "43": "Coins or jewelry worth 430 gold pieces",
+        "44": "Coins or jewelry worth 440 gold pieces",
+        "45": "Coins or jewelry worth 450 gold pieces",
+        "46": "Coins or jewelry worth 460 gold pieces",
+        "47": "Coins or jewelry worth 470 gold pieces",
+        "48": "Coins or jewelry worth 480 gold pieces",
+        "49": "Coins or jewelry worth 490 gold pieces",
+        "50": "Coins or jewelry worth 500 gold pieces",
+        "52": "Engagement ring and semi-literate drafts of marriage-proposal speech with name of potential fiancee written in margins",
+        "53": "Recipe for crumpets",
+        "54": "Recipe for biscuits",
+        "55": "Miniature Slab of Hands (see Castle Poenari, room 35)",
+        "56": "Boar's tusk knife",
+        "57": "Message demanding satisfaction from another party",
+        "58": "Rope",
+        "59": "Salt",
+        "60": "Box of chalks",
+        "61": "Draft of a writ of decapitation from the Heart Queen",
+        "62": "Contract for mercenaries from a foreign land",
+        "63": "Deed of sale for an artwork (signed), suggesting the artwork's value to the new owner is vastly out of proportion to its size and quality",
+        "64": "Architectural sketches that make no sense, referring to a familiar building or room",
+        "65": "An unusual bird with moist wings and a beak 5 inches long, carefully wrapped, as if for delivery",
+        "66": "Parts of a pocket watch",
+        "67": "Journal, seemingly written by a pawn or servant, seething with regicidal fury against his or her own lord",
+        "68": "Gold mask worn by the Red Bishops",
+        "69": "Crushed mouse/starling/marmot/rabbit",
+        "70": "Ivory belt buckle shaped like a horse",
+        "71": "Instructions for making an unusual kind of shoe",
+        "72": "Stale crumpet",
+        "73": "Pack of cards",
+        "74": "Svengali deck for performing card tricks",
+        "75": "Small mirror",
+        "76": "Disturbingly mutilated chess king",
+        "77": "Locket containing a small engraving of a seemingly-unrelated NPC of a different House",
+        "78": "Ivory statuette of a crocodile. Will turn into a real crocodile if immersed",
+        "79": "Beautiful map of the Once Palace from years ago. Contains locations of long-forgotten pleasure domes, including ones once located where the characters are",
+        "80": "Looks similar to healing potions but it's actually a love potion. Drink it and fall in love with whoever last wounded you",
+        "81": "Ceremonial silver knife with a Colorless Bishop carved into the pierced blade. Specifically consecrated for an assassination attempt on the bishop by a mysterious cult",
+        "82": "Small carved figurine or chess piece of one of the characters, precise in every detail, 25 - 28mm tall. Purpose unknown",
+        "83": "Padlock (Strength 17) and key",
+        "84": "Linked jewelry chains in the shape of a spider's web. Surprisingly strong",
+        "85": "Recipe for elephant-shaped cake involving three hit points of blood and 3 drops of sweat. When baked, it will know whatever the blood donor knows and will answer whatever questions about that information the sweat-donor asks. This information is in the recipe",
+        "86": "Small, elaborately carved stone sphere (or wheel) the size of a marble. If the head of a chess pawn of the appropriate color is removed and replaced with this sphere, the owner may control a single Red, Pale or Colorless Pawn until the next cock's crow. Works once",
+        "87": "A small vial of blue dust, breathing it causes victim to forget the last hour",
+        "88": "Tiny scale model of a gazebo in the Gardens made of gingerbread",
+        "89": "Vial containing fresh human blood",
+        "90": "Jabberwock egg. 2\" long. A new Jabberwock will be born from this egg when the old one is slain",
+        "91": "Book of Nephilidian vampire anatomy",
+        "92": "Pair of small (3\"x4\") picture frames. Putting an object through one will make it come out of the other",
+        "93": "Valued lost shears of the Heart Queen' Coiffeuse",
+        "94": "Set of 12 small translucent, colored cubes that, when dropped in a body of water, produce a variety of different effects - bubbles, color change, soothing steam, pleasant hallucinations, etc",
+        "95": "Vial of \"Mirror Water.\" When spilled, the puddle is a portal to a reversed dimension. If anyone attempts to walk across the puddle, an exact duplicate of themselves (same abilities, equipment, etc.) will crawl out and attempt to kill them",
+        "96": "Change of socks",
+        "97": "Piece of cheese",
+        "98": "Croquet ball painted like a fat pig",
+        "99": "Letter of introduction to a high-level NPC of a rival House extolling NPC's service to that House",
+        "100": "3.5 liters of glue"
+    },
     "INTERIOR_ROOM": [
         "Hall",
         "Parlor",
@@ -1748,21 +1849,21 @@
         "3' pool with 6\" wide canals extending through the walls into various other rooms in the interior. The pool is filled with messages in bottles. Senders' names clearly visible from outside the bottles. Read any note and the others are gone next time you look down"
     ],
     "REWARD": {
-        "6": "{{TREASURE}}",
-        "12": "2d10 x 100s",
-        "15": "information",
+        "10": "{{TREASURE}}",
+        "13": "2d10 x 100 gold pieces",
+        "16": "information",
         "18": "loyalty",
         "19": "a title of nobility",
         "20": "intimate congress"
     },
     "REWARD_OR_NO": {
-        "1": "",
-        "2": ". Reward of {{REWARD}}"
+        "2": "",
+        "6": ". Reward of {{REWARD}}"
     },
     "TREASURE": {
-        "6": "valuable {{OBJECT}} worth 2d10 x 100s",
+        "6": "valuable {{OBJECT}} worth 2d10 x 100 gold pieces",
         "7": "magical {{OBJECT}}",
-        "8": "spellbook"
+        "8": "Spellbook"
     },
     "TREASURE_OR_NO_EXTERIOR": {
         "4": "",
