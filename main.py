@@ -10,7 +10,11 @@ MAX_DEPTH = 10
 
 # Keywords that have special meaning and should be ignored by parse_and_replace()
 RESTRICTED_KEYWORDS = [
-    "RANDOM_HEX"
+    "RANDOM_HEX",
+    "NAMED",
+    "FIRST_NAME",
+    "LAST_NAME",
+    "IMPORTANT_NPC"
 ]
 
 

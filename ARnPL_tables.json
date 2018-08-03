@@ -469,6 +469,10 @@
         "99": "{{GUEST}}",
         "100": "Jabberwock"
     },
+    "ENCOUNTER_FOREST_DAY_OR_NO": {
+        "1": "",
+        "2": "\n\t\tDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}."
+    },
     "ENCOUNTER_FOREST_NIGHT": {
         "3": "Bat/Undead bird Swarm",
         "4": "Little Crocodile",
@@ -521,6 +525,10 @@
         "99": "Red King",
         "100": "Jabberwock"
     },
+    "ENCOUNTER_FOREST_NIGHT_OR_NO": {
+        "1": "",
+        "2": "\n\t\tNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}."
+    },
     "ENCOUNTER_GARDEN_DAY": {
         "5": "Little Crocodile",
         "6": "Ozwick",
@@ -545,6 +553,10 @@
         "95": "Red Rook",
         "97": "Sphinx",
         "100": "{{GUEST}}"
+    },
+    "ENCOUNTER_GARDEN_DAY_OR_NO": {
+        "1": "",
+        "2": "\n\t\tDAY {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}."
     },
     "ENCOUNTER_GARDEN_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -592,6 +604,10 @@
         "98": "Colorless Queen",
         "99": "Heart Queen",
         "100": "Red King"
+    },
+    "ENCOUNTER_GARDEN_NIGHT_OR_NO": {
+        "1": "",
+        "2": "\n\t\tNIGHT {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}."
     },
     "ENCOUNTER_HOUSE": [
         "{{ENCOUNTER_HOUSE_OF_HEARTS}}",
@@ -712,6 +728,95 @@
         "Heart Queen",
         "Red King"
     ],
+    "ENCOUNTER_MOUNTAIN_DAY": {
+        "2": "Little Crocodile",
+        "3": "Ozwick",
+        "4": "Sleeper",
+        "8": "Ordinary Human",
+        "13": "Goblins, Hobgoblins, etc.",
+        "18": "Footmen in Livery",
+        "21": "Cheshire Cat",
+        "25": "Mome Rath",
+        "29": "Wild Boar",
+        "37": "Wolf or Tiger",
+        "40": "The Rabbit",
+        "43": "March Hare",
+        "50": "Tove",
+        "54": "Pseudoturtle",
+        "61": "Jub",
+        "65": "Pudding",
+        "66": "Unicorn",
+        "71": "Witch",
+        "76": "Great Grey Grub",
+        "80": "Duchess",
+        "84": "Hatter",
+        "88": "Pale Rook",
+        "92": "Colorless Rook",
+        "96": "Red Rook",
+        "97": "Sphinx",
+        "99": "{{GUEST}}",
+        "100": "Jabberwock"
+    },
+    "ENCOUNTER_MOUNTAIN_DAY_OR_NO": {
+        "1": "",
+        "2": "\n\t\tDAY {{ENCOUNTER_MOUNTAIN_DAY}}{{NPC_DETAILS_EXTERIOR}}."
+    },
+    "ENCOUNTER_MOUNTAIN_NIGHT": {
+        "3": "Bat/Undead bird Swarm",
+        "4": "Little Crocodile",
+        "5": "Ozwick",
+        "6": "Sleeper",
+        "7": "Ordinary Human",
+        "9": "Goblins, Hobgoblins, etc.",
+        "11": "Footmen in Livery",
+        "13": "Cheshire Cat",
+        "15": "Mome Rath",
+        "17": "Wild Boar",
+        "19": "Wolf or Tiger",
+        "21": "The Rabbit",
+        "23": "March Hare",
+        "25": "Tove",
+        "27": "Pseudoturtle",
+        "29": "Colorless Pawn",
+        "31": "Pale Pawn",
+        "33": "Red Pawn",
+        "35": "Order of Spades",
+        "37": "Order of Hearts",
+        "39": "{{ORDER_OF_DIAMONDS}}",
+        "42": "Order of Clubs",
+        "46": "Jub",
+        "48": "Pudding",
+        "49": "Unicorn",
+        "53": "Witch",
+        "56": "Colorless Knight",
+        "59": "Pale Knight",
+        "62": "Red Knight",
+        "66": "Great Grey Grub",
+        "68": "Colorless Bishop",
+        "70": "Pale Bishop",
+        "72": "Red Bishop",
+        "74": "Duchess",
+        "76": "Knave of Hearts",
+        "78": "Hatter",
+        "81": "Pale Rook",
+        "84": "Colorless Rook",
+        "87": "Red Rook",
+        "88": "Sphinx",
+        "89": "Red Bride (Ilona)",
+        "90": "Red Bride (Tizala)",
+        "91": "Red Bride (Ildana)",
+        "92": "King of Hearts",
+        "95": "{{GUEST}}",
+        "96": "Pale King",
+        "97": "Colorless Queen",
+        "98": "Heart Queen",
+        "99": "Red King",
+        "100": "Jabberwock"
+    },
+    "ENCOUNTER_MOUNTAIN_NIGHT_OR_NO": {
+        "1": "",
+        "2": "\n\t\tNIGHT {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}."
+    },
     "ENCOUNTER_PALE_HOUSE": {
         "3": "Sleeper",
         "6": "March Hare",
@@ -808,8 +913,12 @@
         "100": "Red battle plan secretly discovered by Heart forces"
     },
     "FOREST": [
-        "\t{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.\n\t{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.{{INTERIOR_OR_NO}}"
+        "\t{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
+    "FOREST_SECOND_OR_NO": {
+        "1": "",
+        "2": "\n\t{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}"
+    },
     "FOREST_LANDMARK": [
         "Bridge",
         "Entrance to interior {{INTERIOR_ROOM}} (in tree, etc.)",
@@ -911,8 +1020,12 @@
         "Swamp"
     ],
     "GARDEN": [
-        "\t{{GARDEN_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.\n\t{{GARDEN_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.{{INTERIOR_OR_NO}}"
+        "\t{{GARDEN_LANDMARK}}{{COMPLICATION_OR_NO}}.{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
+    "GARDEN_SECOND_OR_NO": {
+        "1": "",
+        "2": "\n\t{{GARDEN_LANDMARK}}{{COMPLICATION_OR_NO}}.{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}"
+    },
     "GARDEN_LANDMARK": [
         "Bridge",
         "Entrance to interior {{INTERIOR_ROOM}}",
@@ -1015,8 +1128,8 @@
         "Guest"
     ],
     "HERE_OR_THERE": {
-        "1": "",
-        "2": " in square {{RANDOM_HEX}}"
+        "5": "",
+        "6": " in square {{RANDOM_HEX}}"
     },
     "HOUSE": [
         "House of Hearts",
@@ -1204,8 +1317,12 @@
         "{{LOCATION}} On Quiet Side of Looking Glass"
     ],
     "MOUNTAIN": [
-        "\t{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.\n\t{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.{{INTERIOR_OR_NO}}"
+        "\t{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}.{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
+    "MOUNTAIN_SECOND_OR_NO": {
+        "1": "",
+        "2": "\n\t{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.\n\t\tDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}.\n\t\tNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}."
+    },
     "NPC_DETAILS_EXTERIOR": {
         "2": "",
         "3": ". Wants you to {{ADVENTURE_HOOK}}{{REWARD_OR_NO}}",
@@ -1549,8 +1666,8 @@
         "2": ". Reward of {{REWARD}}"
     },
     "TREASURE": {
-        "7": "valuable {{OBJECT}}",
-        "8": "magical {{OBJECT}}",
+        "5": "valuable {{OBJECT}}",
+        "7": "magical {{OBJECT}}",
         "10": "spellbook"
     },
     "TREASURE_OR_NO": {
