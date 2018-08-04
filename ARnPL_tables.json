@@ -1412,65 +1412,11 @@
     "GUEST": [
         "Guest [{{GUEST_CATEGORY}}]"
     ],
-    "GUEST_EYES": [
-        "flame",
-        "jewel",
-        "ice",
-        "stone",
-        "babies' heads",
-        "missing"
-    ],
-    "GUEST_HEAD_OR_FACE": [
-        "whole head[s]",
-        "face[s], like a Hindu god"
-    ],
-    "GUEST_WEAPON_ARMS": [
-        "Hooks",
-        "Swords",
-        "Scythes",
-        "Whips",
-        "Flails",
-        "Hands on the end of chains"
-    ],
-    "GUEST_ELONGATED": [
-        "neck",
-        "head",
-        "arms",
-        "legs",
-        "arm",
-        "leg"
-    ],
-    "GUEST_WINGS": [
-        "bat",
-        "butterfly",
-        "bird",
-        "insect"
-    ],
-    "GUEST_BREASTS": [
-        "disturbingly nice",
-        "disturbingly withered",
-        "hooklike protrusions for nipples",
-        "eyes for nipples",
-        "mouths for nipples",
-        "{{GUEST_BREASTS}} and {{GUEST_BREASTS}}"
-    ],
-    "GUEST_CENTAUR": [
-        "quadruped",
-        "spider/mass of tentacles",
-        "slug/worm/giant tongue",
-        "no lower body/mass of entrails"
-    ],
-    "GUEST_MAGIC_WEAPON": [
-        "axe",
-        "morningstar",
-        "spear",
-        "sword",
-        "rapier",
-        "sickle",
-        "whip",
-        "scythe",
-        "pair of wavy daggers",
-        "circular shield with spikes/serrations"
+    "GUEST_AGING": [
+        "de-ages target ten years",
+        "ages target ten years",
+        "ages target twenty years",
+        "ages target thirty years"
     ],
     "GUEST_ATTRIBUTE": [
         "Mechanical parts",
@@ -1574,45 +1520,31 @@
         "Animal face if humanoid body, humanoid face if otherwise",
         "{{GUEST_PALMS}} on palms"
     ],
-    "GUEST_TREE_LIMBS": [
-        "Tree branch arms",
-        "Tree branch legs",
-        "Tree branch growing from head",
-        "One tree branch arm"
-    ],
-    "GUEST_TEETH": [
-        "Mandibles",
-        "Tusks",
-        "Fangs",
-        "All teeth are fangs"
-    ],
     "GUEST_BACKWARDS_PART": [
         "Head",
         "Arms",
         "Legs",
         "Hands"
     ],
-    "GUEST_TAIL": [
-        "spines",
-        "forked",
-        "arrow",
-        "whips",
-        "scorpion",
-        "morningstar",
-        "hand on tip",
-        "second head on tip"
-    ],
-    "GUEST_PALMS": [
-        "Eyes",
-        "Mouths",
-        "Whole face",
-        "Leechlike mouths"
+    "GUEST_BREASTS": [
+        "disturbingly nice",
+        "disturbingly withered",
+        "hooklike protrusions for nipples",
+        "eyes for nipples",
+        "mouths for nipples",
+        "{{GUEST_BREASTS}} and {{GUEST_BREASTS}}"
     ],
     "GUEST_CATEGORY": [
         "The Unholy (Agent of Temptation). Essentially human in shape{{GUEST_UNHOLY_TAIL}}{{GUEST_UNHOLY_LEGS}}{{GUEST_UNHOLY_CLAWS}}{{GUEST_UNHOLY_WINGS}}{{GUEST_UNHOLY_HORNS}}{{GUEST_UNHOLY_HEAD}}{{GUEST_UNHOLY_ATTRIBUTES}}{{GUEST_UNHOLY_POWERS}}. {{GUEST_PURPOSE}}",
         "The Implacable (Agent of Destruction){{GUEST_IMPLACABLE_BODY}}{{GUEST_IMPLACABLE_CENTAUR}}{{GUEST_IMPLACABLE_ARMS}}{{GUEST_IMPLACABLE_SIZE}}{{GUEST_IMPLACABLE_ATTRIBUTES}}{{GUEST_IMPLACABLE_POWERS}}{{GUEST_IMPLACABLE_PURPOSES}}",
         "The Unwelcome (Agent of Disruption){{GUEST_UNWELCOME_BODY}}{{GUEST_UNWELCOME_ATTRIBUTES}}{{GUEST_UNWELCOME_POWERS}}{{GUEST_UNWELCOME_HORNS}}{{GUEST_UNWELCOME_POLYMORPH}}{{GUEST_UNWELCOME_COLOR}}. {{GUEST_PURPOSE}}",
         "The Uncreated (Agent of Madness){{GUEST_UNCREATED_BODY}}{{GUEST_UNCREATED_ATTRIBUTES}}{{GUEST_UNCREATED_POWERS}}{{GUEST_UNCREATED_INSANITY}}. {{GUEST_PURPOSE}}"
+    ],
+    "GUEST_CENTAUR": [
+        "quadruped",
+        "spider/mass of tentacles",
+        "slug/worm/giant tongue",
+        "no lower body/mass of entrails"
     ],
     "GUEST_COLOR": {
         "5": "Red",
@@ -1637,6 +1569,36 @@
         "95": "Star pattern",
         "100": "Swirling shifting pattern"
     },
+    "GUEST_ELONGATED": [
+        "neck",
+        "head",
+        "arms",
+        "legs",
+        "arm",
+        "leg"
+    ],
+    "GUEST_EYES": [
+        "flame",
+        "jewel",
+        "ice",
+        "stone",
+        "babies' heads",
+        "missing"
+    ],
+    "GUEST_GAZE_WEAPON": [
+        "combustion",
+        "cold",
+        "fear",
+        "beg for forgiveness",
+        "paralysis",
+        "vomiting",
+        "flesh rots",
+        "blind"
+    ],
+    "GUEST_HEAD_OR_FACE": [
+        "whole head[s]",
+        "face[s], like a Hindu god"
+    ],
     "GUEST_IMPLACABLE_ATTRIBUTES": [
         "",
         ". {{GUEST_ATTRIBUTE}}",
@@ -1673,28 +1635,23 @@
         "25": ". Twice human sized",
         "100": ""
     },
-    "GUEST_GAZE_WEAPON": [
-        "combustion",
-        "cold",
-        "fear",
-        "beg for forgiveness",
-        "paralysis",
-        "vomiting",
-        "flesh rots",
-        "blind"
+    "GUEST_MAGIC_WEAPON": [
+        "axe",
+        "morningstar",
+        "spear",
+        "sword",
+        "rapier",
+        "sickle",
+        "whip",
+        "scythe",
+        "pair of wavy daggers",
+        "circular shield with spikes/serrations"
     ],
-    "GUEST_VERMIN": [
-        "frogs",
-        "rats",
-        "flies",
-        "skeletons of all animals that have died here",
-        "six inch maggots"
-    ],
-    "GUEST_AGING": [
-        "de-ages target ten years",
-        "ages target ten years",
-        "ages target twenty years",
-        "ages target thirty years"
+    "GUEST_PALMS": [
+        "Eyes",
+        "Mouths",
+        "Whole face",
+        "Leechlike mouths"
     ],
     "GUEST_POWER": [
         "All within 20' radius must save or be overcome with desire to kill other random nearby character (50% chance of wanting to eat them, too)",
@@ -1812,6 +1769,28 @@
         "11": "Destroy powerful holy object",
         "12": "Use some nominally good thing- love, friendship, compassion, enlightenment- to sow strife"
     },
+    "GUEST_TAIL": [
+        "spines",
+        "forked",
+        "arrow",
+        "whips",
+        "scorpion",
+        "morningstar",
+        "hand on tip",
+        "second head on tip"
+    ],
+    "GUEST_TEETH": [
+        "Mandibles",
+        "Tusks",
+        "Fangs",
+        "All teeth are fangs"
+    ],
+    "GUEST_TREE_LIMBS": [
+        "Tree branch arms",
+        "Tree branch legs",
+        "Tree branch growing from head",
+        "One tree branch arm"
+    ],
     "GUEST_UNCREATED_ATTRIBUTES": [
         ". {{GUEST_ATTRIBUTE}}",
         ". {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}",
@@ -1912,6 +1891,27 @@
         ". {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}",
         ". {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}",
         ". {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}"
+    ],
+    "GUEST_VERMIN": [
+        "frogs",
+        "rats",
+        "flies",
+        "skeletons of all animals that have died here",
+        "six inch maggots"
+    ],
+    "GUEST_WEAPON_ARMS": [
+        "Hooks",
+        "Swords",
+        "Scythes",
+        "Whips",
+        "Flails",
+        "Hands on the end of chains"
+    ],
+    "GUEST_WINGS": [
+        "bat",
+        "butterfly",
+        "bird",
+        "insect"
     ],
     "HERE_OR_THERE": {
         "5": "",
