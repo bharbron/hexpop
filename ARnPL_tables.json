@@ -2470,7 +2470,7 @@
     "NAMED_NPC_JOB": [
         "Controls spice trade from the East",
         "Bribes maids for information on other nobles",
-        "Breeds and trains finest {{ANIMAL}} on the continent",
+        "Breeds and trains finest {{ANIMAL}}[s] on the continent",
         "Has finest art collection in Voivodja",
         "Collects powerful magical and occult items",
         "Expert in gems and jewels",
@@ -2508,7 +2508,7 @@
         "12th level cleric of Tiamat",
         "Chief of the palace guard",
         "Ambassador to Nornrik",
-        "Finest humorist in Voivodja - liked by nearly everyone. Collects jokes from around the world.",
+        "Finest humorist in Voivodja - liked by nearly everyone. Collects jokes from around the world",
         "Chief of their houses's militia",
         "Chief adviser to their monarch",
         "10th level witch",
