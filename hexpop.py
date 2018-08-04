@@ -120,10 +120,11 @@ def populate_hex_contents(hexmap, tables):
 
 def print_hex_contents(hex_contents):
     for key in sorted(hex_contents.keys()):
-        print(u"{0}: {1}".format(key, hex_contents[key]["text"]))
+        print(u"{0}".format(key))
+        print(u"{0}".format(hex_contents[key]["text"]))
         if hex_contents[key]["references"]:
             print(u"SEE: {0}".format(", ".join(sorted(hex_contents[key]["references"]))))
-        print(u"\n------------------------------\n")
+        print(u"------------------------------")
 
 
 def print_named_npcs(named_npcs):
@@ -134,7 +135,7 @@ def print_named_npcs(named_npcs):
             print(u"{0}".format(named_npc[1]["description"]))
         if named_npc[1]["references"]:
             print(u"SEE: {0}".format(", ".join(sorted(list(set(named_npc[1]["references"]))))))
-        print(u"\n------------------------------\n")
+        print(u"------------------------------")
 
 
 def main():
