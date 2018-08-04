@@ -125,12 +125,13 @@ def print_hex_contents(hex_contents):
 
 
 def print_named_npcs(named_npcs):
-    for key in sorted(named_npcs.keys()):
-        print(u"{0}".format(named_npcs[key]["name"]))
-        if named_npcs[key]["description"]:
-            print(u"{0}".format(named_npcs[key]["description"]))
-        if named_npcs[key]["references"]:
-            print(u"SEE: {0}".format(", ".join(sorted(named_npcs[key]["references"]))))
+    # Sort by name
+    for named_npc in sorted(named_npcs.items(), key=lambda x: x[1]["name"]):
+        print(u"{0}".format(named_npc[1]["name"]))
+        if named_npc[1]["description"]:
+            print(u"{0}".format(named_npc[1]["description"]))
+        if named_npc[1]["references"]:
+            print(u"SEE: {0}".format(", ".join(sorted(named_npc[1]["references"]))))
         print(u"\n------------------------------\n")
 
 

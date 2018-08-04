@@ -2415,7 +2415,7 @@
         "Orb Loc",
         "Swamp"
     ],
-    "NPC_DESCRIPTION": [
+    "NPC_PERSONALITY": [
         "Pulls wings off exotic butterflies from distant lands",
         "Drowns orphans in bathtub",
         "Creates wax sculptures of dead loved ones and dresses them like servants",
@@ -2938,8 +2938,7 @@
         "Witch/Wizard"
     ],
     "REWARD": {
-        "10": "{{TREASURE}}",
-        "13": "2d10 x 100 gold pieces",
+        "13": "{{TREASURE}}",
         "16": "information",
         "18": "loyalty",
         "19": "a title of nobility",
