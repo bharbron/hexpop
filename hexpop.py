@@ -121,7 +121,7 @@ def print_hex_contents(hex_contents):
         print(u"{0}: {1}".format(key, hex_contents[key]["text"]))
         if hex_contents[key]["references"]:
             print(u"SEE: {0}".format(", ".join(sorted(hex_contents[key]["references"]))))
-        print
+        print(u"\n------------------------------\n")
 
 
 def print_named_npcs(named_npcs):
@@ -131,7 +131,7 @@ def print_named_npcs(named_npcs):
             print(u"{0}".format(named_npcs[key]["description"]))
         if named_npcs[key]["references"]:
             print(u"SEE: {0}".format(", ".join(sorted(named_npcs[key]["references"]))))
-        print
+        print(u"\n------------------------------\n")
 
 
 def main():
