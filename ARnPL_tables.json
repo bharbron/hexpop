@@ -238,7 +238,7 @@
         "82": "Extradimensional geometries",
         "83": "Titivilla (or god of healing) {{BOOK_RELIGION_TYPE}}",
         "84": "Gor (or god of law) {{BOOK_RELIGION_TYPE}}",
-        "85": "Ch’od (or esoteric religion) {{BOOK_RELIGION_TYPE}}",
+        "85": "Ch'od (or esoteric religion) {{BOOK_RELIGION_TYPE}}",
         "86": "Vorn (or other major religion) {{BOOK_RELIGION_TYPE}}",
         "87": "White Web (or evil cult) {{BOOK_RELIGION_TYPE}}",
         "88": "Other or nonhuman faith {{BOOK_RELIGION_TYPE}}",
@@ -266,7 +266,7 @@
         "Goblin",
         "The 'Librarians' (Serpent people)",
         "Elf",
-        "Nephilidian (or 'evil’ species)",
+        "Nephilidian (or 'evil' species)",
         "White Elf (or other human noncommon)",
         "Gnoll",
         "Aquatic species",
@@ -1410,7 +1410,7 @@
         "Orchard"
     ],
     "GUEST": [
-        "Guest"
+        "Guest [{{GUEST_CATEGORY}}]"
     ],
     "GUEST_ATTRIBUTE": [
         "Mechanical parts",
@@ -1506,7 +1506,7 @@
         "Body covered in teeth",
         "Mandalaform: Creature has 4 torsos joined in the center",
         "Guest can assume two forms: the one rolled so far and another one which is an ordinary human, demihuman or domestic animal with one minor irregularity (missing finger, heterochromatic eyes, etc)",
-        "Body part “attached” backwards d4: 1-head 2-arms 3-legs 4-hands",
+        "Body part \"attached\" backwards d4: 1-head 2-arms 3-legs 4-hands",
         "Crouches like a toad, maybe legs to match",
         "Sheathed in ornate/ ominous plate armor that hides its form",
         "Tail (or second tail) (d8: 1-spines 2-forked 3-arrow 4-whips 5-scorpion 6-morningstar 7-hand on tip 8-second head on tip)",
@@ -1515,10 +1515,10 @@
         "Features on palms (d4: 1-eyes 2-mouths 3-whole face 4-leechlike mouths)"
     ],
     "GUEST_CATEGORY": [
-        "The Unholy (Agents of Temptation)",
-        "The Implacable (Agents of Destruction)",
-        "The Unwelcome (Agents of Disruption)",
-        "The Uncreated (Agents of Madness)"
+        "The Unholy (Agent of Temptation), Essentially human in shape{{GUEST_UNHOLY_TAIL}}{{GUEST_UNHOLY_LEGS}}{{GUEST_UNHOLY_CLAWS}}{{GUEST_UNHOLY_WINGS}}{{GUEST_UNHOLY_HORNS}}{{GUEST_UNHOLY_HEAD}}{{GUEST_UNHOLY_ATTRIBUTES}}{{GUEST_UNHOLY_POWERS}}, {{GUEST_PURPOSE}}",
+        "The Implacable (Agent of Destruction){{GUEST_IMPLACABLE_BODY}}{{GUEST_IMPLACABLE_CENTAUR}}{{GUEST_IMPLACABLE_ARMS}}{{GUEST_IMPLACABLE_SIZE}}{{GUEST_IMPLACABLE_ATTRIBUTES}}{{GUEST_IMPLACABLE_POWERS}}{{GUEST_IMPLACABLE_PURPOSES}}",
+        "The Unwelcome (Agent of Disruption){{GUEST_UNWELCOME_BODY}}{{GUEST_UNWELCOME_ATTRIBUTES}}{{GUEST_UNWELCOME_POWERS}}{{GUEST_UNWELCOME_HORNS}}{{GUEST_UNWELCOME_POLYMORPH}}{{GUEST_UNWELCOME_COLOR}}{{GUEST_PURPOSE}}",
+        "The Uncreated (Agent of Madness)"
     ],
     "GUEST_COLOR": {
         "5": "Red",
@@ -1542,6 +1542,42 @@
         "94": "Marble pattern",
         "95": "Star pattern",
         "100": "Swirling shifting pattern"
+    },
+    "GUEST_IMPLACABLE_ATTRIBUTES": [
+        "",
+        ", {{GUEST_ATTRIBUTE}}",
+        ", {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}",
+        ", {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}"
+    ],
+    "GUEST_IMPLACABLE_ARMS": {
+        "25": ", extra pair of arms",
+        "100": ""
+    },
+    "GUEST_IMPLACABLE_BODY": {
+        "75": ", human as base creature",
+        "100": ", human-sized {{ANIMAL}} as base creature"
+    },
+    "GUEST_IMPLACABLE_CENTAUR": {
+        "4": ", Snake centaur",
+        "5": ", Horse centaur",
+        "6": ", Goat centaur",
+        "7": ", Stag centaur",
+        "10": ", Spider centaur",
+        "28": ""
+    },
+    "GUEST_IMPLACABLE_POWERS": [
+        ", {{GUEST_POWER}}",
+        ", {{GUEST_POWER}}, {{GUEST_POWER}}",
+        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}",
+        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}"
+    ],
+    "GUEST_IMPLACABLE_PURPOSES": [
+        ", {{GUEST_PURPOSE}}",
+        ", {{GUEST_PURPOSE}}, {{GUEST_PURPOSE}}"
+    ],
+    "GUEST_IMPLACABLE_SIZE": {
+        "25": ", twice human sized",
+        "100": ""
     },
     "GUEST_POWER": [
         "All within 20' radius must save or be overcome with desire to kill other random nearby character (50% chance of wanting to eat them, too)",
@@ -1572,16 +1608,16 @@
         "Any dead characters in the area automatically rise as zombies or skeletons according to their level of decomposition and obey Guest",
         "Confusion 20'radius for d4 rounds",
         "Breathes hideous cone of vomit and gore",
-        "Rusting aura— 5'",
-        "Corrodes faith— Guest's attacks do permanent damage to target's willpower-based saves",
+        "Rusting aura- 5'",
+        "Corrodes faith- Guest's attacks do permanent damage to target's willpower-based saves",
         "Grants 1 wish per week. Twists wishes if possible within the wording and, if not, takes a terrible price in return",
         "Guest's attacks appear to do no damage, but in fact inflict equivalent damage on target's loved ones. This is revealed in dreams",
         "Guest knows all of characters' sins and those of their closest confidants and will relate them, psychically or verbally, to anyone in earshot",
-        "Guest's voice issues from mouth of nearby intelligent creature— the weakest, preferably a child. Creature's voice issues from mouth of Guest",
+        "Guest's voice issues from mouth of nearby intelligent creature- the weakest, preferably a child. Creature's voice issues from mouth of Guest",
         "Damage to Guest hurts nearby target instead and vice versa",
         "Can cause targets' mouth to fill with worms",
-        "Automatic spell reflection on any caster whose level is less than Guest's HD (arcane spells only— Cleric spells work fine)",
-        "Full of other, smaller Guests. Killing the creature or scoring a critical hit on it causes it to burst open and they run out. They are 18” tall and identical, of the same order as the parent and possess d4 attributes. There are 3d6 of them",
+        "Automatic spell reflection on any caster whose level is less than Guest's HD (arcane spells only- Cleric spells work fine)",
+        "Full of other, smaller Guests. Killing the creature or scoring a critical hit on it causes it to burst open and they run out. They are 18\" tall and identical, of the same order as the parent and possess d4 attributes. There are 3d6 of them",
         "100' aura of putrefaction",
         "Vulnerable only to magic and blessed weapons. Weapons blessed by an antithetical priest gain +2 to hit Guest",
         "Unholy touch causes Clerics to lose d4 spells and Paladins to lose special abilities for d10 rounds",
@@ -1593,7 +1629,7 @@
         "Can teleport by walking into a shadow on solid surface and re-emerging from any shadow within 100 yards 2 rounds later",
         "All works of human craft or art within 100 yards become worse. Paintings become brushy and ham-fisted, the lines of poems chime awkwardly and, more to the point, armor doesn't fit right (armor becomes 2 steps worse) and weaponwork fails (weapons break on any fumble). Effect is permanent",
         "Anything blessed, specially holy to a given faith (like a church), or possessed by a Cleric bursts into flame within 20'",
-        "Can cast False seeing— targets save or see everything as the opposite of the way it actually is for 24 hours starting after the Guest leaves or is killed",
+        "Can cast False seeing- targets save or see everything as the opposite of the way it actually is for 24 hours starting after the Guest leaves or is killed",
         "Touch causes target to vomit up everything s/he has eaten in last 4 days along with any constituent nutrients metabolized in the ensuing time. Target is now at -2 Constitution and ravenously hungry",
         "Guest hears confession: asks characters to recount the past week's sins. If they refuse, lie, or have no sins, they take 2d6 cold damage",
         "Guest spends one minute delivering prophecies on all creatures present. Guest is immune to harm (and takes no other action) during this minute. Creatures may take no action, however oblique, against the Guest during this time",
@@ -1618,23 +1654,23 @@
         "Wounds inflicted by Guest cannot be healed until Guest is slain",
         "Anyone within 10' weeps blood: -2 to hit and lose 1hp per round",
         "Vegetation within 20' grows wild and blood thirsty",
-        "Null inertia field 10'—arrows drop to the ground, normal melee attacks are at -2 and do -2 damage until the Guest is grappled",
-        "Shrieks of pain heal Guest— if it can cause a target to howl in pain, it regains d6hp",
+        "Null inertia field 10'-arrows drop to the ground, normal melee attacks are at -2 and do -2 damage until the Guest is grappled",
+        "Shrieks of pain heal Guest- if it can cause a target to howl in pain, it regains d6hp",
         "A 100 yard radius area is afflicted by temporal flux, causing everything except the Guest and its foes to become as it was/will be... (standard option) in the age of dinosaurs or equivalent (you-did-a-lot-of-world-building-and-want-to-show-off-option) / back to the age of whenever you think would be an interesting time for the characters to visit (gonzo option) / 2,000 years into the future (steampunk fetishist option) in the Victorian era..",
-        "Guest is healed when another 86 creature within 30' inflicts a wound on an innocent. However, Guest is bound to serve the inflicter for a number of rounds equal to the damage inflicted + d6-3 rounds (rolled secretly by Referee). (Damage cannot be self-inflicted— one creature must wound another)",
+        "Guest is healed when another 86 creature within 30' inflicts a wound on an innocent. However, Guest is bound to serve the inflicter for a number of rounds equal to the damage inflicted + d6-3 rounds (rolled secretly by Referee). (Damage cannot be self-inflicted- one creature must wound another)",
         "Touch causes all missiles fired within 100 yards to hit target until Guest is slain",
         "Can curse one word per round by saying it in a mocking voice. Any creature saying that word or writing it takes d8 points of damage until Guest is destroyed. (Guest is immune)",
         "Can curse one action per combat round or 6 seconds by performing that action while swaying lewdly (swinging a sword, casting a spell, walking, etc.). Any creature performing that action takes d8 damage until Guest is destroyed. (Guest is immune)",
-        "Can curse a patch of ground by wounding someone on it— anyone in a 10' radius of where the foe fell is wracked with pain and takes d8 damage per round. Effect remains until Guest is slain. (Guest is immune)",
+        "Can curse a patch of ground by wounding someone on it- anyone in a 10' radius of where the foe fell is wracked with pain and takes d8 damage per round. Effect remains until Guest is slain. (Guest is immune)",
         "Can cause target to fall madly in love with next being s/he sees other than those present at moment of casting. Effect is permanent and can only be lifted via Remove Curse, etc",
         "Maze spell 2x/day. A creature may elect to spend extra time in the maze (max time for his/ her Int. level + 1 round) and, if so, and if s/he either succeeds in an Int. check at -10 or goes to the right place in a maze the Referee has prepared in advance for this purpose, may find the Guest's soul, in the form of a bizarre relic or talisman and, once s/he returns to the material plane, may use it to bind the Guest to his/her will",
         "Organic matter (including leather armor, straps, cotton) decays, rots, and is eaten by moths in a 10' radius around Guest",
-        "Can cause one enemy attack or spell per combat round to strike a target of its choosing, including the attacker. May use this as an “interrupt” action but this is the Guest's “attack” action for the turn",
+        "Can cause one enemy attack or spell per combat round to strike a target of its choosing, including the attacker. May use this as an \"interrupt\" action but this is the Guest's \"attack\" action for the turn",
         "Can spit a viscous goo which solidifies with the strength of a Web spell in a small area the size of a fist. This can be used to pin a foot to the ground, stick a sword to its sheath, etc. 20' range",
         "Can imitate any action performed by an opponent, unless that opponent is a Paladin or Cleric. Attack rolls, spell dice results, etc. will be the same",
         "Can steal a melee weapon from a foe on a successful to-hit roll. If successful, the Guest may attack with that weapon (from next turn onwards) until it succeeds. A successful hit indicates the weapon does normal damage but is also stuck fast inside the opponent and can't be removed without a Remove Curse or similar spell. The weapon does d4hp of damage each time the target moves",
-        "Guest asks all present, in turn, “Will you slay me?” All must answer yes or no (“I don't know” isn't an option, however, secretly, saying that another creature will is)— any foe saying “No” will take d10 damage from demoralization and is -2 to all saves if they attack the creature, though they will gain double XP if they actually do slay the Guest (landing the killing blow), any foe saying “Yes” will take d20 damage after the battle ends if they were wrong, and anyone saying someone else's name will take d10 damage if they were wrong and will gain +25% XP if they were right",
-        "Guest causes all who do not save vs. Magic within 100 yards to see Guest's foes as Guests and attack them on sight. Immunity to the effect is conferred by having crossed a river in company of a fellow target— so in most cases player characters cannot be turned against each other, but all local NPCs will turn against them",
+        "Guest asks all present, in turn, \"Will you slay me?\" All must answer yes or no (\"I don't know\" isn't an option, however, secretly, saying that another creature will is)- any foe saying \"No\" will take d10 damage from demoralization and is -2 to all saves if they attack the creature, though they will gain double XP if they actually do slay the Guest (landing the killing blow), any foe saying \"Yes\" will take d20 damage after the battle ends if they were wrong, and anyone saying someone else's name will take d10 damage if they were wrong and will gain +25% XP if they were right",
+        "Guest causes all who do not save vs. Magic within 100 yards to see Guest's foes as Guests and attack them on sight. Immunity to the effect is conferred by having crossed a river in company of a fellow target- so in most cases player characters cannot be turned against each other, but all local NPCs will turn against them",
         "Time becomes terrible. Traversing each grisly new second is like crawling over a new desert. Anyone who can see the Guest begins to lose one point of Constitution per round until it is destroyed",
         "The air around the Guest is a cloud of microscopic, razor-sharp particles, causing 1hp damage per 6 feet moved. 18' radius. (Guest is immune)",
         "Touch causes target to dance in an unseemly way, unable to perform any other action (aside from half-speed movement) until s/he saves against Magic at -5",
@@ -1642,7 +1678,7 @@
         "The Guest's shadow burns all it touches (other than the Guest) for 2d6hp of damage",
         "Guest spits volley of small knives, caltrops, shuriken, etc. Does d12 + (10 minus the number of feet targets are away) damage to all within a cone who do not save",
         "Guest causes deluge of blood. The blood fills the room at 1' per round, or if outdoors, it begins to rain blood. Either way it's pretty distracting",
-        "Touch causes target's bones to decay— they lose 10% of their Dexterity and Constitution per round until they're a blob of skin-covered organs. Dispel Magic or Remove Curse negates the effect, killing or banishing the Guest stops it from getting worse",
+        "Touch causes target's bones to decay- they lose 10% of their Dexterity and Constitution per round until they're a blob of skin-covered organs. Dispel Magic or Remove Curse negates the effect, killing or banishing the Guest stops it from getting worse",
         "Guest announces it will annihilate a given target and devour their soul. It will attack only that target (at +2) until it succeeds. Each round it is prevented from attacking that target by another creature it will lose 1hp. It is at -2 to everything vs. any other target. If target is slain, Guest gains d4 HD and anyone who tried and failed to stop it will lose 50% of their hit points from morale damage and shame"
     ],
     "GUEST_PURPOSE": {
@@ -1659,6 +1695,81 @@
         "11": "Destroy powerful holy object",
         "12": "Use some nominally good thing- love, friendship, compassion, enlightenment- to sow strife"
     },
+    "GUEST_UNHOLY_ATTRIBUTES": [
+        "",
+        ", {{GUEST_ATTRIBUTE}}",
+        ", {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}",
+        ", {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}"
+    ],
+    "GUEST_UNHOLY_CLAWS": [
+        "",
+        ", claws"
+    ],
+    "GUEST_UNHOLY_HEAD": {
+        "4": ", pig head",
+        "8": ", wolf head",
+        "12": ", stag head",
+        "16": ", crow head",
+        "20": ", goat head",
+        "24": ", jackal head",
+        "96": ""
+    },
+    "GUEST_UNHOLY_HORNS": {
+        "75": ", horns",
+        "100": ""
+    },
+    "GUEST_UNHOLY_LEGS": [
+        "",
+        ", goat legs"
+    ],
+    "GUEST_UNHOLY_POWERS": [
+        ", {{GUEST_POWER}}",
+        ", {{GUEST_POWER}}, {{GUEST_POWER}}",
+        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}",
+        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}"
+    ],
+    "GUEST_UNHOLY_TAIL": {
+        "4": "",
+        "5": ", thin tail of spines",
+        "6": ", thin forked tail",
+        "7": ", thin arrow tail",
+        "8": ", thin tail of whips"
+    },
+    "GUEST_UNHOLY_WINGS": {
+        "15": ", wings",
+        "100": ""   
+    },
+    "GUEST_UNWELCOME_ATTRIBUTES": [
+        "",
+        "",
+        ", {{GUEST_ATTRIBUTE}}",
+        ", {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}"
+    ],
+    "GUEST_UNWELCOME_BODY": {
+        "50": ", basically resembles host creature",
+        "90": ", human-sized {{ANIMAL}} as base creature",
+        "100": ", appears human"
+    },
+    "GUEST_UNWELCOME_COLOR": {
+        "10": ", {{GUEST_COLOR}}",
+        "100": ""
+    },
+    "GUEST_UNWELCOME_HORNS": {
+        "25": ", tiny horns",
+        "100": ""
+    },
+    "GUEST_UNWELCOME_POLYMORPH": [
+        "",
+        ", can Polymorph Self"
+    ],
+    "GUEST_UNWELCOME_POWERS": [
+        ", {{GUEST_POWER}}",
+        ", {{GUEST_POWER}}, {{GUEST_POWER}}",
+        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}",
+        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}",
+        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}",
+        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}"
+    ],
     "HERE_OR_THERE": {
         "5": "",
         "6": " in square {{RANDOM_HEX}}"
