@@ -11,7 +11,9 @@ MAX_DEPTH = 20
 # Keywords that have special meaning and should be ignored by parse_and_replace()
 RESTRICTED_KEYWORDS = [
     "RANDOM_HEX",
-    "NAMED_NPC"
+    "NAMED_NPC",
+    "NAMED_FRIENDLY_NPC",
+    "NAMED_ENEMY_NPC"
 ]
 
 
@@ -131,7 +133,7 @@ def print_named_npcs(named_npcs):
         if named_npc[1]["description"]:
             print(u"{0}".format(named_npc[1]["description"]))
         if named_npc[1]["references"]:
-            print(u"SEE: {0}".format(", ".join(sorted(named_npc[1]["references"]))))
+            print(u"SEE: {0}".format(", ".join(sorted(list(set(named_npc[1]["references"]))))))
         print(u"\n------------------------------\n")
 
 
