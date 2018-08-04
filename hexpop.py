@@ -61,11 +61,21 @@ def load_npcs(npcs, tables):
     if type(npcs) is list:
         key = 1
         for npc in npcs:
-            named_npcs[str(key)] = {"text": parse_and_replace(npc, tables), "references": [], "key": str(key)}
+            named_npcs[str(key)] = {
+                "name": parse_and_replace(npc["name"], tables),
+                "description": parse_and_replace(npc["description"], tables),
+                "references": [],
+                "key": str(key)
+            }
             key += 1
     if type(npcs) is dict:
         for key, npc in npcs.iteritems():
-            named_npcs[key] = {"text": parse_and_replace(npc, tables), "references": [], "key": key}
+            named_npcs[str(key)] = {
+                "name": parse_and_replace(npc["name"], tables),
+                "description": parse_and_replace(npc["description"], tables),
+                "references": [],
+                "key": str(key)
+            }
     return named_npcs
 
 
@@ -77,7 +87,7 @@ def set_named_npcs(hex_contents, named_npcs):
         npc_references = re.findall(r"{{NAMED_NPC}}", v["text"])
         for npc_reference in npc_references:
             npc = roll_on_table(named_npcs)
-            hex_contents[k]["text"] = hex_contents[k]["text"].replace(r"{{NAMED_NPC}}", npc["text"], 1)
+            hex_contents[k]["text"] = hex_contents[k]["text"].replace(r"{{NAMED_NPC}}", npc["name"], 1)
             named_npcs[npc["key"]]["references"].append(k)
     return hex_contents
 
@@ -110,7 +120,18 @@ def print_hex_contents(hex_contents):
     for key in sorted(hex_contents.keys()):
         print(u"{0}: {1}".format(key, hex_contents[key]["text"]))
         if hex_contents[key]["references"]:
-            print(u"SEE: {0}\n".format(", ".join(sorted(hex_contents[key]["references"]))))
+            print(u"SEE: {0}".format(", ".join(sorted(hex_contents[key]["references"]))))
+        print
+
+
+def print_named_npcs(named_npcs):
+    for key in sorted(named_npcs.keys()):
+        print(u"{0}".format(named_npcs[key]["name"]))
+        if named_npcs[key]["description"]:
+            print(u"{0}".format(named_npcs[key]["description"]))
+        if named_npcs[key]["references"]:
+            print(u"SEE: {0}".format(", ".join(sorted(named_npcs[key]["references"]))))
+        print
 
 
 def main():
@@ -139,7 +160,7 @@ def main():
     print_hex_contents(hex_contents)
 
     if args.npcs:
-        print(named_npcs)
+        print_named_npcs(named_npcs)
 
 
 if __name__ == "__main__":
