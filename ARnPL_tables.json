@@ -1412,14 +1412,74 @@
     "GUEST": [
         "Guest [{{GUEST_CATEGORY}}]"
     ],
+    "GUEST_EYES": [
+        "flame",
+        "jewel",
+        "ice",
+        "stone",
+        "babies' heads",
+        "missing"
+    ],
+    "GUEST_HEAD_OR_FACE": [
+        "whole head[s]",
+        "face[s], like a Hindu god"
+    ],
+    "GUEST_WEAPON_ARMS": [
+        "Hooks",
+        "Swords",
+        "Scythes",
+        "Whips",
+        "Flails",
+        "Hands on the end of chains"
+    ],
+    "GUEST_ELONGATED": [
+        "neck",
+        "head",
+        "arms",
+        "legs",
+        "arm",
+        "leg"
+    ],
+    "GUEST_WINGS": [
+        "bat",
+        "butterfly",
+        "bird",
+        "insect"
+    ],
+    "GUEST_BREASTS": [
+        "disturbingly nice",
+        "disturbingly withered",
+        "hooklike protrusions for nipples",
+        "eyes for nipples",
+        "mouths for nipples",
+        "{{GUEST_BREASTS}} and {{GUEST_BREASTS}}"
+    ],
+    "GUEST_CENTAUR": [
+        "quadruped",
+        "spider/mass of tentacles",
+        "slug/worm/giant tongue",
+        "no lower body/mass of entrails"
+    ],
+    "GUEST_MAGIC_WEAPON": [
+        "axe",
+        "morningstar",
+        "spear",
+        "sword",
+        "rapier",
+        "sickle",
+        "whip",
+        "scythe",
+        "pair of wavy daggers",
+        "circular shield with spikes/serrations"
+    ],
     "GUEST_ATTRIBUTE": [
         "Mechanical parts",
         "Mechanical weaponry",
         "Hairless (or skinless if base creature has skin or if you're bored with that)",
         "Eyes are solid color",
-        "Eyes are (d6: 1-flame 2-jewel 3-ice 4-stone 5-babies' heads 6-missing)",
+        "Eyes are {{GUEST_EYES}}",
         "Aflame",
-        "Covered in ice ",
+        "Covered in ice",
         "Made of stone",
         "Made of volcanic stone (lava through cracks)",
         "Acidic drool",
@@ -1436,8 +1496,8 @@
         "Extra mouth",
         "Extra mouths (2d4)",
         "Covered in mouths",
-        "Extra head/face (50% chance of a whole head, 50% just face, like a Hindu god)",
-        "2d4 Extra heads (50% chance whole head 50% like Hindu god)",
+        "Extra {{GUEST_HEAD_OR_FACE}}",
+        "2d4 Extra {{GUEST_HEAD_OR_FACE}}",
         "Covered in faces",
         "Covered in heads",
         "Vertical symmetry (built like a king, queen or jack playing card, with extra, inverted head and arms where legs should be)",
@@ -1446,10 +1506,10 @@
         "Megafat (extra slow)",
         "Huge: d20+7' tall",
         "Elongated: d12+7' tall but skinny and fragile looking",
-        "Barely mobile: fat, d20' tall, d20'+4 feet in diameter, moves 1 foot per round, 2 extra powers",
+        "Barely mobile: fat, d20' tall, d20'+4 feet in diameter, moves 1 foot per round. {{GUEST_POWER}}. {{GUEST_POWER}}",
         "Rolling: is spherical or ring-shaped",
         "Amphibious: a sea Guest- gills and scales etc",
-        "Weapons for arms: d6 1-Hooks 2-Swords 3-Scythes 4-Whips 5-Flails 6-Hands on the end of chains",
+        "{{GUEST_WEAPON_ARMS}} for arms",
         "Claw feet",
         "Extra pair of legs",
         "2d6 extra legs (as spider)",
@@ -1463,17 +1523,17 @@
         "Headless- if already headless, then has random head",
         "Hydrocephalic",
         "Always levitates",
-        "Divided:lefthalfand right half have separate attributes- roll full complement separately",
+        "Divided: left half and right half have separate attributes- roll full complement separately",
         "Quartered: 4 quarters of body have separate attributes- roll full complement separately",
         "Reptilian scales- bonus to Armor",
         "Missing d4 limbs typical of base creature",
         "Missing mouth- if already mouthless, has mouth",
         "Missing d2 eyes-if already eyeless, has 1 eye",
         "d4 limbs in wrong places- if this is not applicable, has d4 arms/legs",
-        "Elongated body part- 2d4' longer or 3x normal d6: 1-neck 2-head 3-arms 4-legs 5-1 arm 6-1 leg",
+        "Elongated {{GUEST_ELONGATED}}- 2d4' longer or 3x normal",
         "Spines",
         "Mane like a lion or frilled lizard",
-        "Conjoinedtwin",
+        "Conjoined twin",
         "Head that's just an eye",
         "Head that's just a mouth",
         "Tiny: d4 feet tall",
@@ -1484,41 +1544,75 @@
         "Butterfly wings",
         "Bird wings",
         "Insect wings",
-        "4 wings- roll d4+67 on this table for each set",
+        "4 wings- {{GUEST_WINGS}}, {{GUEST_WINGS}}, {{GUEST_WINGS}}, {{GUEST_WINGS}}",
         "Walks as if gravity pointed toward whatever wall Guest stands on",
         "Unborn: still foetal or in egg",
         "Feet don't quite touch ground",
         "Shadow moves independently but stays attached, has same stats as the Guest",
-        "Abominable breasts d6: 1 disturbingly nice breasts 2 disturbingly withered breasts 3 hooklike protrusions for nipples 4 eyes for nipples 5 mouths for nipples 6 roll for each breast",
+        "Abominable breasts, {{GUEST_BREASTS}}",
         "Covered in acidic slime, leaves trail",
         "Antlers or horns",
         "Body is elongated but has holes in it, like swiss cheese or torn dough",
-        "Object visibly embedded in-/worn on- body (egg, candle, crown, etc.) is power source- regenerates d6hp per round unless this thing is removed, in which case it probably is banished",
+        "{{OBJECT}} visibly embedded in-/worn on- body is power source- regenerates d6hp per round unless this thing is removed, in which case it probably is banished",
         "Snake tongue",
         "Barbed skin",
-        "Centaur (d4 1-quadruped 2-spider/mass of tentacles 3-slug/worm/giant tongue 4-no lower body/mass of entrails). If already a centaur, then has a torso on either end",
+        "Centaur ({{GUEST_CENTAUR}}). If already a centaur, then has a torso on either end",
         "Metal skin",
         "Appears with neck broken, spears through it, daggers in its face, crucified or otherwise physically mortified",
-        "Carries magic weapon (d10: 1-axe 2-morningstar 3-spear 4-sword 5-rapier 6-sickle 7-whip 8-scythe 9-pair of wavy daggers 10-circular shield with spikes/serrations)",
+        "Carries magic {{GUEST_MAGIC_WEAPON}}",
         "Visible internal organ- heart, brain, etc",
-        "Tree branch limbs (d4: 1-arms 2-legs 3-growing from head 4-one arm)",
-        "d4: 1-Mandibles 2-Tusks 3-Fangs 4-All teeth are fangs",
+        "{{GUEST_TREE_LIMBS}}",
+        "{{GUEST_TEETH}}",
         "Body covered in teeth",
         "Mandalaform: Creature has 4 torsos joined in the center",
         "Guest can assume two forms: the one rolled so far and another one which is an ordinary human, demihuman or domestic animal with one minor irregularity (missing finger, heterochromatic eyes, etc)",
-        "Body part \"attached\" backwards d4: 1-head 2-arms 3-legs 4-hands",
+        "{{GUEST_BACKWARDS_PART}} \"attached\" backwards",
         "Crouches like a toad, maybe legs to match",
         "Sheathed in ornate/ ominous plate armor that hides its form",
-        "Tail (or second tail) (d8: 1-spines 2-forked 3-arrow 4-whips 5-scorpion 6-morningstar 7-hand on tip 8-second head on tip)",
+        "Tail (or second tail), {{GUEST_TAIL}}",
         "Elongated proboscis-face like the Spy vs. Spy guys or an anteater- with long tongue",
         "Animal face if humanoid body, humanoid face if otherwise",
-        "Features on palms (d4: 1-eyes 2-mouths 3-whole face 4-leechlike mouths)"
+        "{{GUEST_PALMS}} on palms"
+    ],
+    "GUEST_TREE_LIMBS": [
+        "Tree branch arms",
+        "Tree branch legs",
+        "Tree branch growing from head",
+        "One tree branch arm"
+    ],
+    "GUEST_TEETH": [
+        "Mandibles",
+        "Tusks",
+        "Fangs",
+        "All teeth are fangs"
+    ],
+    "GUEST_BACKWARDS_PART": [
+        "Head",
+        "Arms",
+        "Legs",
+        "Hands"
+    ],
+    "GUEST_TAIL": [
+        "spines",
+        "forked",
+        "arrow",
+        "whips",
+        "scorpion",
+        "morningstar",
+        "hand on tip",
+        "second head on tip"
+    ],
+    "GUEST_PALMS": [
+        "Eyes",
+        "Mouths",
+        "Whole face",
+        "Leechlike mouths"
     ],
     "GUEST_CATEGORY": [
-        "The Unholy (Agent of Temptation), Essentially human in shape{{GUEST_UNHOLY_TAIL}}{{GUEST_UNHOLY_LEGS}}{{GUEST_UNHOLY_CLAWS}}{{GUEST_UNHOLY_WINGS}}{{GUEST_UNHOLY_HORNS}}{{GUEST_UNHOLY_HEAD}}{{GUEST_UNHOLY_ATTRIBUTES}}{{GUEST_UNHOLY_POWERS}}, {{GUEST_PURPOSE}}",
+        "The Unholy (Agent of Temptation). Essentially human in shape{{GUEST_UNHOLY_TAIL}}{{GUEST_UNHOLY_LEGS}}{{GUEST_UNHOLY_CLAWS}}{{GUEST_UNHOLY_WINGS}}{{GUEST_UNHOLY_HORNS}}{{GUEST_UNHOLY_HEAD}}{{GUEST_UNHOLY_ATTRIBUTES}}{{GUEST_UNHOLY_POWERS}}. {{GUEST_PURPOSE}}",
         "The Implacable (Agent of Destruction){{GUEST_IMPLACABLE_BODY}}{{GUEST_IMPLACABLE_CENTAUR}}{{GUEST_IMPLACABLE_ARMS}}{{GUEST_IMPLACABLE_SIZE}}{{GUEST_IMPLACABLE_ATTRIBUTES}}{{GUEST_IMPLACABLE_POWERS}}{{GUEST_IMPLACABLE_PURPOSES}}",
-        "The Unwelcome (Agent of Disruption){{GUEST_UNWELCOME_BODY}}{{GUEST_UNWELCOME_ATTRIBUTES}}{{GUEST_UNWELCOME_POWERS}}{{GUEST_UNWELCOME_HORNS}}{{GUEST_UNWELCOME_POLYMORPH}}{{GUEST_UNWELCOME_COLOR}}{{GUEST_PURPOSE}}",
-        "The Uncreated (Agent of Madness)"
+        "The Unwelcome (Agent of Disruption){{GUEST_UNWELCOME_BODY}}{{GUEST_UNWELCOME_ATTRIBUTES}}{{GUEST_UNWELCOME_POWERS}}{{GUEST_UNWELCOME_HORNS}}{{GUEST_UNWELCOME_POLYMORPH}}{{GUEST_UNWELCOME_COLOR}}. {{GUEST_PURPOSE}}",
+        "The Uncreated (Agent of Madness){{GUEST_UNCREATED_BODY}}{{GUEST_UNCREATED_ATTRIBUTES}}{{GUEST_UNCREATED_POWERS}}{{GUEST_UNCREATED_INSANITY}}. {{GUEST_PURPOSE}}"
     ],
     "GUEST_COLOR": {
         "5": "Red",
@@ -1545,38 +1639,38 @@
     },
     "GUEST_IMPLACABLE_ATTRIBUTES": [
         "",
-        ", {{GUEST_ATTRIBUTE}}",
-        ", {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}",
-        ", {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}"
+        ". {{GUEST_ATTRIBUTE}}",
+        ". {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}",
+        ". {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}"
     ],
     "GUEST_IMPLACABLE_ARMS": {
-        "25": ", extra pair of arms",
+        "25": ". Extra pair of arms",
         "100": ""
     },
     "GUEST_IMPLACABLE_BODY": {
-        "75": ", human as base creature",
-        "100": ", human-sized {{ANIMAL}} as base creature"
+        "75": ". Human as base creature",
+        "100": ". Human-sized {{ANIMAL}} as base creature"
     },
     "GUEST_IMPLACABLE_CENTAUR": {
-        "4": ", Snake centaur",
-        "5": ", Horse centaur",
-        "6": ", Goat centaur",
-        "7": ", Stag centaur",
-        "10": ", Spider centaur",
+        "4": ". Snake centaur",
+        "5": ". Horse centaur",
+        "6": ". Goat centaur",
+        "7": ". Stag centaur",
+        "10": ". Spider centaur",
         "28": ""
     },
     "GUEST_IMPLACABLE_POWERS": [
-        ", {{GUEST_POWER}}",
-        ", {{GUEST_POWER}}, {{GUEST_POWER}}",
-        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}",
-        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}"
+        ". {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}"
     ],
     "GUEST_IMPLACABLE_PURPOSES": [
-        ", {{GUEST_PURPOSE}}",
-        ", {{GUEST_PURPOSE}}, {{GUEST_PURPOSE}}"
+        ". {{GUEST_PURPOSE}}",
+        ". {{GUEST_PURPOSE}}. {{GUEST_PURPOSE}}"
     ],
     "GUEST_IMPLACABLE_SIZE": {
-        "25": ", twice human sized",
+        "25": ". Twice human sized",
         "100": ""
     },
     "GUEST_POWER": [
@@ -1695,80 +1789,106 @@
         "11": "Destroy powerful holy object",
         "12": "Use some nominally good thing- love, friendship, compassion, enlightenment- to sow strife"
     },
+    "GUEST_UNCREATED_ATTRIBUTES": [
+        ". {{GUEST_ATTRIBUTE}}",
+        ". {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}",
+        ". {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}",
+        ". {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}",
+        ". {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}",
+        ". {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}",
+        ". {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}",
+        ". {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}"
+    ],
+    "GUEST_UNCREATED_BODY": [
+        ". Hybrid of {{OBJECT}} and {{ANIMAL}}",
+        ". {{ANIMAL}} within {{ANIMAL}}"
+    ],
+    "GUEST_UNCREATED_INSANITY": {
+        "25": ". Causes insanity on sight (save or d10 rounds of effectively having Wisdom 1)",
+        "100": ""
+    },
+    "GUEST_UNCREATED_POWERS": [
+        "",
+        "",
+        ". {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}"
+    ],
     "GUEST_UNHOLY_ATTRIBUTES": [
         "",
-        ", {{GUEST_ATTRIBUTE}}",
-        ", {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}",
-        ", {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}"
+        ". {{GUEST_ATTRIBUTE}}",
+        ". {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}",
+        ". {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}"
     ],
     "GUEST_UNHOLY_CLAWS": [
         "",
-        ", claws"
+        ". Claws"
     ],
     "GUEST_UNHOLY_HEAD": {
-        "4": ", pig head",
-        "8": ", wolf head",
-        "12": ", stag head",
-        "16": ", crow head",
-        "20": ", goat head",
-        "24": ", jackal head",
+        "4": ". Pig head",
+        "8": ". Wolf head",
+        "12": ". Stag head",
+        "16": ". Crow head",
+        "20": ". Goat head",
+        "24": ". Jackal head",
         "96": ""
     },
     "GUEST_UNHOLY_HORNS": {
-        "75": ", horns",
+        "75": ". Horns",
         "100": ""
     },
     "GUEST_UNHOLY_LEGS": [
         "",
-        ", goat legs"
+        ". Goat legs"
     ],
     "GUEST_UNHOLY_POWERS": [
-        ", {{GUEST_POWER}}",
-        ", {{GUEST_POWER}}, {{GUEST_POWER}}",
-        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}",
-        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}"
+        ". {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}"
     ],
     "GUEST_UNHOLY_TAIL": {
         "4": "",
-        "5": ", thin tail of spines",
-        "6": ", thin forked tail",
-        "7": ", thin arrow tail",
-        "8": ", thin tail of whips"
+        "5": ". Thin tail of spines",
+        "6": ". Thin forked tail",
+        "7": ". Thin arrow tail",
+        "8": ". Thin tail of whips"
     },
     "GUEST_UNHOLY_WINGS": {
-        "15": ", wings",
+        "15": ". Wings",
         "100": ""   
     },
-    "GUEST_UNWELCOME_ATTRIBUTES": [
-        "",
-        "",
-        ", {{GUEST_ATTRIBUTE}}",
-        ", {{GUEST_ATTRIBUTE}}, {{GUEST_ATTRIBUTE}}"
-    ],
+    "GUEST_UNWELCOME_ATTRIBUTES": {
+        "4": ". Emerged from {{ANIMAL}}. {{GUEST_ATTRIBUTE}}",
+        "6": ". Emerged from human",
+        "7": ". Emerged from human. {{GUEST_ATTRIBUTE}}",
+        "8": ". Emerged from human. {{GUEST_ATTRIBUTE}}. {{GUEST_ATTRIBUTE}}"
+    },
     "GUEST_UNWELCOME_BODY": {
-        "50": ", basically resembles host creature",
-        "90": ", human-sized {{ANIMAL}} as base creature",
-        "100": ", appears human"
+        "50": ". Basically resembles host creature",
+        "90": ". Human-sized {{ANIMAL}} as base creature",
+        "100": ". Appears human"
     },
     "GUEST_UNWELCOME_COLOR": {
-        "10": ", {{GUEST_COLOR}}",
+        "10": ". {{GUEST_COLOR}}",
         "100": ""
     },
     "GUEST_UNWELCOME_HORNS": {
-        "25": ", tiny horns",
+        "25": ". Tiny horns",
         "100": ""
     },
     "GUEST_UNWELCOME_POLYMORPH": [
         "",
-        ", can Polymorph Self"
+        ". Can Polymorph Self"
     ],
     "GUEST_UNWELCOME_POWERS": [
-        ", {{GUEST_POWER}}",
-        ", {{GUEST_POWER}}, {{GUEST_POWER}}",
-        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}",
-        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}",
-        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}",
-        ", {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}, {{GUEST_POWER}}"
+        ". {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}",
+        ". {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}. {{GUEST_POWER}}"
     ],
     "HERE_OR_THERE": {
         "5": "",
