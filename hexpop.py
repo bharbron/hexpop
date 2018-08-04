@@ -53,7 +53,36 @@ def roll_on_table(table):
                 return table[str(result)]
 
 
-def set_random_hex(hex_contents):
+def load_npcs(npcs, tables):
+    """
+    Go through all the provided NPCs, parses their seed strings
+    """
+    named_npcs = {}
+    if type(npcs) is list:
+        key = 1
+        for npc in npcs:
+            named_npcs[str(key)] = {"text": parse_and_replace(npc, tables), "references": [], "key": str(key)}
+            key += 1
+    if type(npcs) is dict:
+        for key, npc in npcs.iteritems():
+            named_npcs[key] = {"text": parse_and_replace(npc, tables), "references": [], "key": key}
+    return named_npcs
+
+
+def set_named_npcs(hex_contents, named_npcs):
+    """
+    Goes through all hexes, finds references to {{NAMED_NPC}}, replaces them with a random entry from named_npcs, ands adds a reference to the npc
+    """
+    for k, v in hex_contents.iteritems():
+        npc_references = re.findall(r"{{NAMED_NPC}}", v["text"])
+        for npc_reference in npc_references:
+            npc = roll_on_table(named_npcs)
+            hex_contents[k]["text"] = hex_contents[k]["text"].replace(r"{{NAMED_NPC}}", npc["text"], 1)
+            named_npcs[npc["key"]]["references"].append(k)
+    return hex_contents
+
+
+def set_random_hexes(hex_contents):
     """
     Goes through all records in the hexmap, finds references to {{RANDOM_HEX}}, replaces them with the hex number, and adds a reference on the random hex
     """
@@ -74,22 +103,19 @@ def populate_hex_contents(hexmap, tables):
     hex_contents = {}
     for k, v in hexmap.iteritems():
         hex_contents[k] = {"text": parse_and_replace(v, tables), "references": []}
-
-    hex_contents = set_random_hex(hex_contents)
-
-    return hex_contents
+    return set_random_hexes(hex_contents)
 
 
 def print_hex_contents(hex_contents):
     for key in sorted(hex_contents.keys()):
         print(u"{0}: {1}".format(key, hex_contents[key]["text"]))
         if hex_contents[key]["references"]:
-            print(u"SEE: {0}".format(", ".join(sorted(hex_contents[key]["references"]))))
-        print
+            print(u"SEE: {0}\n".format(", ".join(sorted(hex_contents[key]["references"]))))
 
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--npcs")
     parser.add_argument("hexmap")
     parser.add_argument("tables")
     args = parser.parse_args()
@@ -100,9 +126,20 @@ def main():
     with open(args.tables, "r") as f:
         tables = json.load(f)
 
+    if args.npcs:
+        with open(args.npcs, "r") as f:
+            npcs = json.load(f)
+            named_npcs = load_npcs(npcs, tables)
+
     hex_contents = populate_hex_contents(hexmap, tables)
 
+    if args.npcs:
+        hex_contents = set_named_npcs(hex_contents, named_npcs)
+
     print_hex_contents(hex_contents)
+
+    if args.npcs:
+        print(named_npcs)
 
 
 if __name__ == "__main__":
