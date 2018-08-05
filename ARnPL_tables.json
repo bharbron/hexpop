@@ -1272,6 +1272,18 @@
     "FOREST": [
         "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_THEME}}.</small></h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
+    "FOREST_COLORLESS": [
+        "{{FOREST}}"
+    ],
+    "FOREST_HEART": [
+        "{{FOREST}}"
+    ],
+    "FOREST_PALE": [
+        "{{FOREST}}"
+    ],
+    "FOREST_RED": [
+        "{{FOREST}}"
+    ],
     "FOREST_SECOND_OR_NO": {
         "1": "",
         "2": "\n<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
@@ -1378,6 +1390,18 @@
     ],
     "GARDEN": [
         "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_THEME}}.</small></h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
+    ],
+    "GARDEN_COLORLESS": [
+        "{{GARDEN}}"
+    ],
+    "GARDEN_HEART": [
+        "{{GARDEN}}"
+    ],
+    "GARDEN_PALE": [
+        "{{GARDEN}}"
+    ],
+    "GARDEN_RED": [
+        "{{GARDEN}}"
     ],
     "GARDEN_SECOND_OR_NO": {
         "1": "",
@@ -2798,6 +2822,18 @@
     ],
     "MOUNTAIN": [
         "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_THEME}}.</small></h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
+    ],
+    "MOUNTAIN_COLORLESS": [
+        "{{MOUNTAIN}}"
+    ],
+    "MOUNTAIN_HEART": [
+        "{{MOUNTAIN}}"
+    ],
+    "MOUNTAIN_PALE": [
+        "{{MOUNTAIN}}"
+    ],
+    "MOUNTAIN_RED": [
+        "{{MOUNTAIN}}"
     ],
     "MOUNTAIN_SECOND_OR_NO": {
         "1": "",
