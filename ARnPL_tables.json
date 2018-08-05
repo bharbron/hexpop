@@ -1,4 +1,36 @@
 {
+    "ADVENTURE_COLORLESS": [
+        "{{ADVENTURE_COLORLESS_THEME}} &#9813;"
+    ],
+    "ADVENTURE_COLORLESS_THEME": [
+        "Drowning",
+        "Algae",
+        "Deception",
+        "Decay and rot",
+        "Intrigue",
+        "Chess",
+        "Hollowness, empty things, decoys",
+        "Spying",
+        "{{ADVENTURE_COLORLESS_THEME}} and {{ADVENTURE_COLORLESS_THEME}}"
+    ],
+    "ADVENTURE_HEART": [
+        "{{ADVENTURE_HEART_THEME}} &hearts;"
+    ],
+    "ADVENTURE_HEART_THEME": [
+        "Decapitation",
+        "Shoes",
+        "Croquet",
+        "Arbitrary injustice",
+        "Tarts and tea",
+        "Jealousy",
+        "Hedges and gardens",
+        "Hairstyles",
+        "Virgin sacrifice",
+        "Bathing in blood",
+        "Cards",
+        "Pointless, bottomless rage",
+        "{{ADVENTURE_HEART_THEME}} and {{ADVENTURE_HEART_THEME}}"
+    ],
     "ADVENTURE_HOOK": [
         "free {{ADVENTURE_HOOK_FREE}} from {{LOCATION}}{{HERE_OR_THERE}}",
         "slay {{ENCOUNTER}} at {{LOCATION}}{{HERE_OR_THERE}}",
@@ -58,33 +90,10 @@
         "{{OBJECT}}",
         "{{OBJECT}}"
     ],
-    "ADVENTURE_COLORLESS": [
-        "Drowning",
-        "Algae",
-        "Deception",
-        "Decay and rot",
-        "Intrigue",
-        "Chess",
-        "Hollowness, empty things, decoys",
-        "Spying",
-        "{{ADVENTURE_COLORLESS}} and {{ADVENTURE_COLORLESS}}"
-    ],
-    "ADVENTURE_HEART": [
-        "Decapitation",
-        "Shoes",
-        "Croquet",
-        "Arbitrary injustice",
-        "Tarts and tea",
-        "Jealousy",
-        "Hedges and gardens",
-        "Hairstyles",
-        "Virgin sacrifice",
-        "Bathing in blood",
-        "Cards",
-        "Pointless, bottomless rage",
-        "{{ADVENTURE_HEART}} and {{ADVENTURE_HEART}}"
-    ],
     "ADVENTURE_PALE": [
+        "{{ADVENTURE_PALE_THEME}} &#9812;"
+    ],
+    "ADVENTURE_PALE_THEME": [
         "Errors and confusions",
         "Taxation or audits",
         "Jousting",
@@ -93,9 +102,12 @@
         "Hats",
         "Animals",
         "Confections",
-        "{{ADVENTURE_PALE}} and {{ADVENTURE_PALE}}"
+        "{{ADVENTURE_PALE_THEME}} and {{ADVENTURE_PALE_THEME}}"
     ],
     "ADVENTURE_RED": [
+        "{{ADVENTURE_RED_THEME}} &#9818;"
+    ],
+    "ADVENTURE_RED_THEME": [
         "Impalement",
         "Sloth",
         "Sleep and nightmares",
@@ -108,13 +120,13 @@
         "Ancient things",
         "Velvet",
         "Forgetting",
-        "{{ADVENTURE_RED}} and {{ADVENTURE_RED}}"
+        "{{ADVENTURE_RED_THEME}} and {{ADVENTURE_RED_THEME}}"
     ],
     "ADVENTURE_THEME": {
-        "8": "{{ADVENTURE_COLORLESS}} (<strong>colorless</strong>)",
-        "20": "{{ADVENTURE_HEART}} (<strong>heart</strong>)",
-        "28": "{{ADVENTURE_PALE}} (<strong>pale</strong>)",
-        "40": "{{ADVENTURE_RED}} (<strong>red</strong>)"
+        "8": "{{ADVENTURE_COLORLESS}}",
+        "20": "{{ADVENTURE_HEART}}",
+        "28": "{{ADVENTURE_PALE}}",
+        "40": "{{ADVENTURE_RED}}"
     },
     "ANIMAL": [
         "Mouse",
@@ -225,6 +237,66 @@
     "BOOK": [
         "Book of {{BOOK_TYPE}}"
     ],
+    "BOOK_ART_TYPE": [
+        "Theory",
+        "History",
+        "Technique",
+        "All aspects"
+    ],
+    "BOOK_CULTURE": [
+        "Far East",
+        "Goblin",
+        "The 'Librarians' (Serpent people)",
+        "Elf",
+        "Nephilidian (or 'evil' species)",
+        "White Elf (or other human noncommon)",
+        "Gnoll",
+        "Aquatic species",
+        "Dwarf",
+        "Halfling",
+        "Dark Elf",
+        "Mysterious"
+    ],
+    "BOOK_CULTURE_OR_NO": {
+        "1": "",
+        "2": "{{BOOK_CULTURE}} "
+    },
+    "BOOK_LITERATURE_QUALITY": [
+        "quality 1/10",
+        "quality 2/10",
+        "quality 3/10",
+        "quality 4/10",
+        "quality 5/10",
+        "quality 6/10",
+        "quality 7/10",
+        "quality 8/10",
+        "quality 9/10",
+        "quality 10/10"
+    ],
+    "BOOK_MAGIC_TYPE": [
+        "Alchemy (mundane)",
+        "Summoning (mundane)",
+        "Enchantment (mundane)",
+        "Exorcism (mundane)",
+        "Necromancy (mundane)",
+        "Transmutation (mundane)",
+        "Illusion (mundane)",
+        "Divination (mundane)",
+        "Other or multiple magical disciplines (mundane)",
+        "Alchemy Spell: {{SPELL_ALCHEMY}}",
+        "Summoning Spell: {{SPELL_SUMMONING}}",
+        "Enchantment Spell: {{SPELL_ENCHANTMENT}}",
+        "Exorcism Spell: {{SPELL_EXORCISM}}",
+        "Necromancy Spell: {{SPELL_NECROMANCY}}",
+        "Transmutation Spell: {{SPELL_TRANSMUTATION}}",
+        "Illusion Spell: {{SPELL_ILLUSION}}",
+        "Divination Spell: {{SPELL_DIVINATION}}",
+        "Other or multiple magical disciplines Spell[s]: {{SPELL_OTHER}}"
+    ],
+    "BOOK_RELIGION_TYPE": [
+        "Commentary",
+        "Sacred text: {{SPELL_SACRED}}"
+    ],
     "BOOK_TYPE": {
         "12": "{{BOOK_TYPE}} written in {{BOOK_CULTURE}}",
         "13": "General biology",
@@ -310,66 +382,6 @@
         "101": "Nephilidian vampire anatomy",
         "102": "Voivodjan vampire anatomy"
     },
-    "BOOK_ART_TYPE": [
-        "Theory",
-        "History",
-        "Technique",
-        "All aspects"
-    ],
-    "BOOK_CULTURE": [
-        "Far East",
-        "Goblin",
-        "The 'Librarians' (Serpent people)",
-        "Elf",
-        "Nephilidian (or 'evil' species)",
-        "White Elf (or other human noncommon)",
-        "Gnoll",
-        "Aquatic species",
-        "Dwarf",
-        "Halfling",
-        "Dark Elf",
-        "Mysterious"
-    ],
-    "BOOK_CULTURE_OR_NO": {
-        "1": "",
-        "2": "{{BOOK_CULTURE}} "
-    },
-    "BOOK_LITERATURE_QUALITY": [
-        "quality 1/10",
-        "quality 2/10",
-        "quality 3/10",
-        "quality 4/10",
-        "quality 5/10",
-        "quality 6/10",
-        "quality 7/10",
-        "quality 8/10",
-        "quality 9/10",
-        "quality 10/10"
-    ],
-    "BOOK_MAGIC_TYPE": [
-        "Alchemy (mundane)",
-        "Summoning (mundane)",
-        "Enchantment (mundane)",
-        "Exorcism (mundane)",
-        "Necromancy (mundane)",
-        "Transmutation (mundane)",
-        "Illusion (mundane)",
-        "Divination (mundane)",
-        "Other or multiple magical disciplines (mundane)",
-        "Alchemy Spell: {{SPELL_ALCHEMY}}",
-        "Summoning Spell: {{SPELL_SUMMONING}}",
-        "Enchantment Spell: {{SPELL_ENCHANTMENT}}",
-        "Exorcism Spell: {{SPELL_EXORCISM}}",
-        "Necromancy Spell: {{SPELL_NECROMANCY}}",
-        "Transmutation Spell: {{SPELL_TRANSMUTATION}}",
-        "Illusion Spell: {{SPELL_ILLUSION}}",
-        "Divination Spell: {{SPELL_DIVINATION}}",
-        "Other or multiple magical disciplines Spell[s]: {{SPELL_OTHER}}"
-    ],
-    "BOOK_RELIGION_TYPE": [
-        "Commentary",
-        "Sacred text: {{SPELL_SACRED}}"
-    ],
     "CARRYING_SOMETHING_OR_NO": {
         "3": "",
         "6": ". Carrying {{I_SEARCH_THE_BODY}}"
@@ -739,6 +751,26 @@
         "3": "",
         "6": "\n<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
+    "ENCOUNTER_FOREST_COLORLESS_NIGHT_OR_NO": {
+        "2": "",
+        "5": "\n<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "\n<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+    },
+    "ENCOUNTER_FOREST_HEART_NIGHT_OR_NO": {
+        "3": "",
+        "5": "\n<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "\n<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+    },
+    "ENCOUNTER_FOREST_PALE_NIGHT_OR_NO": {
+        "3": "",
+        "5": "\n<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "\n<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+    },
+    "ENCOUNTER_FOREST_RED_NIGHT_OR_NO": {
+        "3": "",
+        "5": "\n<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "\n<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+    },
     "ENCOUNTER_GARDEN_DAY": {
         "5": "Little Crocodile",
         "6": "Ozwick",
@@ -818,6 +850,26 @@
     "ENCOUNTER_GARDEN_NIGHT_OR_NO": {
         "3": "",
         "6": "\n<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+    },
+    "ENCOUNTER_GARDEN_COLORLESS_NIGHT_OR_NO": {
+        "2": "",
+        "3": "\n<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "4": "\n<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+    },
+    "ENCOUNTER_GARDEN_HEART_NIGHT_OR_NO": {
+        "2": "",
+        "3": "\n<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "4": "\n<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+    },
+    "ENCOUNTER_GARDEN_PALE_NIGHT_OR_NO": {
+        "2": "",
+        "3": "\n<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "4": "\n<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+    },
+    "ENCOUNTER_GARDEN_RED_NIGHT_OR_NO": {
+        "2": "",
+        "3": "\n<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "4": "\n<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_HOUSE": [
         "{{ENCOUNTER_HOUSE_OF_HEARTS}}",
@@ -932,6 +984,22 @@
         "99": "Heart Queen",
         "100": "Red King"
     },
+    "ENCOUNTER_INTERIOR_COLORLESS": {
+        "4": "{{ENCOUNTER_INTERIOR}}",
+        "6": "{{ENCOUNTER_COLORLESS_HOUSE}}"
+    },
+    "ENCOUNTER_INTERIOR_HEART": {
+        "4": "{{ENCOUNTER_INTERIOR}}",
+        "6": "{{ENCOUNTER_HOUSE_OF_HEARTS}}"
+    },
+    "ENCOUNTER_INTERIOR_PALE": {
+        "4": "{{ENCOUNTER_INTERIOR}}",
+        "6": "{{ENCOUNTER_PALE_HOUSE}}"
+    },
+    "ENCOUNTER_INTERIOR_RED": {
+        "4": "{{ENCOUNTER_INTERIOR}}",
+        "6": "{{ENCOUNTER_RED_HOUSE}}"
+    },
     "ENCOUNTER_MONARCH": [
         "King of Hearts",
         "Pale King",
@@ -1021,6 +1089,26 @@
     "ENCOUNTER_MOUNTAIN_NIGHT_OR_NO": {
         "3": "",
         "6": "\n<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+    },
+    "ENCOUNTER_MOUNTAIN_COLORLESS_NIGHT_OR_NO": {
+        "3": "",
+        "5": "\n<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "\n<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+    },
+    "ENCOUNTER_MOUNTAIN_HEART_NIGHT_OR_NO": {
+        "3": "",
+        "5": "\n<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "\n<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+    },
+    "ENCOUNTER_MOUNTAIN_PALE_NIGHT_OR_NO": {
+        "3": "",
+        "5": "\n<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "\n<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+    },
+    "ENCOUNTER_MOUNTAIN_RED_NIGHT_OR_NO": {
+        "3": "",
+        "5": "\n<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "\n<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_PALE_HOUSE": {
         "3": "Sleeper",
@@ -1272,10 +1360,12 @@
     "FOREST": [
         "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_THEME}}.</small></h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
-    "FOREST_SECOND_OR_NO": {
-        "1": "",
-        "2": "\n<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
-    },
+    "FOREST_COLORLESS": [
+        "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_COLORLESS}}.</small></h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_COLORLESS_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_COLORLESS_OR_NO}}"
+    ],
+    "FOREST_HEART": [
+        "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_HEART}}.</small></h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_HEART_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_HEART_OR_NO}}"
+    ],
     "FOREST_LANDMARK": [
         "Bridge",
         "Entrance to interior {{INTERIOR_ROOM}} (in tree, etc)",
@@ -1376,13 +1466,25 @@
         "Orb Loc",
         "Swamp"
     ],
+    "FOREST_PALE": [
+        "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_PALE}}.</small></h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_PALE_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_PALE_OR_NO}}"
+    ],
+    "FOREST_RED": [
+        "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_RED}}.</small></h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_RED_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_RED_OR_NO}}"
+    ],
+    "FOREST_SECOND_OR_NO": {
+        "1": "",
+        "2": "\n<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
+    },
     "GARDEN": [
         "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_THEME}}.</small></h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
-    "GARDEN_SECOND_OR_NO": {
-        "1": "",
-        "2": "\n<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
-    },
+    "GARDEN_COLORLESS": [
+        "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_COLORLESS}}.</small></h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_COLORLESS_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_COLORLESS_OR_NO}}"
+    ],
+    "GARDEN_HEART": [
+        "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_HEART}}.</small></h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_HEART_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_HEART_OR_NO}}"
+    ],
     "GARDEN_LANDMARK": [
         "Bridge",
         "Entrance to interior {{INTERIOR_ROOM}}",
@@ -1481,6 +1583,16 @@
         "Merchant",
         "Orchard"
     ],
+    "GARDEN_PALE": [
+        "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_PALE}}.</small></h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_PALE_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_PALE_OR_NO}}"
+    ],
+    "GARDEN_RED": [
+        "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_RED}}.</small></h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_RED_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_RED_OR_NO}}"
+    ],
+    "GARDEN_SECOND_OR_NO": {
+        "1": "",
+        "2": "\n<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
+    },
     "GUEST": [
         "Guest <mark>[{{GUEST_TRUE_NAME}}, {{GUEST_CATEGORY}}]</mark>"
     ],
@@ -2514,6 +2626,26 @@
         "99": "Letter of introduction to a high-level NPC of a rival House extolling NPC's service to that House",
         "100": "3.5 liters of glue"
     },
+    "INTERIOR_COLORLESS_OR_NO": {
+        "1": "",
+        "2": "\n<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>\n<p>{{ENCOUNTER_INTERIOR_COLORLESS}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
+    },
+    "INTERIOR_HEART_OR_NO": {
+        "1": "",
+        "2": "\n<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>\n<p>{{ENCOUNTER_INTERIOR_HEART}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
+    },
+    "INTERIOR_OR_NO": {
+        "1": "",
+        "2": "\n<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>\n<p>{{ENCOUNTER_INTERIOR}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
+    },
+    "INTERIOR_PALE_OR_NO": {
+        "1": "",
+        "2": "\n<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>\n<p>{{ENCOUNTER_INTERIOR_PALE}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
+    },
+    "INTERIOR_RED_OR_NO": {
+        "1": "",
+        "2": "\n<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>\n<p>{{ENCOUNTER_INTERIOR_RED}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
+    },
     "INTERIOR_ROOM": [
         "Hall",
         "Parlor",
@@ -2621,10 +2753,6 @@
         "WC",
         "Fountain"
     ],
-    "INTERIOR_OR_NO": {
-        "1": "",
-        "2": "\n<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>\n<p>{{ENCOUNTER_INTERIOR}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
-    },
     "LAST_NAME": [
         "Orben",
         "Klove",
@@ -2799,10 +2927,12 @@
     "MOUNTAIN": [
         "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_THEME}}.</small></h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
-    "MOUNTAIN_SECOND_OR_NO": {
-        "1": "",
-        "2": "\n<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
-    },
+    "MOUNTAIN_COLORLESS": [
+        "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_COLORLESS}}.</small></h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_COLORLESS_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_COLORLESS_OR_NO}}"
+    ],
+    "MOUNTAIN_HEART": [
+        "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_HEART}}.</small></h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_HEART_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_HEART_OR_NO}}"
+    ],
     "MOUNTAIN_LANDMARK": [
         "Bridge",
         "Entrance to interior {{INTERIOR_ROOM}} (in cave, etc)",
@@ -2903,6 +3033,16 @@
         "Orb Loc",
         "Swamp"
     ],
+    "MOUNTAIN_PALE": [
+        "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_PALE}}.</small></h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_PALE_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_PALE_OR_NO}}"
+    ],
+    "MOUNTAIN_RED": [
+        "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_RED}}.</small></h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_RED_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_RED_OR_NO}}"
+    ],
+    "MOUNTAIN_SECOND_OR_NO": {
+        "1": "",
+        "2": "\n<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
+    },
     "NAMED_NPC_APPEARANCE": [
         "Wears wolf fur and monocle",
         "Black eyes, red robes",
@@ -3602,27 +3742,47 @@
         "152": "Summon (<strong>lotfp</strong>)",
         "180": "{{SPELL_ARNPL}}"
     },
-    "SPELL_VAM": [
-        "A Blaze in the Northern Sky (<strong>vam</strong>)",
-        "Chaosgoat Law (<strong>vam</strong>)",
-        "Deathlike Silence (<strong>vam</strong>)",
-        "Funeral Fog (<strong>vam</strong>)",
-        "Goat Perversion (<strong>vam</strong>)",
+    "SPELL_ALCHEMY": [
+        "Amulet of the Open Hand (<strong>m&m</strong>)",
+        "Deliver from Malison (<strong>m&m</strong>)",
+        "Heka-Mirror (<strong>m&m</strong>)",
+        "Seal ofRetribution (<strong>m&m</strong>)",
+        "Seal of the Wonder-Worker King (<strong>m&m</strong>)",
+        "Scapegoat (<strong>m&m</strong>)",
+        "Writ of the Otherworld (<strong>m&m</strong>)",
+        "Rite of the Seventh Day (<strong>m&m</strong>)",
+        "Cure (<strong>m&m</strong>)",
+        "Wilson's Orange Draining (<strong>m&m</strong>)",
+        "Death Unto Life (<strong>m&m</strong>)",
+        "Salvation (<strong>m&m</strong>)",
+        "Milk & Honey (<strong>m&m</strong>)",
+        "Salvific Apport (<strong>m&m</strong>)",
+        "Aura of Renewal (<strong>m&m</strong>)",
+        "Last Oath (<strong>m&m</strong>)"
+    ],
+    "SPELL_ARNPL": [
+        "Eelcurse (<strong>ar&pl</strong>)",
+        "Hideous Vomiting (<strong>ar&pl</strong>)",
+        "Power Word: Bleed (<strong>ar&pl</strong>)",
+        "Power Word: Crawl (<strong>ar&pl</strong>)",
+        "Side Step (<strong>ar&pl</strong>)",
+        "Web of Thorns (<strong>ar&pl</strong>)",
+        "White Tentacles (<strong>ar&pl</strong>)"
+    ],
+    "SPELL_DIVINATION": [
+        "Astral Projection (<strong>w&w</strong>)",
+        "Conduit (<strong>w&w</strong>)",
+        "Ethereal Boundary (<strong>w&w</strong>)",
+        "Hekaphage (<strong>w&w</strong>)",
+        "Plasmic Key (<strong>w&w</strong>)",
+        "Reality Shift (<strong>w&w</strong>)",
+        "Second Sight (<strong>w&w</strong>)",
+        "Shroud (<strong>w&w</strong>)",
         "I Am the Black Wizards (<strong>vam</strong>)",
         "Into the Crypts of Rays (<strong>vam</strong>)",
-        "Mistress of the Bleeding Sorrow (<strong>vam</strong>)",
-        "Morbid Metal (<strong>vam</strong>)",
         "My Journey to the Stars (<strong>vam</strong>)",
-        "Necromantical Screams (<strong>vam</strong>)",
-        "Raise the Dead (<strong>vam</strong>)",
-        "Sepulchral Voice (<strong>vam</strong>)",
-        "Storming Through Red Clouds and Holocaustwinds (<strong>vam</strong>)",
-        "Suicidal Winds (<strong>vam</strong>)",
-        "Those of the Unlight (<strong>vam</strong>)",
-        "Transform All Suffering into Plagues (<strong>vam</strong>)",
-        "Transylvanian Hunger (<strong>vam</strong>)",
-        "Triumph of Death (<strong>vam</strong>)",
-        "Volcanic Slut (<strong>vam</strong>)"
+        "Chewing Through the Membranes of Time and Space (<strong>ec</strong>)",
+        "Those Who Dwell in Stellar Void (<strong>ec</strong>)"
     ],
     "SPELL_EC": [
         "Anywhere Out of This World (<strong>ec</strong>)",
@@ -3648,14 +3808,68 @@
         "The Voyagers Beneath the Mare Imbrium (<strong>ec</strong>)",
         "You're Just a Dream (<strong>ec</strong>)"
     ],
-    "SPELL_ARNPL": [
-        "Eelcurse (<strong>ar&pl</strong>)",
-        "Hideous Vomiting (<strong>ar&pl</strong>)",
+    "SPELL_ENCHANTMENT": [
+        "Bewitch (<strong>w&w</strong>)",
+        "Comprehension (<strong>w&w</strong>)",
+        "Dominate (<strong>w&w</strong>)",
+        "Dread Manifestation (<strong>w&w</strong>)",
+        "Dust of the Sandman (<strong>w&w</strong>)",
+        "Fascinating Gaze (<strong>w&w</strong>)",
+        "Obsecration (<strong>w&w</strong>)",
+        "Plasmic Manipulation (<strong>w&w</strong>)",
+        "Blackstaff (<strong>m&m</strong>)",
+        "Bramble Burrows (<strong>m&m</strong>)",
+        "Seven Steeped Stones (<strong>m&m</strong>)",
+        "Geas (<strong>m&m</strong>)",
+        "Tune ofthe Yondkind (<strong>m&m</strong>)",
+        "Watchful Head (<strong>m&m</strong>)",
+        "Witchmark (<strong>m&m</strong>)",
+        "WolfWitching (<strong>m&m</strong>)",
+        "Command (<strong>lotfp</strong>)",
+        "Suggestion (<strong>lotfp</strong>)",
         "Power Word: Bleed (<strong>ar&pl</strong>)",
         "Power Word: Crawl (<strong>ar&pl</strong>)",
-        "Side Step (<strong>ar&pl</strong>)",
-        "Web of Thorns (<strong>ar&pl</strong>)",
-        "White Tentacles (<strong>ar&pl</strong>)"
+        "Hideous Vomiting (<strong>ar&pl</strong>)",
+        "Eelcurse (<strong>ar&pl</strong>)",
+        "Deathlike Silence (<strong>vam</strong>)",
+        "Storming Through Red Clouds and Holocaustwinds (<strong>vam</strong>)",
+        "Triumph of Death (<strong>vam</strong>)",
+        "You're Just a Dream (<strong>ec</strong>)"
+    ],
+    "SPELL_EXORCISM": [
+        "Turn Undead (<strong>lotfp</strong>)"
+    ],
+    "SPELL_ILLUSION": [
+        "Fold Space (<strong>w&w</strong>)",
+        "Living Gate (<strong>w&w</strong>)",
+        "Mirror Road (<strong>w&w</strong>)",
+        "Portal (<strong>w&w</strong>)",
+        "Recall (<strong>w&w</strong>)",
+        "Revisitation (<strong>w&w</strong>)",
+        "Spatial Coincidence (<strong>w&w</strong>)",
+        "Transmit Breath (<strong>w&w</strong>)",
+        "The Rope Trick (<strong>m&m</strong>)",
+        "Tangle (<strong>m&m</strong>)",
+        "Shuffle the Mortal Coil (<strong>m&m</strong>)",
+        "Stupendous Strand (<strong>m&m</strong>)",
+        "Length ofa String (<strong>m&m</strong>)",
+        "Rope is Always Handy (<strong>m&m</strong>)",
+        "Ropebind (<strong>m&m</strong>)",
+        "Cat's Cradle (<strong>m&m</strong>)",
+        "Maze (<strong>lotfp</strong>)",
+        "Side Step (<strong>ar&pl</strong>)"
+    ],
+    "SPELL_LOTFP": [
+        "Summon (<strong>lotfp</strong>)",
+        "Command (<strong>lotfp</strong>)",
+        "Cause Fear* (<strong>lotfp</strong>)",
+        "Cause Disease* (<strong>lotfp</strong>)",
+        "False Seeing* (<strong>lotfp</strong>)",
+        "Maze (<strong>lotfp</strong>)",
+        "Putrefy Food and Drink* (<strong>lotfp</strong>)",
+        "Bestow Curse* (<strong>lotfp</strong>)",
+        "Suggestion (<strong>lotfp</strong>)",
+        "Turn Undead (<strong>lotfp</strong>)"
     ],
     "SPELL_MM": [
         "Amulet of the Open Hand (<strong>m&m</strong>)",
@@ -3698,6 +3912,127 @@
         "Rope is Always Handy  (<strong>m&m</strong>)",
         "Ropebind (<strong>m&m</strong>)",
         "Cat's Cradle (<strong>m&m</strong>)"
+    ],
+    "SPELL_NECROMANCY": [
+        "Death Ray (<strong>w&w</strong>)",
+        "Lich-Craft (<strong>w&w</strong>)",
+        "Life Channel (<strong>w&w</strong>)",
+        "Occult Consultation (<strong>w&w</strong>)",
+        "Poltergeist (<strong>w&w</strong>)",
+        "Soul Harvest (<strong>w&w</strong>)",
+        "Soul Transfer (<strong>w&w</strong>)",
+        "Transmigration (<strong>w&w</strong>)",
+        "Funeral Fog (<strong>vam</strong>)",
+        "Necromantical Screams (<strong>vam</strong>)",
+        "Raise the Dead (<strong>vam</strong>)",
+        "Sepulchral Voice (<strong>vam</strong>)",
+        "Transform All Suffering into Plagues (<strong>vam</strong>)",
+        "Transylvanian Hunger (<strong>vam</strong>)",
+        "Killing Yourself to Live (<strong>ec</strong>)",
+        "Curses Scribed in Gore (<strong>ec</strong>)"
+    ],
+    "SPELL_OSR": [
+        "Catherine (<strong>osr</strong>)"
+    ],
+    "SPELL_OTHER": [
+        "Chariot of Air (<strong>w&w</strong>)",
+        "Pyrokinesis (<strong>w&w</strong>)",
+        "Rockspeech (<strong>w&w</strong>)",
+        "Seduce Waters (<strong>w&w</strong>)",
+        "Spell of Subterranean Gullets (<strong>w&w</strong>)",
+        "Stormspeech (<strong>w&w</strong>)",
+        "Trapped Lightning (<strong>w&w</strong>)",
+        "Wind Barrier (<strong>w&w</strong>)",
+        "A Blaze in the Northern Sky (<strong>vam</strong>)",
+        "Suicidal Winds (<strong>vam</strong>)",
+        "Anywhere Out of This World (<strong>ec</strong>)",
+        "Arguments Against Design (<strong>ec</strong>)",
+        "An Autumn to Cripple Children (<strong>ec</strong>)",
+        "Baptized by the Black Urine of the Deceased (<strong>ec</strong>)",
+        "Daylight... (<strong>ec.7</strong>)",
+        "Electric Grave (<strong>ec</strong>)",
+        "...Code Deciph... (<strong>ec.9</strong>)",
+        "Graveyard of the Lightness Planets (<strong>ec</strong>)",
+        "Lunar Womb (<strong>ec</strong>)",
+        "...Masquerade... (<strong>ec.13</strong>)",
+        "Omnipotent Crawling Chaos (<strong>ec</strong>)",
+        "The Planet That Once Used To Absorb Flesh In Order To Achieve Divinity And Immortality (Suffocated To The Flesh That It Desired) (<strong>ec</strong>)",
+        "Vo... (<strong>ec.20</strong>)",
+        "The Voyagers Beneath the Mare Imbrium (<strong>ec</strong>)",
+        "{{SPELL}} and {{SPELL}}"
+    ],
+    "SPELL_SACRED": [
+        "Cause Fear* (<strong>lotfp</strong>)",
+        "Cause Disease* (<strong>lotfp</strong>)",
+        "False Seeing* (<strong>lotfp</strong>)",
+        "Putrefy Food and Drink* (<strong>lotfp</strong>)",
+        "Bestow Curse* (<strong>lotfp</strong>)",
+        "Blasphemous Frolic (<strong>ar&pl</strong>)",
+        "Gout Of Corruption (<strong>ar&pl</strong>)",
+        "Tears of Blood (<strong>ar&pl</strong>)"
+    ],
+    "SPELL_SUMMONING": [
+        "Bind (<strong>w&w</strong>)",
+        "Circle of Protection (<strong>w&w</strong>)",
+        "Conjure (<strong>w&w</strong>)",
+        "Covenant (<strong>w&w</strong>)",
+        "Demonic Assassin (<strong>w&w</strong>)",
+        "Gleam (<strong>w&w</strong>)",
+        "Miasma (<strong>w&w</strong>)",
+        "Petition (<strong>w&w</strong>)",
+        "Catherine (<strong>osr</strong>)",
+        "Summon (<strong>lotfp</strong>)",
+        "White Tentacles (<strong>ar&pl</strong>)",
+        "Chaosgoat Law (<strong>vam</strong>)",
+        "Robe of Ectoplasm (<strong>ec</strong>)",
+        "Saturn and Sacrifice (<strong>ec</strong>)"
+    ],
+    "SPELL_TRANSMUTATION": [
+        "Bloodlust (<strong>w&w</strong>)",
+        "Genoplasm (<strong>w&w</strong>)",
+        "Indolence (<strong>w&w</strong>)",
+        "Quickening (<strong>w&w</strong>)",
+        "Ravening (<strong>w&w</strong>)",
+        "Serpent's Kiss (<strong>w&w</strong>)",
+        "Totem (<strong>w&w</strong>)",
+        "Vitalize (<strong>w&w</strong>)",
+        "Arachnid Aspect (<strong>m&m</strong>)",
+        "Arachnid Allure (<strong>m&m</strong>)",
+        "Call the Cluster (<strong>m&m</strong>)",
+        "Silky Spinneret (<strong>m&m</strong>)",
+        "Spidershape (<strong>m&m</strong>)",
+        "Tarantella (<strong>m&m</strong>)",
+        "Venomous Fang (<strong>m&m</strong>)",
+        "Web (<strong>m&m</strong>)",
+        "Web of Thorns (<strong>ar&pl</strong>)",
+        "Goat Perversion (<strong>vam</strong>)",
+        "Mistress of the Bleeding Sorrow (<strong>vam</strong>)",
+        "Morbid Metal (<strong>vam</strong>)",
+        "Those of the Unlight (<strong>vam</strong>)",
+        "Volcanic Slut (<strong>vam</strong>)",
+        "The Thrash of Naked Limbs (<strong>ec</strong>)"
+    ],
+    "SPELL_VAM": [
+        "A Blaze in the Northern Sky (<strong>vam</strong>)",
+        "Chaosgoat Law (<strong>vam</strong>)",
+        "Deathlike Silence (<strong>vam</strong>)",
+        "Funeral Fog (<strong>vam</strong>)",
+        "Goat Perversion (<strong>vam</strong>)",
+        "I Am the Black Wizards (<strong>vam</strong>)",
+        "Into the Crypts of Rays (<strong>vam</strong>)",
+        "Mistress of the Bleeding Sorrow (<strong>vam</strong>)",
+        "Morbid Metal (<strong>vam</strong>)",
+        "My Journey to the Stars (<strong>vam</strong>)",
+        "Necromantical Screams (<strong>vam</strong>)",
+        "Raise the Dead (<strong>vam</strong>)",
+        "Sepulchral Voice (<strong>vam</strong>)",
+        "Storming Through Red Clouds and Holocaustwinds (<strong>vam</strong>)",
+        "Suicidal Winds (<strong>vam</strong>)",
+        "Those of the Unlight (<strong>vam</strong>)",
+        "Transform All Suffering into Plagues (<strong>vam</strong>)",
+        "Transylvanian Hunger (<strong>vam</strong>)",
+        "Triumph of Death (<strong>vam</strong>)",
+        "Volcanic Slut (<strong>vam</strong>)"
     ],
     "SPELL_WW": [
         "Astral Projection (<strong>w&w</strong>)",
@@ -3756,201 +4091,6 @@
         "Transmit Breath (<strong>w&w</strong>)",
         "Vitalize (<strong>w&w</strong>)",
         "Wind Barrier (<strong>w&w</strong>)"
-    ],
-    "SPELL_LOTFP": [
-        "Summon (<strong>lotfp</strong>)",
-        "Command (<strong>lotfp</strong>)",
-        "Cause Fear* (<strong>lotfp</strong>)",
-        "Cause Disease* (<strong>lotfp</strong>)",
-        "False Seeing* (<strong>lotfp</strong>)",
-        "Maze (<strong>lotfp</strong>)",
-        "Putrefy Food and Drink* (<strong>lotfp</strong>)",
-        "Bestow Curse* (<strong>lotfp</strong>)",
-        "Suggestion (<strong>lotfp</strong>)",
-        "Turn Undead (<strong>lotfp</strong>)"
-    ],
-    "SPELL_OSR": [
-        "Catherine (<strong>osr</strong>)"
-    ],
-    "SPELL_ALCHEMY": [
-        "Amulet of the Open Hand (<strong>m&m</strong>)",
-        "Deliver from Malison (<strong>m&m</strong>)",
-        "Heka-Mirror (<strong>m&m</strong>)",
-        "Seal ofRetribution (<strong>m&m</strong>)",
-        "Seal of the Wonder-Worker King (<strong>m&m</strong>)",
-        "Scapegoat (<strong>m&m</strong>)",
-        "Writ of the Otherworld (<strong>m&m</strong>)",
-        "Rite of the Seventh Day (<strong>m&m</strong>)",
-        "Cure (<strong>m&m</strong>)",
-        "Wilson's Orange Draining (<strong>m&m</strong>)",
-        "Death Unto Life (<strong>m&m</strong>)",
-        "Salvation (<strong>m&m</strong>)",
-        "Milk & Honey (<strong>m&m</strong>)",
-        "Salvific Apport (<strong>m&m</strong>)",
-        "Aura of Renewal (<strong>m&m</strong>)",
-        "Last Oath (<strong>m&m</strong>)"
-    ],
-    "SPELL_SUMMONING": [
-        "Bind (<strong>w&w</strong>)",
-        "Circle of Protection (<strong>w&w</strong>)",
-        "Conjure (<strong>w&w</strong>)",
-        "Covenant (<strong>w&w</strong>)",
-        "Demonic Assassin (<strong>w&w</strong>)",
-        "Gleam (<strong>w&w</strong>)",
-        "Miasma (<strong>w&w</strong>)",
-        "Petition (<strong>w&w</strong>)",
-        "Catherine (<strong>osr</strong>)",
-        "Summon (<strong>lotfp</strong>)",
-        "White Tentacles (<strong>ar&pl</strong>)",
-        "Chaosgoat Law (<strong>vam</strong>)",
-        "Robe of Ectoplasm (<strong>ec</strong>)",
-        "Saturn and Sacrifice (<strong>ec</strong>)"
-    ],
-    "SPELL_ENCHANTMENT": [
-        "Bewitch (<strong>w&w</strong>)",
-        "Comprehension (<strong>w&w</strong>)",
-        "Dominate (<strong>w&w</strong>)",
-        "Dread Manifestation (<strong>w&w</strong>)",
-        "Dust of the Sandman (<strong>w&w</strong>)",
-        "Fascinating Gaze (<strong>w&w</strong>)",
-        "Obsecration (<strong>w&w</strong>)",
-        "Plasmic Manipulation (<strong>w&w</strong>)",
-        "Blackstaff (<strong>m&m</strong>)",
-        "Bramble Burrows (<strong>m&m</strong>)",
-        "Seven Steeped Stones (<strong>m&m</strong>)",
-        "Geas (<strong>m&m</strong>)",
-        "Tune ofthe Yondkind (<strong>m&m</strong>)",
-        "Watchful Head (<strong>m&m</strong>)",
-        "Witchmark (<strong>m&m</strong>)",
-        "WolfWitching (<strong>m&m</strong>)",
-        "Command (<strong>lotfp</strong>)",
-        "Suggestion (<strong>lotfp</strong>)",
-        "Power Word: Bleed (<strong>ar&pl</strong>)",
-        "Power Word: Crawl (<strong>ar&pl</strong>)",
-        "Hideous Vomiting (<strong>ar&pl</strong>)",
-        "Eelcurse (<strong>ar&pl</strong>)",
-        "Deathlike Silence (<strong>vam</strong>)",
-        "Storming Through Red Clouds and Holocaustwinds (<strong>vam</strong>)",
-        "Triumph of Death (<strong>vam</strong>)",
-        "You're Just a Dream (<strong>ec</strong>)"
-    ],
-    "SPELL_EXORCISM": [
-        "Turn Undead (<strong>lotfp</strong>)"
-    ],
-    "SPELL_NECROMANCY": [
-        "Death Ray (<strong>w&w</strong>)",
-        "Lich-Craft (<strong>w&w</strong>)",
-        "Life Channel (<strong>w&w</strong>)",
-        "Occult Consultation (<strong>w&w</strong>)",
-        "Poltergeist (<strong>w&w</strong>)",
-        "Soul Harvest (<strong>w&w</strong>)",
-        "Soul Transfer (<strong>w&w</strong>)",
-        "Transmigration (<strong>w&w</strong>)",
-        "Funeral Fog (<strong>vam</strong>)",
-        "Necromantical Screams (<strong>vam</strong>)",
-        "Raise the Dead (<strong>vam</strong>)",
-        "Sepulchral Voice (<strong>vam</strong>)",
-        "Transform All Suffering into Plagues (<strong>vam</strong>)",
-        "Transylvanian Hunger (<strong>vam</strong>)",
-        "Killing Yourself to Live (<strong>ec</strong>)",
-        "Curses Scribed in Gore (<strong>ec</strong>)"
-    ],
-    "SPELL_TRANSMUTATION": [
-        "Bloodlust (<strong>w&w</strong>)",
-        "Genoplasm (<strong>w&w</strong>)",
-        "Indolence (<strong>w&w</strong>)",
-        "Quickening (<strong>w&w</strong>)",
-        "Ravening (<strong>w&w</strong>)",
-        "Serpent's Kiss (<strong>w&w</strong>)",
-        "Totem (<strong>w&w</strong>)",
-        "Vitalize (<strong>w&w</strong>)",
-        "Arachnid Aspect (<strong>m&m</strong>)",
-        "Arachnid Allure (<strong>m&m</strong>)",
-        "Call the Cluster (<strong>m&m</strong>)",
-        "Silky Spinneret (<strong>m&m</strong>)",
-        "Spidershape (<strong>m&m</strong>)",
-        "Tarantella (<strong>m&m</strong>)",
-        "Venomous Fang (<strong>m&m</strong>)",
-        "Web (<strong>m&m</strong>)",
-        "Web of Thorns (<strong>ar&pl</strong>)",
-        "Goat Perversion (<strong>vam</strong>)",
-        "Mistress of the Bleeding Sorrow (<strong>vam</strong>)",
-        "Morbid Metal (<strong>vam</strong>)",
-        "Those of the Unlight (<strong>vam</strong>)",
-        "Volcanic Slut (<strong>vam</strong>)",
-        "The Thrash of Naked Limbs (<strong>ec</strong>)"
-    ],
-    "SPELL_ILLUSION": [
-        "Fold Space (<strong>w&w</strong>)",
-        "Living Gate (<strong>w&w</strong>)",
-        "Mirror Road (<strong>w&w</strong>)",
-        "Portal (<strong>w&w</strong>)",
-        "Recall (<strong>w&w</strong>)",
-        "Revisitation (<strong>w&w</strong>)",
-        "Spatial Coincidence (<strong>w&w</strong>)",
-        "Transmit Breath (<strong>w&w</strong>)",
-        "The Rope Trick (<strong>m&m</strong>)",
-        "Tangle (<strong>m&m</strong>)",
-        "Shuffle the Mortal Coil (<strong>m&m</strong>)",
-        "Stupendous Strand (<strong>m&m</strong>)",
-        "Length ofa String (<strong>m&m</strong>)",
-        "Rope is Always Handy (<strong>m&m</strong>)",
-        "Ropebind (<strong>m&m</strong>)",
-        "Cat's Cradle (<strong>m&m</strong>)",
-        "Maze (<strong>lotfp</strong>)",
-        "Side Step (<strong>ar&pl</strong>)"
-    ],
-    "SPELL_DIVINATION": [
-        "Astral Projection (<strong>w&w</strong>)",
-        "Conduit (<strong>w&w</strong>)",
-        "Ethereal Boundary (<strong>w&w</strong>)",
-        "Hekaphage (<strong>w&w</strong>)",
-        "Plasmic Key (<strong>w&w</strong>)",
-        "Reality Shift (<strong>w&w</strong>)",
-        "Second Sight (<strong>w&w</strong>)",
-        "Shroud (<strong>w&w</strong>)",
-        "I Am the Black Wizards (<strong>vam</strong>)",
-        "Into the Crypts of Rays (<strong>vam</strong>)",
-        "My Journey to the Stars (<strong>vam</strong>)",
-        "Chewing Through the Membranes of Time and Space (<strong>ec</strong>)",
-        "Those Who Dwell in Stellar Void (<strong>ec</strong>)"
-    ],
-    "SPELL_OTHER": [
-        "Chariot of Air (<strong>w&w</strong>)",
-        "Pyrokinesis (<strong>w&w</strong>)",
-        "Rockspeech (<strong>w&w</strong>)",
-        "Seduce Waters (<strong>w&w</strong>)",
-        "Spell of Subterranean Gullets (<strong>w&w</strong>)",
-        "Stormspeech (<strong>w&w</strong>)",
-        "Trapped Lightning (<strong>w&w</strong>)",
-        "Wind Barrier (<strong>w&w</strong>)",
-        "A Blaze in the Northern Sky (<strong>vam</strong>)",
-        "Suicidal Winds (<strong>vam</strong>)",
-        "Anywhere Out of This World (<strong>ec</strong>)",
-        "Arguments Against Design (<strong>ec</strong>)",
-        "An Autumn to Cripple Children (<strong>ec</strong>)",
-        "Baptized by the Black Urine of the Deceased (<strong>ec</strong>)",
-        "Daylight... (<strong>ec.7</strong>)",
-        "Electric Grave (<strong>ec</strong>)",
-        "...Code Deciph... (<strong>ec.9</strong>)",
-        "Graveyard of the Lightness Planets (<strong>ec</strong>)",
-        "Lunar Womb (<strong>ec</strong>)",
-        "...Masquerade... (<strong>ec.13</strong>)",
-        "Omnipotent Crawling Chaos (<strong>ec</strong>)",
-        "The Planet That Once Used To Absorb Flesh In Order To Achieve Divinity And Immortality (Suffocated To The Flesh That It Desired) (<strong>ec</strong>)",
-        "Vo... (<strong>ec.20</strong>)",
-        "The Voyagers Beneath the Mare Imbrium (<strong>ec</strong>)",
-        "{{SPELL}} and {{SPELL}}"
-    ],
-    "SPELL_SACRED": [
-        "Cause Fear* (<strong>lotfp</strong>)",
-        "Cause Disease* (<strong>lotfp</strong>)",
-        "False Seeing* (<strong>lotfp</strong>)",
-        "Putrefy Food and Drink* (<strong>lotfp</strong>)",
-        "Bestow Curse* (<strong>lotfp</strong>)",
-        "Blasphemous Frolic (<strong>ar&pl</strong>)",
-        "Gout Of Corruption (<strong>ar&pl</strong>)",
-        "Tears of Blood (<strong>ar&pl</strong>)"
     ],
     "TREASURE": {
         "6": "valuable {{OBJECT}} worth 5d10 x 100 gold pieces",

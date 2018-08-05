@@ -2,11 +2,10 @@ import argparse
 import json
 import re
 
-
 from random import randint
 
 # Maximum number of levels deep we should go on embedded random tables
-MAX_DEPTH = 20
+MAX_DEPTH = 30
 
 # Keywords that have special meaning and should be ignored by parse_and_replace()
 RESTRICTED_KEYWORDS = [
