@@ -309,7 +309,7 @@
     ],
     "BOOK_RELIGION_TYPE": [
         "Commentary",
-        "Sacred text"
+        "Sacred text: {{SPELL_SACRED}}"
     ],
     "CARRYING_SOMETHING_OR_NO": {
         "3": "",
@@ -3536,13 +3536,13 @@
     "SPELL": {
         "20": "{{SPELL_VAM}}",
         "42": "{{SPELL_EC}}",
-        "52": "{{SPELL_ARNPL}}",
-        "92": "{{SPELL_MM}}",
-        "148": "{{SPELL_WW}}",
-        "157": "{{SPELL_LOTFP}}",
-        "173": "{{SPELL_BTAM}}",
-        "174": "{{SPELL_OSR}}",
-        "180": "Summon (LotFP)"
+        "82": "{{SPELL_MM}}",
+        "138": "{{SPELL_WW}}",
+        "147": "{{SPELL_LOTFP}}",
+        "163": "{{SPELL_BTAM}}",
+        "164": "{{SPELL_OSR}}",
+        "172": "Summon (LotFP)",
+        "200": "{{SPELL_ARNPL}}"
     },
     "SPELL_VAM": [
         "A Blaze in the Northern Sky (VAM)",
@@ -3591,14 +3591,11 @@
         "You're Just a Dream (EC)"
     ],
     "SPELL_ARNPL": [
-        "Blasphemous Frolic (AR&PL)",
         "Eelcurse (AR&PL)",
-        "Gout Of Corruption (AR&PL)",
         "Hideous Vomiting (AR&PL)",
         "Power Word: Bleed (AR&PL)",
         "Power Word: Crawl (AR&PL)",
         "Side Step (AR&PL)",
-        "Tears of Blood (AR&PL)",
         "Web of Thorns (AR&PL)",
         "White Tentacles (AR&PL)"
     ],
@@ -3729,7 +3726,7 @@
         "Read Brains (BTAM)",
         "Speak with Insects (BTAM)",
         "A Spell to Grant One's Heart's Desire (BTAM)",
-        "Summon: Buzzing Demon (BTAM)"
+        "Summon (BTAM)"
     ],
     "SPELL_OSR": [
         "Catherine (OSR)"
@@ -3773,7 +3770,7 @@
         "Chaosgoat Law (VAM)",
         "Robe of Ectoplasm (EC)",
         "Saturn and Sacrifice (EC)",
-        "Summon: Buzzing Demon (BTAM)"
+        "Summon (BTAM)"
     ],
     "SPELL_ENCHANTMENT": [
         "Bewitch (W&W)",
