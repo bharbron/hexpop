@@ -697,7 +697,7 @@
     },
     "ENCOUNTER_FOREST_DAY_OR_NO": {
         "3": "",
-        "6": "\n<p><strong>day</strong> {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "6": "<p><strong>day</strong> {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_FOREST_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -753,27 +753,27 @@
     },
     "ENCOUNTER_FOREST_NIGHT_OR_NO": {
         "3": "",
-        "6": "\n<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "6": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_FOREST_COLORLESS_NIGHT_OR_NO": {
         "2": "",
-        "5": "\n<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "6": "\n<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "5": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_FOREST_HEART_NIGHT_OR_NO": {
         "3": "",
-        "5": "\n<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "6": "\n<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "5": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_FOREST_PALE_NIGHT_OR_NO": {
         "3": "",
-        "5": "\n<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "6": "\n<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "5": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_FOREST_RED_NIGHT_OR_NO": {
         "3": "",
-        "5": "\n<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "6": "\n<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "5": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_GARDEN_DAY": {
         "5": "Little Crocodile",
@@ -802,7 +802,7 @@
     },
     "ENCOUNTER_GARDEN_DAY_OR_NO": {
         "3": "",
-        "6": "\n<p><strong>day</strong> {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "6": "<p><strong>day</strong> {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_GARDEN_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -853,27 +853,27 @@
     },
     "ENCOUNTER_GARDEN_NIGHT_OR_NO": {
         "3": "",
-        "6": "\n<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "6": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_GARDEN_COLORLESS_NIGHT_OR_NO": {
         "2": "",
-        "3": "\n<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "4": "\n<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "3": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "4": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_GARDEN_HEART_NIGHT_OR_NO": {
         "2": "",
-        "3": "\n<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "4": "\n<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "3": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "4": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_GARDEN_PALE_NIGHT_OR_NO": {
         "2": "",
-        "3": "\n<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "4": "\n<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "3": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "4": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_GARDEN_RED_NIGHT_OR_NO": {
         "2": "",
-        "3": "\n<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "4": "\n<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "3": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "4": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_HOUSE": [
         "{{ENCOUNTER_HOUSE_OF_HEARTS}}",
@@ -1039,7 +1039,7 @@
     },
     "ENCOUNTER_MOUNTAIN_DAY_OR_NO": {
         "3": "",
-        "6": "\n<p><strong>day</strong> {{ENCOUNTER_MOUNTAIN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "6": "<p><strong>day</strong> {{ENCOUNTER_MOUNTAIN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_MOUNTAIN_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -1092,27 +1092,27 @@
     },
     "ENCOUNTER_MOUNTAIN_NIGHT_OR_NO": {
         "3": "",
-        "6": "\n<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "6": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_MOUNTAIN_COLORLESS_NIGHT_OR_NO": {
         "3": "",
-        "5": "\n<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "6": "\n<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "5": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_MOUNTAIN_HEART_NIGHT_OR_NO": {
         "3": "",
-        "5": "\n<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "6": "\n<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "5": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_MOUNTAIN_PALE_NIGHT_OR_NO": {
         "3": "",
-        "5": "\n<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "6": "\n<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "5": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_MOUNTAIN_RED_NIGHT_OR_NO": {
         "3": "",
-        "5": "\n<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "6": "\n<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
+        "5": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_PALE_HOUSE": {
         "3": "Sleeper",
@@ -1478,7 +1478,7 @@
     ],
     "FOREST_SECOND_OR_NO": {
         "1": "",
-        "2": "\n<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
+        "2": "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
     },
     "GARDEN": [
         "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_THEME}}.</small></h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
@@ -1595,7 +1595,7 @@
     ],
     "GARDEN_SECOND_OR_NO": {
         "1": "",
-        "2": "\n<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
+        "2": "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
     },
     "GUEST": [
         "Guest <mark>[{{GUEST_TRUE_NAME}}, {{GUEST_CATEGORY}}]</mark>"
@@ -2633,23 +2633,23 @@
     },
     "INTERIOR_COLORLESS_OR_NO": {
         "1": "",
-        "2": "\n<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>\n<p>{{ENCOUNTER_INTERIOR_COLORLESS}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
+        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3><p>{{ENCOUNTER_INTERIOR_COLORLESS}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
     },
     "INTERIOR_HEART_OR_NO": {
         "1": "",
-        "2": "\n<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>\n<p>{{ENCOUNTER_INTERIOR_HEART}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
+        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3><p>{{ENCOUNTER_INTERIOR_HEART}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
     },
     "INTERIOR_OR_NO": {
         "1": "",
-        "2": "\n<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>\n<p>{{ENCOUNTER_INTERIOR}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
+        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3><p>{{ENCOUNTER_INTERIOR}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
     },
     "INTERIOR_PALE_OR_NO": {
         "1": "",
-        "2": "\n<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>\n<p>{{ENCOUNTER_INTERIOR_PALE}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
+        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3><p>{{ENCOUNTER_INTERIOR_PALE}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
     },
     "INTERIOR_RED_OR_NO": {
         "1": "",
-        "2": "\n<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>\n<p>{{ENCOUNTER_INTERIOR_RED}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
+        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3><p>{{ENCOUNTER_INTERIOR_RED}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
     },
     "INTERIOR_ROOM": [
         "Hall",
@@ -3046,7 +3046,7 @@
     ],
     "MOUNTAIN_SECOND_OR_NO": {
         "1": "",
-        "2": "\n<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
+        "2": "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
     },
     "NAMED_NPC_APPEARANCE": [
         "Wears wolf fur and monocle",
@@ -4104,10 +4104,10 @@
     },
     "TREASURE_OR_NO_EXTERIOR": {
         "4": "",
-        "6": "\n<p>Contains {{TREASURE}}.</p>"
+        "6": "<p>Contains {{TREASURE}}.</p>"
     },
     "TREASURE_OR_NO_INTERIOR": {
         "3": "",
-        "6": "\n<p>Contains {{TREASURE}}.</p>"
+        "6": "<p>Contains {{TREASURE}}.</p>"
     }
 }
