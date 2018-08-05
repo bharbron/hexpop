@@ -3735,7 +3735,7 @@
         "Witch/Wizard"
     ],
     "REWARD": {
-        "13": "{{TREASURE}}",
+        "10": "{{TREASURE}}",
         "16": "information",
         "18": "loyalty",
         "19": "a title of nobility",
@@ -3752,8 +3752,8 @@
         "138": "{{SPELL_WW}}",
         "148": "{{SPELL_LOTFP}}",
         "149": "{{SPELL_OSR}}",
-        "152": "Summon (<strong>lotfp</strong>)",
-        "180": "{{SPELL_ARNPL}}"
+        "177": "{{SPELL_ARNPL}}",
+        "180": "Summon (<strong>lotfp</strong>)"
     },
     "SPELL_ALCHEMY": [
         "Amulet of the Open Hand (<strong>m&m</strong>)",
@@ -4106,16 +4106,16 @@
         "Wind Barrier (<strong>w&w</strong>)"
     ],
     "TREASURE": {
-        "6": "valuable {{OBJECT}} worth 5d10 x 100 gold pieces",
-        "7": "magical {{OBJECT}}",
-        "8": "Spellbook: {{SPELL}}"
+        "28": "Spellbook: {{SPELL}}",
+        "40": "magical {{OBJECT}}",
+        "100": "valuable {{OBJECT}} worth 6d10 x 100 gold pieces"
     },
     "TREASURE_OR_NO_EXTERIOR": {
-        "82": "",
-        "100": "<p>Contains {{TREASURE}}.</p>"
+        "20": "<p>Contains {{TREASURE}}.</p>",
+        "100": ""
     },
     "TREASURE_OR_NO_INTERIOR": {
-        "75": "",
-        "100": "<p>Contains {{TREASURE}}.</p>"
+        "28": "<p>Contains {{TREASURE}}.</p>",
+        "100": ""
     }
 }
