@@ -445,7 +445,7 @@
     ],
     "COMPLICATION_OR_NO": {
         "1": "",
-        "2": ". {{COMPLICATION}}"
+        "2": " <small>{{COMPLICATION}}.</small>"
     },
     "DIAMOND_JOB": [
         "Majordomo",
@@ -622,7 +622,7 @@
     },
     "ENCOUNTER_FOREST_DAY_OR_NO": {
         "3": "",
-        "6": "\nDAY {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}."
+        "6": "\n<p><strong>day</strong> {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_FOREST_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -678,7 +678,7 @@
     },
     "ENCOUNTER_FOREST_NIGHT_OR_NO": {
         "3": "",
-        "6": "\nNIGHT {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}."
+        "6": "\n<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_GARDEN_DAY": {
         "5": "Little Crocodile",
@@ -707,7 +707,7 @@
     },
     "ENCOUNTER_GARDEN_DAY_OR_NO": {
         "3": "",
-        "6": "\nDAY {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}."
+        "6": "\n<p><strong>day</strong> {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_GARDEN_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -758,7 +758,7 @@
     },
     "ENCOUNTER_GARDEN_NIGHT_OR_NO": {
         "3": "",
-        "6": "\nNIGHT {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}."
+        "6": "\n<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_HOUSE": [
         "{{ENCOUNTER_HOUSE_OF_HEARTS}}",
@@ -908,7 +908,7 @@
     },
     "ENCOUNTER_MOUNTAIN_DAY_OR_NO": {
         "3": "",
-        "6": "\nDAY {{ENCOUNTER_MOUNTAIN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}."
+        "6": "\n<p><strong>day</strong> {{ENCOUNTER_MOUNTAIN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_MOUNTAIN_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -961,7 +961,7 @@
     },
     "ENCOUNTER_MOUNTAIN_NIGHT_OR_NO": {
         "3": "",
-        "6": "\nNIGHT {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}."
+        "6": "\n<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>"
     },
     "ENCOUNTER_PALE_HOUSE": {
         "3": "Sleeper",
@@ -1211,11 +1211,11 @@
         "Rasping"
     ],
     "FOREST": [
-        "{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
+        "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "FOREST_SECOND_OR_NO": {
         "1": "",
-        "2": "\n{{FOREST_LANDMARK}}{{COMPLICATION_OR_NO}}.{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
+        "2": "\n<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
     },
     "FOREST_LANDMARK": [
         "Bridge",
@@ -1318,11 +1318,11 @@
         "Swamp"
     ],
     "GARDEN": [
-        "{{GARDEN_LANDMARK}}{{COMPLICATION_OR_NO}}.{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
+        "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "GARDEN_SECOND_OR_NO": {
         "1": "",
-        "2": "\n{{GARDEN_LANDMARK}}{{COMPLICATION_OR_NO}}.{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
+        "2": "\n<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
     },
     "GARDEN_LANDMARK": [
         "Bridge",
@@ -2564,7 +2564,7 @@
     ],
     "INTERIOR_OR_NO": {
         "1": "",
-        "2": "\nInterior {{INTERIOR_ROOM}}{{PERPLEXITY_OR_NO}}.\n{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS_INTERIOR}}.{{TREASURE_OR_NO_INTERIOR}}"
+        "2": "\n<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>\n<p>{{ENCOUNTER_INTERIOR}}.{{NPC_DETAILS_INTERIOR}}</p>{{TREASURE_OR_NO_INTERIOR}}"
     },
     "LAST_NAME": [
         "Orben",
@@ -2738,11 +2738,11 @@
         "{{LOCATION}} On Quiet Side of Looking Glass"
     ],
     "MOUNTAIN": [
-        "{{MOUNTAIN_LANDMARK}}{{COMPLICATION_OR_NO}}.{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
+        "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "MOUNTAIN_SECOND_OR_NO": {
         "1": "",
-        "2": "\n{{MOUNTAIN_LANDMARK}}{{COMPLICATION_OR_NO}}.{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
+        "2": "\n<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
     },
     "MOUNTAIN_LANDMARK": [
         "Bridge",
@@ -2868,7 +2868,7 @@
         "Dark-haired, wears baroque black armor",
         "Wears bizarre cermonial crown, weak voice, thin-fingered",
         "High-strung, middle-aged, pale",
-        "Gracious,intelligent,seeminglykind",
+        "Gracious, intelligent, seemingly kind",
         "Touchy, easily angered, fastidiously dressed",
         "Sentimental, fragile, dressed in silver & white silks",
         "Tells outrageous stories no-one believes",
@@ -3059,8 +3059,8 @@
     },
     "NPC_DETAILS_INTERIOR": {
         "3": "",
-        "4": ". Wants you to {{ADVENTURE_HOOK}}",
-        "6": ". {{DOING_RELATIONSHIP}}. {{DOING_WANT}}. {{DOING_CARE}}"
+        "4": " Wants you to {{ADVENTURE_HOOK}}.",
+        "6": " {{DOING_RELATIONSHIP}}. {{DOING_WANT}}. {{DOING_CARE}}."
     },
     "NPC_RELATIONSHIP": {
         "2": "Is toying with {{OBJECT_ANIMAL_ENCOUNTER}} or using it/she/he for entertainment",
@@ -3277,8 +3277,8 @@
     ],
     "PERPLEXITY_OR_NO": {
         "3": "",
-        "5": ". {{PERPLEXITY_COMMON}}",
-        "6": ". {{PERPLEXITY_UNCOMMON}}"
+        "5": " <small>{{PERPLEXITY_COMMON}}.</small>",
+        "6": " <small>{{PERPLEXITY_UNCOMMON}}.</small>"
     },
     "PERPLEXITY_UNCOMMON": [
         "Full of {{OBJECT}}",
@@ -3930,10 +3930,10 @@
     },
     "TREASURE_OR_NO_EXTERIOR": {
         "4": "",
-        "6": "\nContains {{TREASURE}}. "
+        "6": "\n<p>Contains {{TREASURE}}.</p>"
     },
     "TREASURE_OR_NO_INTERIOR": {
         "3": "",
-        "6": "\nContains {{TREASURE}}. "
+        "6": "\n<p>Contains {{TREASURE}}.</p>"
     }
 }

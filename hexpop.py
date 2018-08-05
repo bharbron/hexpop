@@ -124,7 +124,7 @@ def print_hex_contents(hex_contents):
         print(u"{0}".format(hex_contents[key]["text"]))
         if hex_contents[key]["references"]:
             print(u"SEE: {0}".format(", ".join(sorted(hex_contents[key]["references"]))))
-        print(u"------------------------------")
+        print
 
 
 def print_named_npcs(named_npcs):
@@ -135,7 +135,38 @@ def print_named_npcs(named_npcs):
             print(u"{0}".format(named_npc[1]["description"]))
         if named_npc[1]["references"]:
             print(u"SEE: {0}".format(", ".join(sorted(list(set(named_npc[1]["references"]))))))
-        print(u"------------------------------")
+        print
+
+
+def print_hex_contents_html(hex_contents):
+    print(u"<div class=\"hexes\">")
+    for key in sorted(hex_contents.keys()):
+        print(u"<div class=\"hex\">\n<h1>{0}</h1>".format(key))
+        print(u"{0}".format(hex_contents[key]["text"]))
+        if hex_contents[key]["references"]:
+            print(u"<h2>SEE: {0}</h2>".format(", ".join(sorted(hex_contents[key]["references"]))))
+        print(u"</div>")
+    print(u"</div>")
+
+
+def print_named_npcs_html(named_npcs):
+    print(u"<div class=\"named_npcs\">")
+    # Sort by name
+    for named_npc in sorted(named_npcs.items(), key=lambda x: x[1]["name"]):
+        print(u"<div class=\"named_npc\">\n<h2>{0}</h2>".format(named_npc[1]["name"]))
+        if named_npc[1]["description"]:
+            print(u"<p>{0}</p>".format(named_npc[1]["description"]))
+        if named_npc[1]["references"]:
+            print(u"<p>SEE: {0}<p>".format(", ".join(sorted(list(set(named_npc[1]["references"]))))))
+        print(u"</div>")
+    print(u"</div>")
+
+
+def print_hexpop_html(hex_contents, named_npcs={}):
+    print(u"<div class=\"hexpop\">")
+    print_hex_contents_html(hex_contents)
+    print_named_npcs_html(named_npcs)
+    print(u"</div>")
 
 
 def main():
@@ -151,6 +182,7 @@ def main():
     with open(args.tables, "r") as f:
         tables = json.load(f)
 
+    named_npcs = {}
     if args.npcs:
         with open(args.npcs, "r") as f:
             npcs = json.load(f)
@@ -161,10 +193,7 @@ def main():
     if args.npcs:
         hex_contents = set_named_npcs(hex_contents, named_npcs)
 
-    print_hex_contents(hex_contents)
-
-    if args.npcs:
-        print_named_npcs(named_npcs)
+    print_hexpop_html(hex_contents, named_npcs)
 
 
 if __name__ == "__main__":
