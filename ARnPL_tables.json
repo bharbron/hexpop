@@ -59,6 +59,9 @@
         "{{OBJECT}}"
     ],
     "ADVENTURE_COLORLESS": [
+        "{{ADVENTURE_COLORLESS_THEME}} (<strong>colorless</strong>)"
+    ],
+    "ADVENTURE_COLORLESS_THEME": [
         "Drowning",
         "Algae",
         "Deception",
@@ -67,9 +70,12 @@
         "Chess",
         "Hollowness, empty things, decoys",
         "Spying",
-        "{{ADVENTURE_COLORLESS}} and {{ADVENTURE_COLORLESS}}"
+        "{{ADVENTURE_COLORLESS_THEME}} and {{ADVENTURE_COLORLESS_THEME}}"
     ],
     "ADVENTURE_HEART": [
+        "{{ADVENTURE_HEART_THEME}} (<strong>heart</strong>)"
+    ],
+    "ADVENTURE_HEART_THEME": [
         "Decapitation",
         "Shoes",
         "Croquet",
@@ -82,9 +88,12 @@
         "Bathing in blood",
         "Cards",
         "Pointless, bottomless rage",
-        "{{ADVENTURE_HEART}} and {{ADVENTURE_HEART}}"
+        "{{ADVENTURE_HEART_THEME}} and {{ADVENTURE_HEART_THEME}}"
     ],
     "ADVENTURE_PALE": [
+        "{{ADVENTURE_PALE_THEME}} (<strong>pale</strong>)"
+    ],
+    "ADVENTURE_PALE_THEME": [
         "Errors and confusions",
         "Taxation or audits",
         "Jousting",
@@ -93,9 +102,12 @@
         "Hats",
         "Animals",
         "Confections",
-        "{{ADVENTURE_PALE}} and {{ADVENTURE_PALE}}"
+        "{{ADVENTURE_PALE_THEME}} and {{ADVENTURE_PALE_THEME}}"
     ],
     "ADVENTURE_RED": [
+        "{{ADVENTURE_RED_THEME}} (<strong>red</strong>)"
+    ],
+    "ADVENTURE_RED_THEME": [
         "Impalement",
         "Sloth",
         "Sleep and nightmares",
@@ -108,13 +120,13 @@
         "Ancient things",
         "Velvet",
         "Forgetting",
-        "{{ADVENTURE_RED}} and {{ADVENTURE_RED}}"
+        "{{ADVENTURE_RED_THEME}} and {{ADVENTURE_RED_THEME}}"
     ],
     "ADVENTURE_THEME": {
-        "8": "{{ADVENTURE_COLORLESS}} (<strong>colorless</strong>)",
-        "20": "{{ADVENTURE_HEART}} (<strong>heart</strong>)",
-        "28": "{{ADVENTURE_PALE}} (<strong>pale</strong>)",
-        "40": "{{ADVENTURE_RED}} (<strong>red</strong>)"
+        "8": "{{ADVENTURE_COLORLESS}}",
+        "20": "{{ADVENTURE_HEART}}",
+        "28": "{{ADVENTURE_PALE}}",
+        "40": "{{ADVENTURE_RED}}"
     },
     "ANIMAL": [
         "Mouse",
@@ -1273,16 +1285,16 @@
         "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_THEME}}.</small></h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "FOREST_COLORLESS": [
-        "{{FOREST}}"
+        "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_COLORLESS}}.</small></h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "FOREST_HEART": [
-        "{{FOREST}}"
+        "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_HEART}}.</small></h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "FOREST_PALE": [
-        "{{FOREST}}"
+        "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_PALE}}.</small></h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "FOREST_RED": [
-        "{{FOREST}}"
+        "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_RED}}.</small></h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "FOREST_SECOND_OR_NO": {
         "1": "",
@@ -1392,16 +1404,16 @@
         "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_THEME}}.</small></h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "GARDEN_COLORLESS": [
-        "{{GARDEN}}"
+        "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_COLORLESS}}.</small></h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "GARDEN_HEART": [
-        "{{GARDEN}}"
+        "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_HEART}}.</small></h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "GARDEN_PALE": [
-        "{{GARDEN}}"
+        "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_PALE}}.</small></h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "GARDEN_RED": [
-        "{{GARDEN}}"
+        "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_RED}}.</small></h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "GARDEN_SECOND_OR_NO": {
         "1": "",
@@ -2824,16 +2836,16 @@
         "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_THEME}}.</small></h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "MOUNTAIN_COLORLESS": [
-        "{{MOUNTAIN}}"
+        "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_COLORLESS}}.</small></h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "MOUNTAIN_HEART": [
-        "{{MOUNTAIN}}"
+        "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_HEART}}.</small></h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "MOUNTAIN_PALE": [
-        "{{MOUNTAIN}}"
+        "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_PALE}}.</small></h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "MOUNTAIN_RED": [
-        "{{MOUNTAIN}}"
+        "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}} <small>{{ADVENTURE_RED}}.</small></h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "MOUNTAIN_SECOND_OR_NO": {
         "1": "",
