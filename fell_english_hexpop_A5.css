@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC|IM+Fell+English:400,400i');
+@page {
+    size: A5;
+    margin-top: 15mm;
+    margin-bottom: 10mm;
+    margin-inside: 20mm;
+    margin-outside: 10mm;
+}
+
+html {
+  font-size: 8pt;
+}
+body {
+  font-family: 'IM Fell English', serif;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+h2 {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+h3 {
+  font-family: 'IM Fell English SC', serif;
+  font-weight: normal;
+  font-size: 1.4rem;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+p {
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+}
+mark {
+  color: gray;
+}
+strong {
+  font-family: 'IM Fell English SC', serif;
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+small {
+  font-family: 'IM Fell English', serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1;
+}
+div.hexpop {
+    column-count: 2;
+    column-gap: 4mm;
+    column-fill: auto;
+}
+div.hexes {
+  break-before: recto;
+}
+div.hex {
+  break-inside: avoid;
+}
+div.named_npcs {
+  break-before: recto;
+}
+div.named_npc {
+  break-inside: avoid;
+}
