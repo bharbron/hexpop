@@ -144,7 +144,7 @@ def print_hex_contents_html(hex_contents):
         print(u"<div class=\"hex\">\n<h1>{0}</h1>".format(key))
         print(u"{0}".format(hex_contents[key]["text"]))
         if hex_contents[key]["references"]:
-            print(u"<h2>SEE: {0}</h2>".format(", ".join(sorted(hex_contents[key]["references"]))))
+            print(u"<h2>See {0}</h2>".format(", ".join(sorted(hex_contents[key]["references"]))))
         print(u"</div>")
     print(u"</div>")
 
@@ -157,7 +157,7 @@ def print_named_npcs_html(named_npcs):
         if named_npc[1]["description"]:
             print(u"<p>{0}</p>".format(named_npc[1]["description"]))
         if named_npc[1]["references"]:
-            print(u"<p>SEE: {0}<p>".format(", ".join(sorted(list(set(named_npc[1]["references"]))))))
+            print(u"<p>See {0}<p>".format(", ".join(sorted(list(set(named_npc[1]["references"]))))))
         print(u"</div>")
     print(u"</div>")
 
