@@ -128,6 +128,8 @@ def print_hex_contents(hex_contents):
 
 def print_named_npcs(named_npcs):
     # Sort by name
+    if named_npcs:
+        print(u"Named NPCs")
     for named_npc in sorted(named_npcs.items(), key=lambda x: x[1]["name"]):
         print(u"{0}".format(named_npc[1]["name"]))
         if named_npc[1]["description"]:
@@ -139,6 +141,7 @@ def print_named_npcs(named_npcs):
 
 def print_hex_contents_html(hex_contents):
     print(u"<div class=\"hexes\">")
+    print(u"<div class=\"hexes_title\"><h1>Hex Contents</h1></div>")
     for key in sorted(hex_contents.keys()):
         print(u"<div class=\"hex\">\n<h1>{0}</h1>".format(key))
         print(u"{0}".format(hex_contents[key]["text"]))
@@ -150,6 +153,8 @@ def print_hex_contents_html(hex_contents):
 
 def print_named_npcs_html(named_npcs):
     print(u"<div class=\"named_npcs\">")
+    if named_npcs:
+        print(u"<div class=\"named_npcs_title\"><h1>Named NPCs</h1></div>")
     # Sort by name
     for named_npc in sorted(named_npcs.items(), key=lambda x: x[1]["name"]):
         print(u"<div class=\"named_npc\">\n<h2>{0}</h2>".format(named_npc[1]["name"]))

@@ -60,11 +60,23 @@ div.hexpop {
 div.hexes {
   break-before: recto;
 }
+div.hexes_title {
+  column-span: all;
+  text-align: center;
+  font-family: 'IM Fell English SC', serif;
+  font-weight: normal;
+}
 div.hex {
   break-inside: avoid;
 }
 div.named_npcs {
   break-before: recto;
+}
+div.named_npcs_title {
+  column-span: all;
+  text-align: center;
+  font-family: 'IM Fell English SC', serif;
+  font-weight: normal;
 }
 div.named_npc {
   break-inside: avoid;
