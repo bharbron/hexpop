@@ -1,6 +1,6 @@
 {
     "ADVENTURE_COLORLESS": [
-        "{{ADVENTURE_COLORLESS_THEME}} (<strong>colorless</strong>)"
+        "{{ADVENTURE_COLORLESS_THEME}} &#9813;"
     ],
     "ADVENTURE_COLORLESS_THEME": [
         "Drowning",
@@ -14,7 +14,7 @@
         "{{ADVENTURE_COLORLESS_THEME}} and {{ADVENTURE_COLORLESS_THEME}}"
     ],
     "ADVENTURE_HEART": [
-        "{{ADVENTURE_HEART_THEME}} (<strong>heart</strong>)"
+        "{{ADVENTURE_HEART_THEME}} &hearts;"
     ],
     "ADVENTURE_HEART_THEME": [
         "Decapitation",
@@ -91,7 +91,7 @@
         "{{OBJECT}}"
     ],
     "ADVENTURE_PALE": [
-        "{{ADVENTURE_PALE_THEME}} (<strong>pale</strong>)"
+        "{{ADVENTURE_PALE_THEME}} &#9812;"
     ],
     "ADVENTURE_PALE_THEME": [
         "Errors and confusions",
@@ -105,7 +105,7 @@
         "{{ADVENTURE_PALE_THEME}} and {{ADVENTURE_PALE_THEME}}"
     ],
     "ADVENTURE_RED": [
-        "{{ADVENTURE_RED_THEME}} (<strong>red</strong>)"
+        "{{ADVENTURE_RED_THEME}} &#9818;"
     ],
     "ADVENTURE_RED_THEME": [
         "Impalement",

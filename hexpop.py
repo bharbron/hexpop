@@ -2,7 +2,6 @@ import argparse
 import json
 import re
 
-
 from random import randint
 
 # Maximum number of levels deep we should go on embedded random tables
