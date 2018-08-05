@@ -393,7 +393,7 @@
         "Spatial distortion: walk away from target location to reach it",
         "Time distortion: 25% of rounds are undone afterward (Warning: this is a pain to Referee, but fun)",
         "Time distortion: move forward by staying still and occupying square",
-        "Name loss. Anyone passing through this square must make a Wisdom check or else lose their name. They will not be able to remember it, neither will anyone else, and no targeted spell or ritual will affect them (including beneficial ones)- though area effect spells still can. One can regain one's name by finding a village and being rechristened (their real name will be remembered) or by committing a deed resulting in gaining at least half of the experience points needed to reach the next level and renaming yourself after the deed (Frederic the Larcenous, Morgotte Hogslayer, etc). One cannot gain levels or be healed by Clerical magic without a name",
+        "Name loss. <mark>Anyone passing through this square must make a Wisdom check or else lose their name. They will not be able to remember it, neither will anyone else, and no targeted spell or ritual will affect them (including beneficial ones)- though area effect spells still can. One can regain one's name by finding a village and being rechristened (their real name will be remembered) or by committing a deed resulting in gaining at least half of the experience points needed to reach the next level and renaming yourself after the deed (Frederic the Larcenous, Morgotte Hogslayer, etc). One cannot gain levels or be healed by Clerical magic without a name</mark>",
         "{{ENCOUNTER_INTELLIGENT}} and {{ENCOUNTER_INTELLIGENT}} fighting duel",
         "Lurking {{HOUSE}} spy",
         "Trap",
@@ -828,7 +828,7 @@
         "98": "Heart Queen",
         "99": "Red King",
         "100": "Jabberwock",
-        "200": "{{NAMED_NPC}}"
+        "200": "<strong>{{NAMED_NPC}}</strong>"
     },
     "ENCOUNTER_INTERIOR": {
         "1": "Sleeper",
@@ -998,20 +998,20 @@
     ],
     "EVENT": {
         "10": "Fierce battle between Red and Heart forces in square {{RANDOM_HEX}}",
-        "15": "Infamous duel between {{ENCOUNTER_INTELLIGENT}} and {{NAMED_NPC}} at {{LOCATION}} in square {{RANDOM_HEX}}",
+        "15": "Infamous duel between {{ENCOUNTER_INTELLIGENT}} and <strong>{{NAMED_NPC}}</strong> at {{LOCATION}} in square {{RANDOM_HEX}}",
         "17": "Heart Queen's croquet game announced",
         "20": "{{HOUSE}} announces banquet",
         "21": "{{ENCOUNTER_HOUSE_OF_HEARTS}} murdered at Queen's croquet game",
         "22": "{{ENCOUNTER_PALE_OR_COLORLESS}} murdered at Queen's croquet game",
         "23": "{{OBJECT}} stolen at Heart Queen's croquet game",
-        "30": "{{NAMED_NPC}} slain in battle in square {{RANDOM_HEX}}",
-        "35": "{{NAMED_NPC}} slain in duel with {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}} in square {{RANDOM_HEX}}",
-        "36": "{{NAMED_NPC}} slain at banquet",
-        "37": "{{NAMED_NPC}} to be executed by {{HOUSE}} after trial",
+        "30": "<strong>{{NAMED_NPC}}</strong> slain in battle in square {{RANDOM_HEX}}",
+        "35": "<strong>{{NAMED_NPC}}</strong> slain in duel with {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}} in square {{RANDOM_HEX}}",
+        "36": "<strong>{{NAMED_NPC}}</strong> slain at banquet",
+        "37": "<strong>{{NAMED_NPC}}</strong> to be executed by {{HOUSE}} after trial",
         "38": "{{ENCOUNTER_INTELLIGENT}} kidnapped before wedding in square {{RANDOM_HEX}}",
         "39": "{{ENCOUNTER_INTELLIGENT}} slain in Rite of Engagement at {{LOCATION}} in square {{RANDOM_HEX}}",
-        "40": "{{ENCOUNTER_INTELLIGENT}}, {{ENCOUNTER_INTELLIGENT}}, {{ENCOUNTER_INTELLIGENT}}, and {{NAMED_NPC}} announce Rites of Engagement",
-        "41": "Death of important {{NAMED_NPC}} forecluded in square {{RANDOM_HEX}}",
+        "40": "{{ENCOUNTER_INTELLIGENT}}, {{ENCOUNTER_INTELLIGENT}}, {{ENCOUNTER_INTELLIGENT}}, and <strong>{{NAMED_NPC}}</strong> announce Rites of Engagement",
+        "41": "Death of important <strong>{{NAMED_NPC}}</strong> forecluded in square {{RANDOM_HEX}}",
         "42": "Massive battle- disastrous for both Heart and Red sides- forecluded in square {{RANDOM_HEX}}",
         "43": "Massive battle- disastrous for all four sides- forecluded in square {{RANDOM_HEX}}",
         "44": "Negotiations between House of Hearts and Pale House",
@@ -1047,7 +1047,7 @@
         "77": "Knight of each house found dead in a locked room in square {{RANDOM_HEX}} with the Pseudoturtle",
         "78": "{{ENCOUNTER_MONARCH}} missing",
         "79": "King of Hearts executed by Heart Queen. Her forces are expected to suffer on the field of battle",
-        "81": "{{NAMED_NPC}} discovered in compromisingly intimate congress with {{ENCOUNTER_INTELLIGENT}}",
+        "81": "<strong>{{NAMED_NPC}}</strong> discovered in compromisingly intimate congress with {{ENCOUNTER_INTELLIGENT}}",
         "85": "Red King's forces have established a small fortress in square {{RANDOM_HEX}}",
         "89": "Heart Queen's forces have established a small fortress in square {{RANDOM_HEX}}",
         "91": "Scribes say a strange and valuable {{OBJECT}} is located somewhere in the interior beneath square {{RANDOM_HEX}}: all sides are scrambling through the interiors to find it",
@@ -1423,7 +1423,7 @@
         "Orchard"
     ],
     "GUEST": [
-        "Guest [{{GUEST_TRUE_NAME}}, {{GUEST_CATEGORY}}]"
+        "Guest <mark>[{{GUEST_TRUE_NAME}}, {{GUEST_CATEGORY}}]</mark>"
     ],
     "GUEST_AGING": [
         "de-ages target ten years",
