@@ -4280,16 +4280,17 @@
         "Wind Barrier (<strong>w&w</strong>)"
     ],
     "TREASURE": {
-        "28": "Spellbook: {{SPELL}}",
-        "40": "magical {{OBJECT}}",
-        "100": "valuable {{OBJECT}} worth 6d10 x 100 gold pieces"
+        "2": "Spellbook: {{SPELL}}",
+        "3": "magical {{OBJECT}}",
+        "6": "valuable {{OBJECT}} worth 6d10 x 100 gold pieces",
+        "12": "gold and jewelry worth ..."
     },
     "TREASURE_OR_NO_EXTERIOR": {
-        "4": "<p>Contains {{TREASURE}}.</p>",
-        "10": ""
+        "2": "<p>Contains {{TREASURE}}.</p>",
+        "6": ""
     },
     "TREASURE_OR_NO_INTERIOR": {
-        "4": "<p>Contains {{TREASURE}}.</p>",
-        "10": ""
+        "3": "<p>Contains {{TREASURE}}.</p>",
+        "6": ""
     }
 }
