@@ -595,6 +595,146 @@
         "Is traveling with several {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
         "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
     ],
+    "DOING_RELATIONSHIP_FOREST_DAY": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is hunting with the aid of {{ANIMAL_ENCOUNTER}}",
+        "Is traveling with {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for several {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about several {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is traveling with several {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
+    "DOING_RELATIONSHIP_FOREST_NIGHT": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is hunting with the aid of {{ANIMAL_ENCOUNTER}}",
+        "Is traveling with {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for several {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about several {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is traveling with several {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
+    "DOING_RELATIONSHIP_GARDEN_DAY": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is hunting with the aid of {{ANIMAL_ENCOUNTER}}",
+        "Is traveling with {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for several {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about several {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is traveling with several {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
+    "DOING_RELATIONSHIP_GARDEN_NIGHT": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is hunting with the aid of {{ANIMAL_ENCOUNTER}}",
+        "Is traveling with {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for several {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about several {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is traveling with several {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
+    "DOING_RELATIONSHIP_INTERIOR": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is hunting with the aid of {{ANIMAL_ENCOUNTER}}",
+        "Is traveling with {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for several {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about several {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is traveling with several {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
+    "DOING_RELATIONSHIP_MOUNTAIN_DAY": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is hunting with the aid of {{ANIMAL_ENCOUNTER}}",
+        "Is traveling with {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for several {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about several {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is traveling with several {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
+    "DOING_RELATIONSHIP_MOUNTAIN_NIGHT": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is hunting with the aid of {{ANIMAL_ENCOUNTER}}",
+        "Is traveling with {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ANIMAL_ENCOUNTER}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ANIMAL_ENCOUNTER}}",
+        "Is looking for several {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is babbling about several {{OBJECT_ANIMAL_ENCOUNTER}}",
+        "Is traveling with several {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
     "DOING_WANT": [
         "Wants to get into or out of Interior",
         "Wants revenge on {{ENCOUNTER_INTERIOR}} in the Interior",
@@ -700,7 +840,7 @@
         "100": "Jabberwock"
     },
     "ENCOUNTER_FOREST_DAY_OR_NO": {
-        "31": "<p><strong>day</strong> {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "31": "<p><strong>day</strong> {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_FOREST_NIGHT": {
@@ -756,27 +896,27 @@
         "100": "Jabberwock"
     },
     "ENCOUNTER_FOREST_NIGHT_OR_NO": {
-        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_FOREST_COLORLESS_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "16": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_FOREST_HEART_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "16": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_FOREST_PALE_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "16": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_FOREST_RED_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "16": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_GARDEN_DAY": {
@@ -805,7 +945,7 @@
         "100": "{{GUEST}}"
     },
     "ENCOUNTER_GARDEN_DAY_OR_NO": {
-        "31": "<p><strong>day</strong> {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "31": "<p><strong>day</strong> {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_GARDEN_NIGHT": {
@@ -856,27 +996,27 @@
         "100": "Red King"
     },
     "ENCOUNTER_GARDEN_NIGHT_OR_NO": {
-        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_GARDEN_COLORLESS_NIGHT_OR_NO": {
-        "25": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "25": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_GARDEN_HEART_NIGHT_OR_NO": {
-        "25": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "25": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_GARDEN_PALE_NIGHT_OR_NO": {
-        "25": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "25": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_GARDEN_RED_NIGHT_OR_NO": {
-        "25": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "25": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_HOUSE": [
@@ -993,27 +1133,27 @@
         "100": "Red King"
     },
     "ENCOUNTER_INTERIOR_OR_NO": {
-        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_INTERIOR_COLORLESS_OR_NO": {
-        "25": "<p>{{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "25": "<p>{{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_INTERIOR_HEART_OR_NO": {
-        "25": "<p>{{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "25": "<p>{{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_INTERIOR_PALE_OR_NO": {
-        "25": "<p>{{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "25": "<p>{{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_INTERIOR_RED_OR_NO": {
-        "25": "<p>{{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "25": "<p>{{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_MONARCH": [
@@ -1050,7 +1190,7 @@
         "93": "{{GUEST}}"
     },
     "ENCOUNTER_MOUNTAIN_DAY_OR_NO": {
-        "31": "<p><strong>day</strong> {{ENCOUNTER_MOUNTAIN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "31": "<p><strong>day</strong> {{ENCOUNTER_MOUNTAIN_DAY}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_MOUNTAIN_NIGHT": {
@@ -1103,27 +1243,27 @@
         "100": "Red King"
     },
     "ENCOUNTER_MOUNTAIN_NIGHT_OR_NO": {
-        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_MOUNTAIN_COLORLESS_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "16": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_MOUNTAIN_HEART_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "16": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_MOUNTAIN_PALE_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "16": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_MOUNTAIN_RED_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "16": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
         "100": ""
     },
     "ENCOUNTER_PALE_HOUSE": {
@@ -3268,13 +3408,45 @@
         "Trying to manipulate...",
         "Works for..."
     ],
-    "NPC_DETAILS_EXTERIOR": {
-        "25": ". {{NPC_RELATIONSHIP}}",
-        "100": ""
+    "NPC_DETAILS": {
+        "1": ". {{DOING_RELATIONSHIP}}",
+        "2": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
+    },
+    "NPC_DETAILS_FOREST_DAY": {
+        "1": ". {{DOING_RELATIONSHIP_FOREST_DAY}}",
+        "2": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
+    },
+    "NPC_DETAILS_FOREST_NIGHT": {
+        "1": ". {{DOING_RELATIONSHIP_FOREST_NIGHT}}",
+        "2": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
+    },
+    "NPC_DETAILS_GARDEN_DAY": {
+        "1": ". {{DOING_RELATIONSHIP_GARDEN_DAY}}",
+        "2": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
+    },
+    "NPC_DETAILS_GARDEN_NIGHT": {
+        "1": ". {{DOING_RELATIONSHIP_GARDEN_NIGHT}}",
+        "2": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
     },
     "NPC_DETAILS_INTERIOR": {
-        "25": ". {{DOING_RELATIONSHIP}}. {{DOING_WANT}}. {{DOING_CARE}}",
-        "100": ""
+        "1": ". {{DOING_RELATIONSHIP_INTERIOR}}",
+        "2": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
+    },
+    "NPC_DETAILS_MOUNTAIN_DAY": {
+        "1": ". {{DOING_RELATIONSHIP_MOUNTAIN_DAY}}",
+        "2": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
+    },
+    "NPC_DETAILS_MOUNTAIN_NIGHT": {
+        "1": ". {{DOING_RELATIONSHIP_MOUNTAIN_NIGHT}}",
+        "2": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
     },
     "NPC_RELATIONSHIP": {
         "2": "Is toying with {{OBJECT_ANIMAL_ENCOUNTER}} or using it/she/he for entertainment",
