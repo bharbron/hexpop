@@ -519,7 +519,7 @@
         "{{ENCOUNTER_INTELLIGENT}}"
     ],
     "COMPLICATION_OR_NO": {
-        "34": " <small>{{COMPLICATION}}.</small>",
+        "33": " <small>{{COMPLICATION}}.</small>",
         "100": ""
     },
     "DIAMOND_JOB": [
@@ -3488,8 +3488,8 @@
         "One-way window into prison cell"
     ],
     "PERPLEXITY_OR_NO": {
-        "17": " <small>{{PERPLEXITY_UNCOMMON}}.</small>",
-        "51": " <small>{{PERPLEXITY_COMMON}}.</small>",
+        "11": " <small>{{PERPLEXITY_UNCOMMON}}.</small>",
+        "33": " <small>{{PERPLEXITY_COMMON}}.</small>",
         "100": ""
     },
     "PERPLEXITY_UNCOMMON": [
