@@ -157,11 +157,11 @@ def print_named_npcs_html(named_npcs):
         print(u"<div class=\"named_npcs_title\"><h1>Named NPCs</h1></div>")
     # Sort by name
     for named_npc in sorted(named_npcs.items(), key=lambda x: x[1]["name"]):
-        print(u"<div class=\"named_npc\">\n<h2>{0}</h2>".format(named_npc[1]["name"]))
+        print(u"<div class=\"named_npc\"><h2>{0}</h2>".format(named_npc[1]["name"]))
         if named_npc[1]["description"]:
             print(u"<p>{0}</p>".format(named_npc[1]["description"]))
         if named_npc[1]["references"]:
-            print(u"<p>See {0}<p>".format(", ".join(sorted(list(set(named_npc[1]["references"]))))))
+            print(u"<p>See {0}</p>".format(", ".join(sorted(list(set(named_npc[1]["references"]))))))
         print(u"</div>")
     print(u"</div>")
 
