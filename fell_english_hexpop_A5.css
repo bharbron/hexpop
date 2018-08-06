@@ -68,6 +68,7 @@ div.hexes_title {
 }
 div.hex {
   break-inside: avoid;
+  margin-bottom: 5rem;
 }
 div.named_npcs {
   break-before: recto;
@@ -80,4 +81,5 @@ div.named_npcs_title {
 }
 div.named_npc {
   break-inside: avoid;
+  margin-bottom: 5rem;
 }
