@@ -32,26 +32,26 @@
         "{{ADVENTURE_HEART_THEME}} and {{ADVENTURE_HEART_THEME}}"
     ],
     "ADVENTURE_HOOK": [
-        "free {{ADVENTURE_HOOK_FREE}} from {{LOCATION}}{{HERE_OR_THERE}}",
-        "slay {{ENCOUNTER}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "capture {{ADVENTURE_HOOK_CAPTURE}} from {{LOCATION}}{{HERE_OR_THERE}}",
-        "safely transport {{ADVENTURE_HOOK_TRANSPORT}} to {{LOCATION}} at <strong>square {{RANDOM_HEX}}</strong>",
-        "locate {{ADVENTURE_HOOK_LOCATE}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "acquire {{ADVENTURE_HOOK_ACQUIRE}} from {{LOCATION}}{{HERE_OR_THERE}}",
-        "destroy {{OBJECT}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "seduce {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "frame {{ADVENTURE_HOOK_FRAME}} for a crime",
-        "spy on {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Free {{ADVENTURE_HOOK_FREE}} from {{LOCATION}}{{HERE_OR_THERE}}",
+        "Slay {{ENCOUNTER}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Capture {{ADVENTURE_HOOK_CAPTURE}} from {{LOCATION}}{{HERE_OR_THERE}}",
+        "Safely transport {{ADVENTURE_HOOK_TRANSPORT}} to {{LOCATION}} at <strong>square {{RANDOM_HEX}}</strong>",
+        "Locate {{ADVENTURE_HOOK_LOCATE}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Acquire {{ADVENTURE_HOOK_ACQUIRE}} from {{LOCATION}}{{HERE_OR_THERE}}",
+        "Destroy {{OBJECT}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Seduce {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Frame {{ADVENTURE_HOOK_FRAME}} for a crime",
+        "Spy on {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
         "{{ADVENTURE_HOOK}}, action must be performed during the event \"{{EVENT}}\"",
-        "map {{ADVENTURE_HOOK_MAP}}",
-        "investigate Murder of {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "investigate Theft of {{OBJECT}} belonging to {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "prevent the event \"{{EVENT}}\"",
-        "ruin the event \"{{EVENT}}\"",
-        "secretly sell {{OBJECT}} to {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "recruit {{ENCOUNTER_INTELLIGENT}} from {{LOCATION}}{{HERE_OR_THERE}}",
-        "defend {{LOCATION}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "impersonate {{ENCOUNTER_INTELLIGENT}} during the event \"{{EVENT}}\""
+        "Map {{ADVENTURE_HOOK_MAP}}",
+        "Investigate Murder of {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Investigate Theft of {{OBJECT}} belonging to {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Prevent the event \"{{EVENT}}\"",
+        "Ruin the event \"{{EVENT}}\"",
+        "Secretly sell {{OBJECT}} to {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Recruit {{ENCOUNTER_INTELLIGENT}} from {{LOCATION}}{{HERE_OR_THERE}}",
+        "Defend {{LOCATION}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Impersonate {{ENCOUNTER_INTELLIGENT}} during the event \"{{EVENT}}\""
     ],
     "ADVENTURE_HOOK_ACQUIRE": [
         "{{OBJECT}}",
@@ -83,6 +83,10 @@
         "8": "Garden at <strong>square {{RANDOM_HEX}}</strong>",
         "14": "Forest at <strong>square {{RANDOM_HEX}}</strong>",
         "20": "Interior at <strong>square {{RANDOM_HEX}}</strong>"
+    },
+    "ADVENTURE_HOOK_OR_NO": {
+        "1": "{{ADVENTURE_HOOK}}",
+        "4": ""
     },
     "ADVENTURE_HOOK_TRANSPORT": [
         "{{ENCOUNTER}}",
