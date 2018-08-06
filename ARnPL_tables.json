@@ -3414,77 +3414,77 @@
     ],
     "NPC_DETAILS": {
         "1": ". {{DOING_RELATIONSHIP}}",
-        "2": ". {{NPC_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
         "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
     },
     "NPC_DETAILS_FOREST_DAY": {
         "1": ". {{FOREST_DAY_DOING_RELATIONSHIP}}",
-        "2": ". {{NPC_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
         "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
     },
     "NPC_DETAILS_FOREST_NIGHT": {
         "1": ". {{FOREST_NIGHT_DOING_RELATIONSHIP}}",
-        "2": ". {{NPC_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
         "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
     },
     "NPC_DETAILS_GARDEN_DAY": {
         "1": ". {{GARDEN_DAY_DOING_RELATIONSHIP}}",
-        "2": ". {{NPC_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
         "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
     },
     "NPC_DETAILS_GARDEN_NIGHT": {
         "1": ". {{GARDEN_NIGHT_DOING_RELATIONSHIP}}",
-        "2": ". {{NPC_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
         "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
     },
     "NPC_DETAILS_INTERIOR": {
         "1": ". {{INTERIOR_DOING_RELATIONSHIP}}",
-        "2": ". {{NPC_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
         "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
     },
     "NPC_DETAILS_MOUNTAIN_DAY": {
         "1": ". {{MOUNTAIN_DAY_DOING_RELATIONSHIP}}",
-        "2": ". {{NPC_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
         "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
     },
     "NPC_DETAILS_MOUNTAIN_NIGHT": {
         "1": ". {{MOUNTAIN_NIGHT_DOING_RELATIONSHIP}}",
-        "2": ". {{NPC_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
         "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
     },
     "NPC_RELATIONSHIP": {
-        "2": "Is toying with {{OBJECT_ANIMAL_ENCOUNTER}} or using it/she/he for entertainment",
-        "4": "Is obsessed with {{OBJECT_ANIMAL_ENCOUNTER}}{{HERE_OR_THERE}}",
+        "2": "Is toying with {{ENCOUNTER}} or using it/she/he for entertainment",
+        "4": "Is obsessed with {{OBJECT_ANIMAL_OR_ENCOUNTER}}",
         "6": "Has an uneasy alliance with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "8": "Seeks to control {{LOCATION}}{{HERE_OR_THERE}}",
         "10": "Reluctantly trades with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "12": "Sexually involved with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
-        "14": "Seeks the destruction of {{OBJECT_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "14": "Seeks the destruction of {{OBJECT_OR_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
         "16": "Seeks the return of {{OBJECT}} from {{LOCATION}}{{HERE_OR_THERE}}",
-        "18": "Is inside {{OBJECT_ANIMAL}}",
+        "18": "Is inside {{OBJECT_OR_ANIMAL}}",
         "20": "Secretly serves {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "22": "Has a vendetta against {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
-        "24": "Loves {{OBJECT_ANIMAL_ENCOUNTER}}{{HERE_OR_THERE}}",
-        "26": "Wants to eat/consume/absorb {{OBJECT_ANIMAL}} from {{LOCATION}}{{HERE_OR_THERE}}",
-        "28": "Cannot sense {{OBJECT_ANIMAL}} and this is dangerous",
+        "24": "Loves {{OBJECT_ANIMAL_OR_ENCOUNTER}}{{HERE_OR_THERE}}",
+        "26": "Wants to eat/consume/absorb {{ANIMAL_UNINTELLIGENT}}",
+        "28": "Cannot sense {{OBJECT_OR_ANIMAL}} and this is dangerous",
         "30": "Is inoperative/immobile/comatose without {{OBJECT}}",
         "32": "Does not want to harm {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}} but feels s/he must",
         "34": "Worships {{ANIMAL_ENCOUNTER}}",
-        "36": "Requires {{OBJECT_ANIMAL}} from {{LOCATION}}{{HERE_OR_THERE}} as a raw material for some magical/psychic alchemical scheme",
+        "36": "Requires {{OBJECT_OR_ANIMAL}} as a raw material for some magical/psychic alchemical scheme",
         "38": "Desires {{ENCOUNTER_INTELLIGENT}}'s dwelling/home{{HERE_OR_THERE}}",
         "40": "Wants to attack {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}} but is bound by some thing not to do so directly",
         "42": "Uneasily shares power with {{ENCOUNTER_INTELLIGENT}}",
         "44": "Is being pressured to ally with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "46": "Wants to frame {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}} or otherwise have his/her/its actions mistaken for his/her/its own",
-        "48": "Must distract {{ANIMAL_ENCOUNTER}} at {{LOCATION}} in order to enact plan",
-        "50": "Is mystically joined to {{OBJECT_ANIMAL}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "48": "Must distract {{ENCOUNTER}} at {{LOCATION}} in order to enact plan",
+        "50": "Is mystically joined to {{OBJECT_ANIMAL_OR_ENCOUNTER}} at {{LOCATION}}{{HERE_OR_THERE}}",
         "52": "Will be unstoppable once allied with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "54": "Will be more vulnerable once allied with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
-        "56": "Wants to be rescued from {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
-        "58": "Requires {{OBJECT_ANIMAL}} to reproduce",
+        "56": "Wants to be rescued from {{ENCOUNTER}}",
+        "58": "Requires {{OBJECT_OR_ANIMAL}} to reproduce",
         "60": "Seeks information possessed by {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
         "62": "Seeks the love of {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
-        "64": "Seeks information about {{OBJECT_LOCATION}}{{HERE_OR_THERE}}",
+        "64": "Seeks information about {{OBJECT_ENCOUNTER_OR_LOCATION}}{{HERE_OR_THERE}}",
         "66": "Just killed/is about to kill {{ANIMAL_ENCOUNTER}}",
         "68": "Came from {{LOCATION}}{{HERE_OR_THERE}}",
         "70": "Seeks the capture of {{ANIMAL_ENCOUNTER}} from {{LOCATION}}{{HERE_OR_THERE}}",
@@ -3493,13 +3493,13 @@
         "77": "Is allied with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "79": "Serves {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "81": "Is or wants to perform experiments on {{ANIMAL_ENCOUNTER}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "83": "Requires {{OBJECT_ANIMAL}} to complete a work of art",
+        "83": "Requires {{OBJECT_OR_ANIMAL}} to complete a work of art",
         "85": "Secretly is {{ENCOUNTER_INTELLIGENT}}",
-        "87": "Is only vulnerable to {{OBJECT_ANIMAL}}",
-        "89": "Has key information about {{OBJECT_LOCATION}}{{HERE_OR_THERE}}",
+        "87": "Is only vulnerable to {{OBJECT_OR_ANIMAL}}",
+        "89": "Has key information about {{OBJECT_ENCOUNTER_OR_LOCATION}}{{HERE_OR_THERE}}",
         "91": "Is impersonating {{ANIMAL_ENCOUNTER}}",
         "93": "Is struggling with {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}} for control of an organization",
-        "95": "Is unaware of but vulnerable to {{OBJECT_ANIMAL}}",
+        "95": "Is unaware of but vulnerable to {{OBJECT_OR_ANIMAL}}",
         "97": "Is betrothed to {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "99": "Is secretly married to {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "100": "{{NPC_RELATIONSHIP}} and {{NPC_RELATIONSHIP}}"
@@ -3606,20 +3606,25 @@
         "Key <mark>(Roll d100. That's the percent chance it will fit any given lock. Once it fits a lock, that's the door it was for)</mark>",
         "Strong but ornate chain"
     ],
-    "OBJECT_ANIMAL": [
+    "OBJECT_OR_ANIMAL": [
         "{{OBJECT}}",
         "{{ANIMAL}}"
     ],
-    "OBJECT_ANIMAL_ENCOUNTER": [
+    "OBJECT_ANIMAL_OR_ENCOUNTER": [
         "{{OBJECT}}",
         "{{ANIMAL}}",
         "{{ENCOUNTER}}"
     ],
-    "OBJECT_ENCOUNTER": [
+    "OBJECT_OR_ENCOUNTER": [
         "{{OBJECT}}",
         "{{ENCOUNTER}}"
     ],
-    "OBJECT_LOCATION": [
+    "OBJECT_ENCOUNTER_OR_LOCATION": [
+        "{{OBJECT}}",
+        "{{ENCOUNTER}}",
+        "{{LOCATION}}"
+    ],
+    "OBJECT_OR_LOCATION": [
         "{{OBJECT}}",
         "{{LOCATION}}"
     ],

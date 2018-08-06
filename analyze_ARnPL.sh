@@ -23,3 +23,5 @@ echo "Coins or Jewelry (<p>Contains Coins) [only in treasures]"
 grep -o "<p>Contains Coins" ARnPL_analyze.html | wc -l
 echo "All Spellbooks (Spell)"
 grep -o "Spell" ARnPL_analyze.html | wc -l
+echo "Hex references (<strong>square)"
+grep -o "<strong>square" ARnPL_analyze.html | wc -l
