@@ -1,6 +1,6 @@
 {
     "ADVENTURE_COLORLESS": [
-        "&#9813;{{ADVENTURE_COLORLESS_THEME}}&#9813;"
+        "&#9813; {{ADVENTURE_COLORLESS_THEME}}"
     ],
     "ADVENTURE_COLORLESS_THEME": [
         "Drowning",
@@ -14,7 +14,7 @@
         "{{ADVENTURE_COLORLESS_THEME}} and {{ADVENTURE_COLORLESS_THEME}}"
     ],
     "ADVENTURE_HEART": [
-        "&hearts;{{ADVENTURE_HEART_THEME}}&hearts;"
+        "&hearts; {{ADVENTURE_HEART_THEME}}"
     ],
     "ADVENTURE_HEART_THEME": [
         "Decapitation",
@@ -32,26 +32,26 @@
         "{{ADVENTURE_HEART_THEME}} and {{ADVENTURE_HEART_THEME}}"
     ],
     "ADVENTURE_HOOK": [
-        "free {{ADVENTURE_HOOK_FREE}} from {{LOCATION}}{{HERE_OR_THERE}}",
-        "slay {{ENCOUNTER}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "capture {{ADVENTURE_HOOK_CAPTURE}} from {{LOCATION}}{{HERE_OR_THERE}}",
-        "safely transport {{ADVENTURE_HOOK_TRANSPORT}} to {{LOCATION}} at <strong>square {{RANDOM_HEX}}</strong>",
-        "locate {{ADVENTURE_HOOK_LOCATE}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "acquire {{ADVENTURE_HOOK_ACQUIRE}} from {{LOCATION}}{{HERE_OR_THERE}}",
-        "destroy {{OBJECT}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "seduce {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "frame {{ADVENTURE_HOOK_FRAME}} for a crime",
-        "spy on {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Free {{ADVENTURE_HOOK_FREE}} from {{LOCATION}}{{HERE_OR_THERE}}",
+        "Slay {{ENCOUNTER}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Capture {{ADVENTURE_HOOK_CAPTURE}} from {{LOCATION}}{{HERE_OR_THERE}}",
+        "Safely transport {{ADVENTURE_HOOK_TRANSPORT}} to {{LOCATION}} at <strong>square {{RANDOM_HEX}}</strong>",
+        "Locate {{ADVENTURE_HOOK_LOCATE}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Acquire {{ADVENTURE_HOOK_ACQUIRE}} from {{LOCATION}}{{HERE_OR_THERE}}",
+        "Destroy {{OBJECT}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Seduce {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Frame {{ADVENTURE_HOOK_FRAME}} for a crime at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Spy on {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
         "{{ADVENTURE_HOOK}}, action must be performed during the event \"{{EVENT}}\"",
-        "map {{ADVENTURE_HOOK_MAP}}",
-        "investigate Murder of {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "investigate Theft of {{OBJECT}} belonging to {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "prevent the event \"{{EVENT}}\"",
-        "ruin the event \"{{EVENT}}\"",
-        "secretly sell {{OBJECT}} to {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "recruit {{ENCOUNTER_INTELLIGENT}} from {{LOCATION}}{{HERE_OR_THERE}}",
-        "defend {{LOCATION}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "impersonate {{ENCOUNTER_INTELLIGENT}} during the event \"{{EVENT}}\""
+        "Map {{ADVENTURE_HOOK_MAP}}",
+        "Investigate Murder of {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Investigate Theft of {{OBJECT}} belonging to {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Prevent the event \"{{EVENT}}\"",
+        "Ruin the event \"{{EVENT}}\"",
+        "Secretly sell {{OBJECT}} to {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "Recruit {{ENCOUNTER_INTELLIGENT}} from {{LOCATION}}{{HERE_OR_THERE}}",
+        "Defend {{LOCATION}}{{HERE_OR_THERE}}",
+        "Impersonate {{ENCOUNTER_INTELLIGENT}} during the event \"{{EVENT}}\""
     ],
     "ADVENTURE_HOOK_ACQUIRE": [
         "{{OBJECT}}",
@@ -84,6 +84,10 @@
         "14": "Forest at <strong>square {{RANDOM_HEX}}</strong>",
         "20": "Interior at <strong>square {{RANDOM_HEX}}</strong>"
     },
+    "ADVENTURE_HOOK_OR_NO": {
+        "1": "<p>&#9758; {{ADVENTURE_HOOK}}</p>",
+        "4": ""
+    },
     "ADVENTURE_HOOK_TRANSPORT": [
         "{{ENCOUNTER}}",
         "{{ANIMAL}}",
@@ -91,7 +95,7 @@
         "{{OBJECT}}"
     ],
     "ADVENTURE_PALE": [
-        "&#9812;{{ADVENTURE_PALE_THEME}}&#9812;"
+        "&#9812; {{ADVENTURE_PALE_THEME}}"
     ],
     "ADVENTURE_PALE_THEME": [
         "Errors and confusions",
@@ -105,7 +109,7 @@
         "{{ADVENTURE_PALE_THEME}} and {{ADVENTURE_PALE_THEME}}"
     ],
     "ADVENTURE_RED": [
-        "&#9818;{{ADVENTURE_RED_THEME}}&#9818;"
+        "&#9818; {{ADVENTURE_RED_THEME}}"
     ],
     "ADVENTURE_RED_THEME": [
         "Impalement",
@@ -458,6 +462,51 @@
         "70": "Footmen in Livery",
         "100": "{{CASTLE_CACHTICE_INHABITANT}} and {{CASTLE_CACHTICE_INHABITANT}}"
     },
+    "COINS_OR_JEWELRY": [
+        "Coins or jewelry worth 80 gold pieces",
+        "Coins or jewelry worth 90 gold pieces",
+        "Coins or jewelry worth 100 gold pieces",
+        "Coins or jewelry worth 110 gold pieces",
+        "Coins or jewelry worth 120 gold pieces",
+        "Coins or jewelry worth 130 gold pieces",
+        "Coins or jewelry worth 140 gold pieces",
+        "Coins or jewelry worth 150 gold pieces",
+        "Coins or jewelry worth 160 gold pieces",
+        "Coins or jewelry worth 170 gold pieces",
+        "Coins or jewelry worth 180 gold pieces",
+        "Coins or jewelry worth 190 gold pieces",
+        "Coins or jewelry worth 200 gold pieces",
+        "Coins or jewelry worth 210 gold pieces",
+        "Coins or jewelry worth 220 gold pieces",
+        "Coins or jewelry worth 230 gold pieces",
+        "Coins or jewelry worth 240 gold pieces",
+        "Coins or jewelry worth 250 gold pieces",
+        "Coins or jewelry worth 260 gold pieces",
+        "Coins or jewelry worth 270 gold pieces",
+        "Coins or jewelry worth 280 gold pieces",
+        "Coins or jewelry worth 290 gold pieces",
+        "Coins or jewelry worth 300 gold pieces",
+        "Coins or jewelry worth 310 gold pieces",
+        "Coins or jewelry worth 320 gold pieces",
+        "Coins or jewelry worth 330 gold pieces",
+        "Coins or jewelry worth 340 gold pieces",
+        "Coins or jewelry worth 350 gold pieces",
+        "Coins or jewelry worth 360 gold pieces",
+        "Coins or jewelry worth 370 gold pieces",
+        "Coins or jewelry worth 380 gold pieces",
+        "Coins or jewelry worth 390 gold pieces",
+        "Coins or jewelry worth 400 gold pieces",
+        "Coins or jewelry worth 410 gold pieces",
+        "Coins or jewelry worth 420 gold pieces",
+        "Coins or jewelry worth 430 gold pieces",
+        "Coins or jewelry worth 440 gold pieces",
+        "Coins or jewelry worth 450 gold pieces",
+        "Coins or jewelry worth 460 gold pieces",
+        "Coins or jewelry worth 470 gold pieces",
+        "Coins or jewelry worth 480 gold pieces",
+        "Coins or jewelry worth 490 gold pieces",
+        "Coins or jewelry worth 500 gold pieces"
+    ],
     "COMPLICATION": [
         "{{ENCOUNTER_INTELLIGENT}}",
         "Aftermath of battle",
@@ -573,22 +622,22 @@
     ],
     "DOING_RELATIONSHIP": [
         "Is eating {{ANIMAL_UNINTELLIGENT}}",
-        "Is killing {{ANIMAL_ENCOUNTER}}",
+        "Is killing {{ENCOUNTER}}",
         "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
         "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
-        "Is aiding a wounded {{ANIMAL_ENCOUNTER}}",
-        "Is looking for {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
-        "Is babbling about {{OBJECT_ANIMAL_ENCOUNTER}}",
-        "Is hunting with the aid of {{ANIMAL_ENCOUNTER}}",
-        "Is traveling with {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is aiding a wounded {{ENCOUNTER}}",
+        "Is looking for {{ENCOUNTER}} in {{LOCATION}}",
+        "Is babbling about {{ENCOUNTER}}",
+        "Is hunting with the aid of {{ENCOUNTER}}",
+        "Is traveling with {{ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
         "Is seducing {{ENCOUNTER_INTELLIGENT}}",
         "Is eating several {{ANIMAL_UNINTELLIGENT}}",
-        "Is killing several {{ANIMAL_ENCOUNTER}}",
+        "Is killing several {{ENCOUNTER}}",
         "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
-        "Is aiding wounded {{ANIMAL_ENCOUNTER}}",
-        "Is looking for several {{OBJECT_ANIMAL_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
-        "Is babbling about several {{OBJECT_ANIMAL_ENCOUNTER}}",
-        "Is traveling with several {{OBJECT_ANIMAL_ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is aiding wounded {{ENCOUNTER}}",
+        "Is looking for several {{ENCOUNTER}} in {{LOCATION}}",
+        "Is babbling about several {{ENCOUNTER}}",
+        "Is traveling with several {{ENCOUNTER}} to {{LOCATION}}{{HERE_OR_THERE}}",
         "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
     ],
     "DOING_WANT": [
@@ -656,7 +705,8 @@
         "Colorless Queen",
         "Heart Queen",
         "Red King",
-        "Jabberwock"
+        "Jabberwock",
+        "<strong>{{NAMED_NPC}}</strong>"
     ],
     "ENCOUNTER_COLORLESS_HOUSE": {
         "10": "Footmen in Livery",
@@ -694,10 +744,6 @@
         "97": "Sphinx",
         "99": "{{GUEST}}",
         "100": "Jabberwock"
-    },
-    "ENCOUNTER_FOREST_DAY_OR_NO": {
-        "31": "<p><strong>day</strong> {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
     },
     "ENCOUNTER_FOREST_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -751,30 +797,6 @@
         "99": "Red King",
         "100": "Jabberwock"
     },
-    "ENCOUNTER_FOREST_NIGHT_OR_NO": {
-        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_FOREST_COLORLESS_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_FOREST_HEART_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_FOREST_PALE_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_FOREST_RED_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
     "ENCOUNTER_GARDEN_DAY": {
         "5": "Little Crocodile",
         "6": "Ozwick",
@@ -799,10 +821,6 @@
         "95": "Red Rook",
         "97": "Sphinx",
         "100": "{{GUEST}}"
-    },
-    "ENCOUNTER_GARDEN_DAY_OR_NO": {
-        "31": "<p><strong>day</strong> {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
     },
     "ENCOUNTER_GARDEN_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -850,30 +868,6 @@
         "98": "Colorless Queen",
         "99": "Heart Queen",
         "100": "Red King"
-    },
-    "ENCOUNTER_GARDEN_NIGHT_OR_NO": {
-        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_GARDEN_COLORLESS_NIGHT_OR_NO": {
-        "25": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_GARDEN_HEART_NIGHT_OR_NO": {
-        "25": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_GARDEN_PALE_NIGHT_OR_NO": {
-        "25": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_GARDEN_RED_NIGHT_OR_NO": {
-        "25": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
     },
     "ENCOUNTER_HOUSE": [
         "{{ENCOUNTER_HOUSE_OF_HEARTS}}",
@@ -988,30 +982,6 @@
         "99": "Heart Queen",
         "100": "Red King"
     },
-    "ENCOUNTER_INTERIOR_OR_NO": {
-        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_INTERIOR_COLORLESS_OR_NO": {
-        "25": "<p>{{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_INTERIOR_HEART_OR_NO": {
-        "25": "<p>{{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_INTERIOR_PALE_OR_NO": {
-        "25": "<p>{{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_INTERIOR_RED_OR_NO": {
-        "25": "<p>{{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS_INTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
     "ENCOUNTER_MONARCH": [
         "King of Hearts",
         "Pale King",
@@ -1044,10 +1014,6 @@
         "90": "Red Rook",
         "91": "Sphinx",
         "93": "{{GUEST}}"
-    },
-    "ENCOUNTER_MOUNTAIN_DAY_OR_NO": {
-        "31": "<p><strong>day</strong> {{ENCOUNTER_MOUNTAIN_DAY}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
     },
     "ENCOUNTER_MOUNTAIN_NIGHT": {
         "3": "Bat/Undead bird Swarm",
@@ -1097,30 +1063,6 @@
         "98": "Colorless Queen",
         "99": "Heart Queen",
         "100": "Red King"
-    },
-    "ENCOUNTER_MOUNTAIN_NIGHT_OR_NO": {
-        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_MOUNTAIN_COLORLESS_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_MOUNTAIN_HEART_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_MOUNTAIN_PALE_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
-    },
-    "ENCOUNTER_MOUNTAIN_RED_NIGHT_OR_NO": {
-        "16": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "49": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS_EXTERIOR}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "100": ""
     },
     "ENCOUNTER_PALE_HOUSE": {
         "3": "Sleeper",
@@ -1370,13 +1312,37 @@
         "Rasping"
     ],
     "FOREST": [
-        "<p>{{ADVENTURE_THEME}}</p><h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</small></h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
+        "<p>{{ADVENTURE_THEME}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</small></h3>{{FOREST_DAY_ENCOUNTER_OR_NO}}{{FOREST_NIGHT_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "FOREST_COLORLESS": [
-        "<p>{{ADVENTURE_COLORLESS}}</p><h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_COLORLESS_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_COLORLESS_OR_NO}}"
+        "<p>{{ADVENTURE_COLORLESS}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{FOREST_DAY_ENCOUNTER_OR_NO}}{{FOREST_NIGHT_COLORLESS_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_COLORLESS_OR_NO}}"
     ],
+    "FOREST_DAY_DOING_RELATIONSHIP": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ENCOUNTER_FOREST_DAY}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ENCOUNTER_FOREST_DAY}}",
+        "Is looking for {{ENCOUNTER_FOREST_DAY}} in {{LOCATION}}",
+        "Is babbling about {{ENCOUNTER_FOREST_DAY}}",
+        "Is hunting with the aid of {{ENCOUNTER_FOREST_DAY}}",
+        "Is traveling with {{ENCOUNTER_FOREST_DAY}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ENCOUNTER_FOREST_DAY}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ENCOUNTER_FOREST_DAY}}",
+        "Is looking for several {{ENCOUNTER_FOREST_DAY}} in {{LOCATION}}",
+        "Is babbling about several {{ENCOUNTER_FOREST_DAY}}",
+        "Is traveling with several {{ENCOUNTER_FOREST_DAY}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
+    "FOREST_DAY_ENCOUNTER_OR_NO": {
+        "2": "<p><strong>day</strong> {{ENCOUNTER_FOREST_DAY}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
     "FOREST_HEART": [
-        "<p>{{ADVENTURE_HEART}}</p><h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_HEART_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_HEART_OR_NO}}"
+        "<p>{{ADVENTURE_HEART}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{FOREST_DAY_ENCOUNTER_OR_NO}}{{FOREST_NIGHT_HEART_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_HEART_OR_NO}}"
     ],
     "FOREST_LANDMARK": [
         "Bridge",
@@ -1478,24 +1444,92 @@
         "Orb Loc",
         "Swamp"
     ],
+    "FOREST_NIGHT_COLORLESS_ENCOUNTER_OR_NO": {
+        "1": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
+    "FOREST_NIGHT_DOING_RELATIONSHIP": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ENCOUNTER_FOREST_NIGHT}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ENCOUNTER_FOREST_NIGHT}}",
+        "Is looking for {{ENCOUNTER_FOREST_NIGHT}} in {{LOCATION}}",
+        "Is babbling about {{ENCOUNTER_FOREST_NIGHT}}",
+        "Is hunting with the aid of {{ENCOUNTER_FOREST_NIGHT}}",
+        "Is traveling with {{ENCOUNTER_FOREST_NIGHT}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ENCOUNTER_FOREST_NIGHT}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ENCOUNTER_FOREST_NIGHT}}",
+        "Is looking for several {{ENCOUNTER_FOREST_NIGHT}} in {{LOCATION}}",
+        "Is babbling about several {{ENCOUNTER_FOREST_NIGHT}}",
+        "Is traveling with several {{ENCOUNTER_FOREST_NIGHT}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
+    "FOREST_NIGHT_ENCOUNTER_OR_NO": {
+        "2": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
+    "FOREST_NIGHT_HEART_ENCOUNTER_OR_NO": {
+        "1": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
+    "FOREST_NIGHT_PALE_ENCOUNTER_OR_NO": {
+        "1": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
+    "FOREST_NIGHT_RED_ENCOUNTER_OR_NO": {
+        "1": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p><strong>night</strong> {{ENCOUNTER_FOREST_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
     "FOREST_PALE": [
-        "<p>{{ADVENTURE_PALE}}</p><h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_PALE_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_PALE_OR_NO}}"
+        "<p>{{ADVENTURE_PALE}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{FOREST_DAY_ENCOUNTER_OR_NO}}{{FOREST_NIGHT_PALE_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_PALE_OR_NO}}"
     ],
     "FOREST_RED": [
-        "<p>{{ADVENTURE_RED}}</p><h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_RED_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_RED_OR_NO}}"
+        "<p>{{ADVENTURE_RED}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{FOREST_DAY_ENCOUNTER_OR_NO}}{{FOREST_NIGHT_RED_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_RED_OR_NO}}"
     ],
     "FOREST_SECOND_OR_NO": {
         "1": "",
-        "2": "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_FOREST_DAY_OR_NO}}{{ENCOUNTER_FOREST_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
+        "2": "<h3>{{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{FOREST_DAY_ENCOUNTER_OR_NO}}{{FOREST_NIGHT_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
     },
     "GARDEN": [
-        "<p>{{ADVENTURE_THEME}}</p><h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
+        "<p>{{ADVENTURE_THEME}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{GARDEN_DAY_ENCOUNTER_OR_NO}}{{GARDEN_NIGHT_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "GARDEN_COLORLESS": [
-        "<p>{{ADVENTURE_COLORLESS}}</p><h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_COLORLESS_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_COLORLESS_OR_NO}}"
+        "<p>{{ADVENTURE_COLORLESS}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{GARDEN_DAY_ENCOUNTER_OR_NO}}{{GARDEN_NIGHT_COLORLESS_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_COLORLESS_OR_NO}}"
     ],
+    "GARDEN_DAY_DOING_RELATIONSHIP": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ENCOUNTER_GARDEN_DAY}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ENCOUNTER_GARDEN_DAY}}",
+        "Is looking for {{ENCOUNTER_GARDEN_DAY}} in {{LOCATION}}",
+        "Is babbling about {{ENCOUNTER_GARDEN_DAY}}",
+        "Is hunting with the aid of {{ENCOUNTER_GARDEN_DAY}}",
+        "Is traveling with {{ENCOUNTER_GARDEN_DAY}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ENCOUNTER_GARDEN_DAY}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ENCOUNTER_GARDEN_DAY}}",
+        "Is looking for several {{ENCOUNTER_GARDEN_DAY}} in {{LOCATION}}",
+        "Is babbling about several {{ENCOUNTER_GARDEN_DAY}}",
+        "Is traveling with several {{ENCOUNTER_GARDEN_DAY}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
+    "GARDEN_DAY_ENCOUNTER_OR_NO": {
+        "2": "<p><strong>day</strong> {{ENCOUNTER_GARDEN_DAY}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
     "GARDEN_HEART": [
-        "<p>{{ADVENTURE_HEART}}</p><h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_HEART_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_HEART_OR_NO}}"
+        "<p>{{ADVENTURE_HEART}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{GARDEN_DAY_ENCOUNTER_OR_NO}}{{GARDEN_NIGHT_HEART_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_HEART_OR_NO}}"
     ],
     "GARDEN_LANDMARK": [
         "Bridge",
@@ -1595,15 +1629,59 @@
         "Merchant",
         "Orchard"
     ],
+    "GARDEN_NIGHT_COLORLESS_ENCOUNTER_OR_NO": {
+        "1": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
+    "GARDEN_NIGHT_DOING_RELATIONSHIP": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ENCOUNTER_GARDEN_NIGHT}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ENCOUNTER_GARDEN_NIGHT}}",
+        "Is looking for {{ENCOUNTER_GARDEN_NIGHT}} in {{LOCATION}}",
+        "Is babbling about {{ENCOUNTER_GARDEN_NIGHT}}",
+        "Is hunting with the aid of {{ENCOUNTER_GARDEN_NIGHT}}",
+        "Is traveling with {{ENCOUNTER_GARDEN_NIGHT}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ENCOUNTER_GARDEN_NIGHT}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ENCOUNTER_GARDEN_NIGHT}}",
+        "Is looking for several {{ENCOUNTER_GARDEN_NIGHT}} in {{LOCATION}}",
+        "Is babbling about several {{ENCOUNTER_GARDEN_NIGHT}}",
+        "Is traveling with several {{ENCOUNTER_GARDEN_NIGHT}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
+    "GARDEN_NIGHT_ENCOUNTER_OR_NO": {
+        "2": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
+    "GARDEN_NIGHT_HEART_ENCOUNTER_OR_NO": {
+        "1": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
+    "GARDEN_NIGHT_PALE_ENCOUNTER_OR_NO": {
+        "1": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
+    "GARDEN_NIGHT_RED_ENCOUNTER_OR_NO": {
+        "1": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p><strong>night</strong> {{ENCOUNTER_GARDEN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
     "GARDEN_PALE": [
-        "<p>{{ADVENTURE_PALE}}</p><h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_PALE_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_PALE_OR_NO}}"
+        "<p>{{ADVENTURE_PALE}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{GARDEN_DAY_ENCOUNTER_OR_NO}}{{GARDEN_NIGHT_PALE_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_PALE_OR_NO}}"
     ],
     "GARDEN_RED": [
-        "<p>{{ADVENTURE_RED}}</p><h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_RED_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_RED_OR_NO}}"
+        "<p>{{ADVENTURE_RED}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{GARDEN_DAY_ENCOUNTER_OR_NO}}{{GARDEN_NIGHT_RED_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{GARDEN_SECOND_OR_NO}}{{INTERIOR_RED_OR_NO}}"
     ],
     "GARDEN_SECOND_OR_NO": {
         "1": "",
-        "2": "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_GARDEN_DAY_OR_NO}}{{ENCOUNTER_GARDEN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
+        "2": "<h3>{{GARDEN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{GARDEN_DAY_ENCOUNTER_OR_NO}}{{GARDEN_NIGHT_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
     },
     "GUEST": [
         "Guest <mark>[{{GUEST_TRUE_NAME}}, {{GUEST_CATEGORY}}]</mark>"
@@ -2546,49 +2624,7 @@
         "5": "{{BOOK}}",
         "6": "Hastily-drawn recipe",
         "7": "Hastily-drawn map <mark>explaining travel from one part of Voivodja to another</mark>",
-        "8": "Coins or jewelry worth 80 gold pieces",
-        "9": "Coins or jewelry worth 90 gold pieces",
-        "10": "Coins or jewelry worth 100 gold pieces",
-        "11": "Coins or jewelry worth 110 gold pieces",
-        "12": "Coins or jewelry worth 120 gold pieces",
-        "13": "Coins or jewelry worth 130 gold pieces",
-        "14": "Coins or jewelry worth 140 gold pieces",
-        "15": "Coins or jewelry worth 150 gold pieces",
-        "16": "Coins or jewelry worth 160 gold pieces",
-        "17": "Coins or jewelry worth 170 gold pieces",
-        "18": "Coins or jewelry worth 180 gold pieces",
-        "19": "Coins or jewelry worth 190 gold pieces",
-        "20": "Coins or jewelry worth 200 gold pieces",
-        "21": "Coins or jewelry worth 210 gold pieces",
-        "22": "Coins or jewelry worth 220 gold pieces",
-        "23": "Coins or jewelry worth 230 gold pieces",
-        "24": "Coins or jewelry worth 240 gold pieces",
-        "25": "Coins or jewelry worth 250 gold pieces",
-        "26": "Coins or jewelry worth 260 gold pieces",
-        "27": "Coins or jewelry worth 270 gold pieces",
-        "28": "Coins or jewelry worth 280 gold pieces",
-        "29": "Coins or jewelry worth 290 gold pieces",
-        "30": "Coins or jewelry worth 300 gold pieces",
-        "31": "Coins or jewelry worth 310 gold pieces",
-        "32": "Coins or jewelry worth 320 gold pieces",
-        "33": "Coins or jewelry worth 330 gold pieces",
-        "34": "Coins or jewelry worth 340 gold pieces",
-        "35": "Coins or jewelry worth 350 gold pieces",
-        "36": "Coins or jewelry worth 360 gold pieces",
-        "37": "Coins or jewelry worth 370 gold pieces",
-        "38": "Coins or jewelry worth 380 gold pieces",
-        "39": "Coins or jewelry worth 390 gold pieces",
-        "40": "Coins or jewelry worth 400 gold pieces",
-        "41": "Coins or jewelry worth 410 gold pieces",
-        "42": "Coins or jewelry worth 420 gold pieces",
-        "43": "Coins or jewelry worth 430 gold pieces",
-        "44": "Coins or jewelry worth 440 gold pieces",
-        "45": "Coins or jewelry worth 450 gold pieces",
-        "46": "Coins or jewelry worth 460 gold pieces",
-        "47": "Coins or jewelry worth 470 gold pieces",
-        "48": "Coins or jewelry worth 480 gold pieces",
-        "49": "Coins or jewelry worth 490 gold pieces",
-        "50": "Coins or jewelry worth 500 gold pieces",
+        "50": "{{COINS_OR_JEWELRY}}",
         "52": "*Engagement ring and semi-literate drafts of marriage-proposal speech <mark>with name of potential fiancee written in margins</mark>",
         "53": "*Recipe for crumpets",
         "54": "*Recipe for biscuits",
@@ -2639,25 +2675,69 @@
         "99": "*Letter of introduction <mark>to a high-level NPC of a rival House extolling NPC's service to that House</mark>",
         "100": "*3.5 liters of glue"
     },
+    "INTERIOR_COLORLESS_ENCOUNTER_OR_NO": {
+        "1": "<p>{{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
     "INTERIOR_COLORLESS_OR_NO": {
         "1": "",
-        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>{{ENCOUNTER_INTERIOR_COLORLESS_OR_NO}}{{TREASURE_OR_NO_INTERIOR}}"
+        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>{{INTERIOR_COLORLESS_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_INTERIOR}}"
+    },
+    "INTERIOR_DOING_RELATIONSHIP": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ENCOUNTER_INTERIOR}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ENCOUNTER_INTERIOR}}",
+        "Is looking for {{ENCOUNTER_INTERIOR}} in {{LOCATION}}",
+        "Is babbling about {{ENCOUNTER_INTERIOR}}",
+        "Is hunting with the aid of {{ENCOUNTER_INTERIOR}}",
+        "Is traveling with {{ENCOUNTER_INTERIOR}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ENCOUNTER_INTERIOR}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ENCOUNTER_INTERIOR}}",
+        "Is looking for several {{ENCOUNTER_INTERIOR}} in {{LOCATION}}",
+        "Is babbling about several {{ENCOUNTER_INTERIOR}}",
+        "Is traveling with several {{ENCOUNTER_INTERIOR}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
+    "INTERIOR_ENCOUNTER_OR_NO": {
+        "2": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
+    "INTERIOR_HEART_ENCOUNTER_OR_NO": {
+        "1": "<p>{{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
     },
     "INTERIOR_HEART_OR_NO": {
         "1": "",
-        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>{{ENCOUNTER_INTERIOR_HEART_OR_NO}}{{TREASURE_OR_NO_INTERIOR}}"
+        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>{{INTERIOR_HEART_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_INTERIOR}}"
     },
     "INTERIOR_OR_NO": {
         "1": "",
-        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>{{ENCOUNTER_INTERIOR_OR_NO}}{{TREASURE_OR_NO_INTERIOR}}"
+        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>{{INTERIOR_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_INTERIOR}}"
+    },
+    "INTERIOR_PALE_ENCOUNTER_OR_NO": {
+        "1": "<p>{{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
     },
     "INTERIOR_PALE_OR_NO": {
         "1": "",
-        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>{{ENCOUNTER_INTERIOR_PALE_OR_NO}}{{TREASURE_OR_NO_INTERIOR}}"
+        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>{{INTERIOR_PALE_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_INTERIOR}}"
+    },
+    "INTERIOR_RED_ENCOUNTER_OR_NO": {
+        "1": "<p>{{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
     },
     "INTERIOR_RED_OR_NO": {
         "1": "",
-        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>{{ENCOUNTER_INTERIOR_RED_OR_NO}}{{TREASURE_OR_NO_INTERIOR}}"
+        "2": "<h3>Interior {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>{{INTERIOR_RED_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_INTERIOR}}"
     },
     "INTERIOR_ROOM": [
         "Hall",
@@ -2938,13 +3018,37 @@
         "{{LOCATION}} On Quiet Side of Looking Glass"
     ],
     "MOUNTAIN": [
-        "<p>{{ADVENTURE_THEME}}</p><h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
+        "<p>{{ADVENTURE_THEME}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{MOUNTAIN_DAY_ENCOUNTER_OR_NO}}{{MOUNTAIN_NIGHT_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "MOUNTAIN_COLORLESS": [
-        "<p>{{ADVENTURE_COLORLESS}}</p><h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_COLORLESS_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_COLORLESS_OR_NO}}"
+        "<p>{{ADVENTURE_COLORLESS}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{MOUNTAIN_DAY_ENCOUNTER_OR_NO}}{{MOUNTAIN_NIGHT_COLORLESS_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_COLORLESS_OR_NO}}"
     ],
+    "MOUNTAIN_DAY_DOING_RELATIONSHIP": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ENCOUNTER_MOUNTAIN_DAY}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ENCOUNTER_MOUNTAIN_DAY}}",
+        "Is looking for {{ENCOUNTER_MOUNTAIN_DAY}} in {{LOCATION}}",
+        "Is babbling about {{ENCOUNTER_MOUNTAIN_DAY}}",
+        "Is hunting with the aid of {{ENCOUNTER_MOUNTAIN_DAY}}",
+        "Is traveling with {{ENCOUNTER_MOUNTAIN_DAY}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ENCOUNTER_MOUNTAIN_DAY}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ENCOUNTER_MOUNTAIN_DAY}}",
+        "Is looking for several {{ENCOUNTER_MOUNTAIN_DAY}} in {{LOCATION}}",
+        "Is babbling about several {{ENCOUNTER_MOUNTAIN_DAY}}",
+        "Is traveling with several {{ENCOUNTER_MOUNTAIN_DAY}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
+    "MOUNTAIN_DAY_ENCOUNTER_OR_NO": {
+        "2": "<p><strong>day</strong> {{ENCOUNTER_MOUNTAIN_DAY}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
     "MOUNTAIN_HEART": [
-        "<p>{{ADVENTURE_HEART}}</p><h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_HEART_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_HEART_OR_NO}}"
+        "<p>{{ADVENTURE_HEART}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{MOUNTAIN_DAY_ENCOUNTER_OR_NO}}{{MOUNTAIN_NIGHT_HEART_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_HEART_OR_NO}}"
     ],
     "MOUNTAIN_LANDMARK": [
         "Bridge",
@@ -3046,15 +3150,59 @@
         "Orb Loc",
         "Waist-deep snow"
     ],
+    "MOUNTAIN_NIGHT_COLORLESS_ENCOUNTER_OR_NO": {
+        "1": "<p><strong>night</strong> {{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
+    "MOUNTAIN_NIGHT_DOING_RELATIONSHIP": [
+        "Is eating {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing {{ENCOUNTER_MOUNTAIN_NIGHT}}",
+        "Is negotiating with {{ENCOUNTER_INTELLIGENT}}",
+        "Is selling something to {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding a wounded {{ENCOUNTER_MOUNTAIN_NIGHT}}",
+        "Is looking for {{ENCOUNTER_MOUNTAIN_NIGHT}} in {{LOCATION}}",
+        "Is babbling about {{ENCOUNTER_MOUNTAIN_NIGHT}}",
+        "Is hunting with the aid of {{ENCOUNTER_MOUNTAIN_NIGHT}}",
+        "Is traveling with {{ENCOUNTER_MOUNTAIN_NIGHT}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing {{ENCOUNTER_INTELLIGENT}}",
+        "Is eating several {{ANIMAL_UNINTELLIGENT}}",
+        "Is killing several {{ENCOUNTER_MOUNTAIN_NIGHT}}",
+        "Is negotiating with several {{ENCOUNTER_INTELLIGENT}}",
+        "Is aiding wounded {{ENCOUNTER_MOUNTAIN_NIGHT}}",
+        "Is looking for several {{ENCOUNTER_MOUNTAIN_NIGHT}} in {{LOCATION}}",
+        "Is babbling about several {{ENCOUNTER_MOUNTAIN_NIGHT}}",
+        "Is traveling with several {{ENCOUNTER_MOUNTAIN_NIGHT}} to {{LOCATION}}{{HERE_OR_THERE}}",
+        "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
+    ],
+    "MOUNTAIN_NIGHT_ENCOUNTER_OR_NO": {
+        "2": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
+    "MOUNTAIN_NIGHT_HEART_ENCOUNTER_OR_NO": {
+        "1": "<p><strong>night</strong> {{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
+    "MOUNTAIN_NIGHT_PALE_ENCOUNTER_OR_NO": {
+        "1": "<p><strong>night</strong> {{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
+    "MOUNTAIN_NIGHT_RED_ENCOUNTER_OR_NO": {
+        "1": "<p><strong>night</strong> {{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<p><strong>night</strong> {{ENCOUNTER_MOUNTAIN_NIGHT}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "6": ""
+    },
     "MOUNTAIN_PALE": [
-        "<p>{{ADVENTURE_PALE}}</p><h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_PALE_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_PALE_OR_NO}}"
+        "<p>{{ADVENTURE_PALE}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{MOUNTAIN_DAY_ENCOUNTER_OR_NO}}{{MOUNTAIN_NIGHT_PALE_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_PALE_OR_NO}}"
     ],
     "MOUNTAIN_RED": [
-        "<p>{{ADVENTURE_RED}}</p><h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_RED_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_RED_OR_NO}}"
+        "<p>{{ADVENTURE_RED}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{MOUNTAIN_DAY_ENCOUNTER_OR_NO}}{{MOUNTAIN_NIGHT_RED_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_RED_OR_NO}}"
     ],
     "MOUNTAIN_SECOND_OR_NO": {
         "1": "",
-        "2": "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{ENCOUNTER_MOUNTAIN_DAY_OR_NO}}{{ENCOUNTER_MOUNTAIN_NIGHT_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
+        "2": "<h3>{{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{MOUNTAIN_DAY_ENCOUNTER_OR_NO}}{{MOUNTAIN_NIGHT_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}"
     },
     "NAMED_NPC_APPEARANCE": [
         "Wears wolf fur and monocle",
@@ -3264,49 +3412,79 @@
         "Trying to manipulate...",
         "Works for..."
     ],
-    "NPC_DETAILS_EXTERIOR": {
-        "13": ". Wants you to {{ADVENTURE_HOOK}}{{REWARD_OR_NO}}",
-        "25": ". {{NPC_RELATIONSHIP}}",
-        "100": ""
+    "NPC_DETAILS": {
+        "1": ". {{DOING_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
+    },
+    "NPC_DETAILS_FOREST_DAY": {
+        "1": ". {{FOREST_DAY_DOING_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
+    },
+    "NPC_DETAILS_FOREST_NIGHT": {
+        "1": ". {{FOREST_NIGHT_DOING_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
+    },
+    "NPC_DETAILS_GARDEN_DAY": {
+        "1": ". {{GARDEN_DAY_DOING_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
+    },
+    "NPC_DETAILS_GARDEN_NIGHT": {
+        "1": ". {{GARDEN_NIGHT_DOING_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
     },
     "NPC_DETAILS_INTERIOR": {
-        "8": ". Wants you to {{ADVENTURE_HOOK}}",
-        "25": ". {{DOING_RELATIONSHIP}}. {{DOING_WANT}}. {{DOING_CARE}}",
-        "100": ""
+        "1": ". {{INTERIOR_DOING_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
+    },
+    "NPC_DETAILS_MOUNTAIN_DAY": {
+        "1": ". {{MOUNTAIN_DAY_DOING_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
+    },
+    "NPC_DETAILS_MOUNTAIN_NIGHT": {
+        "1": ". {{MOUNTAIN_NIGHT_DOING_RELATIONSHIP}}",
+        "3": ". {{NPC_RELATIONSHIP}}",
+        "6": ". {{DOING_WANT}}. {{DOING_CARE}}"
     },
     "NPC_RELATIONSHIP": {
-        "2": "Is toying with {{OBJECT_ANIMAL_ENCOUNTER}} or using it/she/he for entertainment",
-        "4": "Is obsessed with {{OBJECT_ANIMAL_ENCOUNTER}}{{HERE_OR_THERE}}",
+        "2": "Is toying with {{ENCOUNTER}} or using it/she/he for entertainment",
+        "4": "Is obsessed with {{OBJECT_ANIMAL_OR_ENCOUNTER}}",
         "6": "Has an uneasy alliance with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "8": "Seeks to control {{LOCATION}}{{HERE_OR_THERE}}",
         "10": "Reluctantly trades with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "12": "Sexually involved with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
-        "14": "Seeks the destruction of {{OBJECT_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
+        "14": "Seeks the destruction of {{OBJECT_OR_ENCOUNTER}} in {{LOCATION}}{{HERE_OR_THERE}}",
         "16": "Seeks the return of {{OBJECT}} from {{LOCATION}}{{HERE_OR_THERE}}",
-        "18": "Is inside {{OBJECT_ANIMAL}}",
+        "18": "Is inside {{OBJECT_OR_ANIMAL}}",
         "20": "Secretly serves {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "22": "Has a vendetta against {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
-        "24": "Loves {{OBJECT_ANIMAL_ENCOUNTER}}{{HERE_OR_THERE}}",
-        "26": "Wants to eat/consume/absorb {{OBJECT_ANIMAL}} from {{LOCATION}}{{HERE_OR_THERE}}",
-        "28": "Cannot sense {{OBJECT_ANIMAL}} and this is dangerous",
+        "24": "Loves {{OBJECT_ANIMAL_OR_ENCOUNTER}}{{HERE_OR_THERE}}",
+        "26": "Wants to eat/consume/absorb {{ANIMAL_UNINTELLIGENT}}",
+        "28": "Cannot sense {{OBJECT_OR_ANIMAL}} and this is dangerous",
         "30": "Is inoperative/immobile/comatose without {{OBJECT}}",
         "32": "Does not want to harm {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}} but feels s/he must",
         "34": "Worships {{ANIMAL_ENCOUNTER}}",
-        "36": "Requires {{OBJECT_ANIMAL}} from {{LOCATION}}{{HERE_OR_THERE}} as a raw material for some magical/psychic alchemical scheme",
+        "36": "Requires {{OBJECT_OR_ANIMAL}} as a raw material for some magical/psychic alchemical scheme",
         "38": "Desires {{ENCOUNTER_INTELLIGENT}}'s dwelling/home{{HERE_OR_THERE}}",
         "40": "Wants to attack {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}} but is bound by some thing not to do so directly",
         "42": "Uneasily shares power with {{ENCOUNTER_INTELLIGENT}}",
         "44": "Is being pressured to ally with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "46": "Wants to frame {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}} or otherwise have his/her/its actions mistaken for his/her/its own",
-        "48": "Must distract {{ANIMAL_ENCOUNTER}} at {{LOCATION}} in order to enact plan",
-        "50": "Is mystically joined to {{OBJECT_ANIMAL}} at {{LOCATION}}{{HERE_OR_THERE}}",
+        "48": "Must distract {{ENCOUNTER}} at {{LOCATION}} in order to enact plan",
+        "50": "Is mystically joined to {{OBJECT_ANIMAL_OR_ENCOUNTER}} at {{LOCATION}}{{HERE_OR_THERE}}",
         "52": "Will be unstoppable once allied with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "54": "Will be more vulnerable once allied with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
-        "56": "Wants to be rescued from {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
-        "58": "Requires {{OBJECT_ANIMAL}} to reproduce",
+        "56": "Wants to be rescued from {{ENCOUNTER}}",
+        "58": "Requires {{OBJECT_OR_ANIMAL}} to reproduce",
         "60": "Seeks information possessed by {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}}",
         "62": "Seeks the love of {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
-        "64": "Seeks information about {{OBJECT_LOCATION}}{{HERE_OR_THERE}}",
+        "64": "Seeks information about {{OBJECT_ENCOUNTER_OR_LOCATION}}{{HERE_OR_THERE}}",
         "66": "Just killed/is about to kill {{ANIMAL_ENCOUNTER}}",
         "68": "Came from {{LOCATION}}{{HERE_OR_THERE}}",
         "70": "Seeks the capture of {{ANIMAL_ENCOUNTER}} from {{LOCATION}}{{HERE_OR_THERE}}",
@@ -3315,13 +3493,13 @@
         "77": "Is allied with {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "79": "Serves {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "81": "Is or wants to perform experiments on {{ANIMAL_ENCOUNTER}} at {{LOCATION}}{{HERE_OR_THERE}}",
-        "83": "Requires {{OBJECT_ANIMAL}} to complete a work of art",
+        "83": "Requires {{OBJECT_OR_ANIMAL}} to complete a work of art",
         "85": "Secretly is {{ENCOUNTER_INTELLIGENT}}",
-        "87": "Is only vulnerable to {{OBJECT_ANIMAL}}",
-        "89": "Has key information about {{OBJECT_LOCATION}}{{HERE_OR_THERE}}",
+        "87": "Is only vulnerable to {{OBJECT_OR_ANIMAL}}",
+        "89": "Has key information about {{OBJECT_ENCOUNTER_OR_LOCATION}}{{HERE_OR_THERE}}",
         "91": "Is impersonating {{ANIMAL_ENCOUNTER}}",
         "93": "Is struggling with {{ENCOUNTER_INTELLIGENT}} at {{LOCATION}}{{HERE_OR_THERE}} for control of an organization",
-        "95": "Is unaware of but vulnerable to {{OBJECT_ANIMAL}}",
+        "95": "Is unaware of but vulnerable to {{OBJECT_OR_ANIMAL}}",
         "97": "Is betrothed to {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "99": "Is secretly married to {{ENCOUNTER_INTELLIGENT}}{{HERE_OR_THERE}}",
         "100": "{{NPC_RELATIONSHIP}} and {{NPC_RELATIONSHIP}}"
@@ -3428,20 +3606,25 @@
         "Key <mark>(Roll d100. That's the percent chance it will fit any given lock. Once it fits a lock, that's the door it was for)</mark>",
         "Strong but ornate chain"
     ],
-    "OBJECT_ANIMAL": [
+    "OBJECT_OR_ANIMAL": [
         "{{OBJECT}}",
         "{{ANIMAL}}"
     ],
-    "OBJECT_ANIMAL_ENCOUNTER": [
+    "OBJECT_ANIMAL_OR_ENCOUNTER": [
         "{{OBJECT}}",
         "{{ANIMAL}}",
         "{{ENCOUNTER}}"
     ],
-    "OBJECT_ENCOUNTER": [
+    "OBJECT_OR_ENCOUNTER": [
         "{{OBJECT}}",
         "{{ENCOUNTER}}"
     ],
-    "OBJECT_LOCATION": [
+    "OBJECT_ENCOUNTER_OR_LOCATION": [
+        "{{OBJECT}}",
+        "{{ENCOUNTER}}",
+        "{{LOCATION}}"
+    ],
+    "OBJECT_OR_LOCATION": [
         "{{OBJECT}}",
         "{{LOCATION}}"
     ],
@@ -3733,6 +3916,49 @@
         "Virgin",
         "Weaver",
         "Witch/Wizard"
+    ],
+    "RARE_TREASURE": [
+        "{{OBJECT}} worth 1000 gold pieces",
+        "{{OBJECT}} worth 1100 gold pieces",
+        "{{OBJECT}} worth 1200 gold pieces",
+        "{{OBJECT}} worth 1300 gold pieces",
+        "{{OBJECT}} worth 1400 gold pieces",
+        "{{OBJECT}} worth 1500 gold pieces",
+        "{{OBJECT}} worth 1600 gold pieces",
+        "{{OBJECT}} worth 1700 gold pieces",
+        "{{OBJECT}} worth 1800 gold pieces",
+        "{{OBJECT}} worth 1900 gold pieces",
+        "{{OBJECT}} worth 2000 gold pieces",
+        "{{OBJECT}} worth 2100 gold pieces",
+        "{{OBJECT}} worth 2200 gold pieces",
+        "{{OBJECT}} worth 2300 gold pieces",
+        "{{OBJECT}} worth 2400 gold pieces",
+        "{{OBJECT}} worth 2500 gold pieces",
+        "{{OBJECT}} worth 2600 gold pieces",
+        "{{OBJECT}} worth 2700 gold pieces",
+        "{{OBJECT}} worth 2800 gold pieces",
+        "{{OBJECT}} worth 2900 gold pieces",
+        "{{OBJECT}} worth 3000 gold pieces",
+        "{{OBJECT}} worth 3100 gold pieces",
+        "{{OBJECT}} worth 3200 gold pieces",
+        "{{OBJECT}} worth 3300 gold pieces",
+        "{{OBJECT}} worth 3400 gold pieces",
+        "{{OBJECT}} worth 3500 gold pieces",
+        "{{OBJECT}} worth 3600 gold pieces",
+        "{{OBJECT}} worth 3700 gold pieces",
+        "{{OBJECT}} worth 3800 gold pieces",
+        "{{OBJECT}} worth 3900 gold pieces",
+        "{{OBJECT}} worth 4000 gold pieces",
+        "{{OBJECT}} worth 4100 gold pieces",
+        "{{OBJECT}} worth 4200 gold pieces",
+        "{{OBJECT}} worth 4300 gold pieces",
+        "{{OBJECT}} worth 4400 gold pieces",
+        "{{OBJECT}} worth 4500 gold pieces",
+        "{{OBJECT}} worth 4600 gold pieces",
+        "{{OBJECT}} worth 4700 gold pieces",
+        "{{OBJECT}} worth 4800 gold pieces",
+        "{{OBJECT}} worth 4900 gold pieces",
+        "{{OBJECT}} worth 5000 gold pieces"
     ],
     "REWARD": {
         "10": "{{TREASURE}}",
@@ -4106,16 +4332,17 @@
         "Wind Barrier (<strong>w&w</strong>)"
     ],
     "TREASURE": {
-        "28": "Spellbook: {{SPELL}}",
-        "40": "magical {{OBJECT}}",
-        "100": "valuable {{OBJECT}} worth 6d10 x 100 gold pieces"
+        "2": "Spellbook: {{SPELL}}",
+        "3": "Magical {{OBJECT}}",
+        "6": "rare {{RARE_TREASURE}}",
+        "12": "{{COINS_OR_JEWELRY}}"
     },
     "TREASURE_OR_NO_EXTERIOR": {
-        "20": "<p>Contains {{TREASURE}}.</p>",
-        "100": ""
+        "2": "<p>Contains {{TREASURE}}.</p>",
+        "6": ""
     },
     "TREASURE_OR_NO_INTERIOR": {
-        "30": "<p>Contains {{TREASURE}}.</p>",
-        "100": ""
+        "3": "<p>Contains {{TREASURE}}.</p>",
+        "6": ""
     }
 }
