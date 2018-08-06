@@ -13,11 +13,13 @@ echo "NPCs carrying items (Carrying)"
 grep -p "Carrying" ARnPL_analyze.html | wc -l
 echo "All Treasures (<p>Contains)"
 grep -o "<p>Contains" ARnPL_analyze.html | wc -l
-echo "Spellbooks (<p>Contains Spell) [only spellbooks in treasures]"
+echo "Spellbooks (<p>Contains Spell) [only in treasures]"
 grep -o "<p>Contains Spell" ARnPL_analyze.html | wc -l
 echo "Magical Items (<p>Contains magical)"
-grep -o "<p>Contains magical" ARnPL_analyze.html | wc -l
-echo "Valuable Items (<p>Contains valuable)"
-grep -o "<p>Contains valuable" ARnPL_analyze.html | wc -l
+grep -o "<p>Contains Magical" ARnPL_analyze.html | wc -l
+echo "Rare Treasures (<p>Contains valuable)"
+grep -o "<p>Contains rare" ARnPL_analyze.html | wc -l
+echo "Coins or Jewelry (<p>Contains Coins) [only in treasures]"
+grep -o "<p>Contains Coins" ARnPL_analyze.html | wc -l
 echo "All Spellbooks (Spell)"
 grep -o "Spell" ARnPL_analyze.html | wc -l
