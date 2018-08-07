@@ -85,7 +85,7 @@
         "20": "Interior at <strong>square {{RANDOM_HEX}}</strong>"
     },
     "ADVENTURE_HOOK_OR_NO": {
-        "1": "<div class=\"adventure_hook\"><p>{{ADVENTURE_HOOK}}</p></div>",
+        "1": "<div class=\"adventure_hook\"><p>{{ADVENTURE_HOOK}}.</p></div>",
         "4": ""
     },
     "ADVENTURE_HOOK_TRANSPORT": [
@@ -616,7 +616,7 @@
         "Is on good terms with powerful creature in the Interior and can get the characters past it",
         "Has oracular powers or is a Cleric with a few Cure Moderate Wounds up his/her embroidered sleeves",
         "Is in a position to offer the characters a sizable monetary reward once they are safely out of the Interior",
-        "Is delivering a message to one of the kings or queens and if they are interrupted the characters will suffer",
+        "Is delivering a message to the {{ENCOUNTER_MONARCH}} and if they are interrupted the characters will suffer",
         "Is valuable if captured alive and brought to a wealthy patron",
         "Knows the code to interpret the message s/he carries"
     ],
@@ -3018,7 +3018,7 @@
         "25": "Storageroom",
         "27": "Gameroom",
         "29": "Pool",
-        "31": "Musicroom",
+        "31": "Music room",
         "33": "Fountain",
         "35": "Tower room overlooking garden {{GARDEN_LANDMARK}}",
         "37": "Looking glass room"
@@ -3027,7 +3027,7 @@
         "{{LOCATION}} On Quiet Side of Looking Glass"
     ],
     "MOUNTAIN": [
-        "<p>{{ADVENTURE_THEME}}</p>{{ADVENTURE_HOOK_OR_NO}}><div class=\"mountain_landmark\"><h3>{{MOUNTAIN_ICON}} {{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3></div>{{MOUNTAIN_DAY_ENCOUNTER_OR_NO}}{{MOUNTAIN_NIGHT_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
+        "<p>{{ADVENTURE_THEME}}</p>{{ADVENTURE_HOOK_OR_NO}}<div class=\"mountain_landmark\"><h3>{{MOUNTAIN_ICON}} {{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3></div>{{MOUNTAIN_DAY_ENCOUNTER_OR_NO}}{{MOUNTAIN_NIGHT_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_OR_NO}}"
     ],
     "MOUNTAIN_COLORLESS": [
         "<p>{{ADVENTURE_COLORLESS}}</p>{{ADVENTURE_HOOK_OR_NO}}<div class=\"mountain_landmark\"><h3>{{MOUNTAIN_ICON}} {{MOUNTAIN_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3></div>{{MOUNTAIN_DAY_ENCOUNTER_OR_NO}}{{MOUNTAIN_NIGHT_COLORLESS_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{MOUNTAIN_SECOND_OR_NO}}{{INTERIOR_COLORLESS_OR_NO}}"
