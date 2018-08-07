@@ -85,7 +85,7 @@
         "20": "Interior at <strong>square {{RANDOM_HEX}}</strong>"
     },
     "ADVENTURE_HOOK_OR_NO": {
-        "1": "<p>{{ADVENTURE_HOOK}}</p>",
+        "1": "<div class=\"adventure_hook\"><p>{{ADVENTURE_HOOK}}</p></div>",
         "4": ""
     },
     "ADVENTURE_HOOK_TRANSPORT": [
