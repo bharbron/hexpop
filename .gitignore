@@ -3,3 +3,4 @@ env/*
 foobar*
 *.html
 *.pdf
+.DS_Store
