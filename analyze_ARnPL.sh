@@ -16,8 +16,8 @@ grep -o "<p>Contains" ARnPL_analyze.html | wc -l
 echo "Spellbooks (<p>Contains Spell) [only in treasures]"
 grep -o "<p>Contains Spell" ARnPL_analyze.html | wc -l
 echo "Magical Items (<p>Contains magical)"
-grep -o "<p>Contains Magical" ARnPL_analyze.html | wc -l
-echo "Rare Treasures (<p>Contains valuable)"
+grep -o "<p>Contains magical" ARnPL_analyze.html | wc -l
+echo "Rare Treasures (<p>Contains rare)"
 grep -o "<p>Contains rare" ARnPL_analyze.html | wc -l
 echo "Coins or Jewelry (<p>Contains Coins) [only in treasures]"
 grep -o "<p>Contains Coins" ARnPL_analyze.html | wc -l

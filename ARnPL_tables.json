@@ -2610,8 +2610,8 @@
         "insect"
     ],
     "HERE_OR_THERE": {
-        "5": "",
-        "6": " in <strong>square {{RANDOM_HEX}}</strong>"
+        "3": " in <strong>square {{RANDOM_HEX}}</strong>",
+        "6": ""
     },
     "HOUSE": [
         "House of Hearts",
@@ -4333,7 +4333,7 @@
     ],
     "TREASURE": {
         "2": "Spellbook: {{SPELL}}",
-        "3": "Magical {{OBJECT}}",
+        "3": "magical {{OBJECT}}",
         "6": "rare {{RARE_TREASURE}}",
         "12": "{{COINS_OR_JEWELRY}}"
     },
