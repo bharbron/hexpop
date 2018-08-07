@@ -25,3 +25,5 @@ echo "All Spellbooks (Spell)"
 grep -o "Spell" ARnPL_analyze.html | wc -l
 echo "Hex references (<strong>square)"
 grep -o "<strong>square" ARnPL_analyze.html | wc -l
+echo "Referenced hexes (<h2>See)"
+grep -o "<h2>See" ARnPL_analyze.html | wc -l

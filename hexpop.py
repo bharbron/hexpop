@@ -64,7 +64,7 @@ def load_npcs(npcs, tables):
         for npc in npcs:
             named_npcs[str(key)] = {
                 "name": parse_and_replace(npc["name"], tables),
-                "description": parse_and_replace(npc["description"], tables),
+                "text": parse_and_replace(npc["text"], tables),
                 "references": [],
                 "key": str(key)
             }
@@ -73,7 +73,7 @@ def load_npcs(npcs, tables):
         for key, npc in npcs.iteritems():
             named_npcs[str(key)] = {
                 "name": parse_and_replace(npc["name"], tables),
-                "description": parse_and_replace(npc["description"], tables),
+                "text": parse_and_replace(npc["text"], tables),
                 "references": [],
                 "key": str(key)
             }
@@ -90,14 +90,13 @@ def set_named_npcs(hex_contents, named_npcs):
             npc = roll_on_table(named_npcs)
             hex_contents[k]["text"] = hex_contents[k]["text"].replace(r"{{NAMED_NPC}}", npc["name"], 1)
             named_npcs[npc["key"]]["references"].append(k)
-    return hex_contents
+    return hex_contents, named_npcs
 
 
 def set_random_hexes(hex_contents):
     """
     Goes through all records in the hexmap, finds references to {{RANDOM_HEX}}, replaces them with the hex number, and adds a reference on the random hex
     """
-    updated_hex_contents = hex_contents
     hexes = hex_contents.keys()
     for k, v in hex_contents.iteritems():
         hex_references = re.findall(r"{{RANDOM_HEX}}", v["text"])
@@ -105,16 +104,16 @@ def set_random_hexes(hex_contents):
             random_hex = k
             while random_hex == k:
                 random_hex = roll_on_table(hexes)
-            updated_hex_contents[k]["text"] = hex_contents[k]["text"].replace(r"{{RANDOM_HEX}}", random_hex, 1)
-            updated_hex_contents[random_hex]["references"].append(k)
-    return updated_hex_contents
+            hex_contents[k]["text"] = hex_contents[k]["text"].replace(r"{{RANDOM_HEX}}", random_hex, 1)
+            hex_contents[random_hex]["references"].append(k)
+    return hex_contents
 
 
 def populate_hex_contents(hexmap, tables):
     hex_contents = {}
     for k, v in hexmap.iteritems():
         hex_contents[k] = {"text": parse_and_replace(v, tables), "references": []}
-    return set_random_hexes(hex_contents)
+    return hex_contents
 
 
 def print_hex_contents(hex_contents):
@@ -132,8 +131,8 @@ def print_named_npcs(named_npcs):
         print(u"Named NPCs")
     for named_npc in sorted(named_npcs.items(), key=lambda x: x[1]["name"]):
         print(u"{0}".format(named_npc[1]["name"]))
-        if named_npc[1]["description"]:
-            print(u"{0}".format(named_npc[1]["description"]))
+        if named_npc[1]["text"]:
+            print(u"{0}".format(named_npc[1]["text"]))
         if named_npc[1]["references"]:
             print(u"SEE: {0}".format(", ".join(sorted(list(set(named_npc[1]["references"]))))))
         print
@@ -158,8 +157,8 @@ def print_named_npcs_html(named_npcs):
     # Sort by name
     for named_npc in sorted(named_npcs.items(), key=lambda x: x[1]["name"]):
         print(u"<div class=\"named_npc\"><h2>{0}</h2>".format(named_npc[1]["name"]))
-        if named_npc[1]["description"]:
-            print(u"<p>{0}</p>".format(named_npc[1]["description"]))
+        if named_npc[1]["text"]:
+            print(u"{0}".format(named_npc[1]["text"]))
         if named_npc[1]["references"]:
             print(u"<p>See {0}</p>".format(", ".join(sorted(list(set(named_npc[1]["references"]))))))
         print(u"</div>")
@@ -186,16 +185,16 @@ def main():
     with open(args.tables, "r") as f:
         tables = json.load(f)
 
+    hex_contents = populate_hex_contents(hexmap, tables)
+
     named_npcs = {}
     if args.npcs:
         with open(args.npcs, "r") as f:
             npcs = json.load(f)
             named_npcs = load_npcs(npcs, tables)
+        hex_contents, named_npcs = set_named_npcs(hex_contents, named_npcs)
 
-    hex_contents = populate_hex_contents(hexmap, tables)
-
-    if args.npcs:
-        hex_contents = set_named_npcs(hex_contents, named_npcs)
+    hex_contents = set_random_hexes(hex_contents)
 
     print_hexpop_html(hex_contents, named_npcs)
 
