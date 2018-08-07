@@ -96,8 +96,22 @@ div.npc_ref p {
   font-weight: normal;
   font-size: 1.2rem;
 }
+span.forest_icon {
+  margin-left: -0.25rem;
+}
+span.forest_icon_2 {
+  font-size: 1rem;
+  margin-left: -0.6rem;
+}
+span.forest_icon_3 {
+  font-size: 1.2rem;
+  margin-left: -0.5rem;
+  margin-right: -0.2rem;
+}
 span.mountain_icon {
   position: relative;
   top: 0.4rem;
   font-size: 1.9rem;
+  margin-left: -0.15rem;
+  margin-right: -0.1rem;
 }

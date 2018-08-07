@@ -1345,7 +1345,7 @@
         "<p>{{ADVENTURE_HEART}}</p>{{ADVENTURE_HOOK_OR_NO}}<h3>{{FOREST_ICON}} {{FOREST_LANDMARK}}.{{COMPLICATION_OR_NO}}</h3>{{FOREST_DAY_ENCOUNTER_OR_NO}}{{FOREST_NIGHT_HEART_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_EXTERIOR}}{{FOREST_SECOND_OR_NO}}{{INTERIOR_HEART_OR_NO}}"
     ],
     "FOREST_ICON": [
-        "<span class=\"forest_icon\">&#8607;</span>"
+        "<span class=\"forest_icon\">&#8607;</span><span class=\"forest_icon_2\">&#8607;</span><span class=\"forest_icon_3\">&#8607;</span>"
     ],
     "FOREST_LANDMARK": [
         "Bridge",
