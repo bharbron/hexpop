@@ -96,3 +96,8 @@ div.npc_ref p {
   font-weight: normal;
   font-size: 1.2rem;
 }
+span.mountain_icon {
+  position: relative;
+  top: 0.4rem;
+  font-size: 1.9rem;
+}
