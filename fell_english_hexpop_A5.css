@@ -115,6 +115,6 @@ span.mountain_icon {
   margin-left: -0.15rem;
   margin-right: -0.1rem;
 }
-h3.mountain_landmark {
+div.mountain_landmark h3 {
   margin-top: -0.45rem;
 }
