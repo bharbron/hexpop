@@ -68,7 +68,7 @@ div.hexes_title {
 }
 div.hex {
   break-inside: avoid;
-  margin-bottom: 5rem;
+  margin-bottom: 0.5in;
 }
 div.named_npcs {
   break-before: recto;
@@ -81,7 +81,7 @@ div.named_npcs_title {
 }
 div.named_npc {
   break-inside: avoid;
-  margin-bottom: 5rem;
+  margin-bottom: 0.5in;
 }
 div.named_npc h1 {
   font-style: italic;
