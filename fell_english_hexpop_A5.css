@@ -83,3 +83,16 @@ div.named_npc {
   break-inside: avoid;
   margin-bottom: 5rem;
 }
+div.named_npc h1 {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+div.npc_ref p {
+  font-family: 'IM Fell English SC', serif;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
