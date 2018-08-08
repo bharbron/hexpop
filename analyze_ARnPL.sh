@@ -7,8 +7,8 @@ echo "Day Encounters (<strong>day)"
 grep -o "<strong>day" ARnPL_analyze.html | wc -l
 echo "Night Encounters (<strong>night)"
 grep -o "<strong>night" ARnPL_analyze.html | wc -l
-echo "Interiors (interior_icon) [encounters roughly 1/2 this]"
-grep -o "interior_icon" ARnPL_analyze.html | wc -l
+echo "Interior Encounters (interior_encounter)"
+grep -o "interior_encounter" ARnPL_analyze.html | wc -l
 echo "NPCs carrying items (Carrying)"
 grep -p "Carrying" ARnPL_analyze.html | wc -l
 echo "All Treasures (<p>Contains)"

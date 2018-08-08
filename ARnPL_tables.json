@@ -2682,8 +2682,8 @@
         "100": "*3.5 liters of glue"
     },
     "INTERIOR_COLORLESS_ENCOUNTER_OR_NO": {
-        "1": "<p>{{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "2": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "1": "<div class=\"interior_encounter\"><p>{{ENCOUNTER_COLORLESS_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p></div>",
+        "2": "<div class=\"interior_encounter\"><p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p></div>",
         "6": ""
     },
     "INTERIOR_COLORLESS_OR_NO": {
@@ -2711,12 +2711,12 @@
         "Is seducing several {{ENCOUNTER_INTELLIGENT}}"
     ],
     "INTERIOR_ENCOUNTER_OR_NO": {
-        "2": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "2": "<div class=\"interior_encounter\"><p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p></div>",
         "6": ""
     },
     "INTERIOR_HEART_ENCOUNTER_OR_NO": {
-        "1": "<p>{{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "2": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "1": "<div class=\"interior_encounter\"><p>{{ENCOUNTER_HOUSE_OF_HEARTS}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p></div>",
+        "2": "<div class=\"interior_encounter\"><p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p></div>",
         "6": ""
     },
     "INTERIOR_HEART_OR_NO": {
@@ -2731,8 +2731,8 @@
         "2": "<h3>{{INTERIOR_ICON}} {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>{{INTERIOR_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_INTERIOR}}"
     },
     "INTERIOR_PALE_ENCOUNTER_OR_NO": {
-        "1": "<p>{{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "2": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "1": "<div class=\"interior_encounter\"><p>{{ENCOUNTER_PALE_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p></div>",
+        "2": "<div class=\"interior_encounter\"><p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p></div>",
         "6": ""
     },
     "INTERIOR_PALE_OR_NO": {
@@ -2740,8 +2740,8 @@
         "2": "<h3>{{INTERIOR_ICON}} {{INTERIOR_ROOM}}.{{PERPLEXITY_OR_NO}}</h3>{{INTERIOR_PALE_ENCOUNTER_OR_NO}}{{TREASURE_OR_NO_INTERIOR}}"
     },
     "INTERIOR_RED_ENCOUNTER_OR_NO": {
-        "1": "<p>{{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
-        "2": "<p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p>",
+        "1": "<div class=\"interior_encounter\"><p>{{ENCOUNTER_RED_HOUSE}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p></div>",
+        "2": "<div class=\"interior_encounter\"><p>{{ENCOUNTER_INTERIOR}}{{NPC_DETAILS}}{{CARRYING_SOMETHING_OR_NO}}.</p></div>",
         "6": ""
     },
     "INTERIOR_RED_OR_NO": {
