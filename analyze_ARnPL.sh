@@ -7,12 +7,12 @@ echo "Day Encounters (<strong>day)"
 grep -o "<strong>day" ARnPL_analyze.html | wc -l
 echo "Night Encounters (<strong>night)"
 grep -o "<strong>night" ARnPL_analyze.html | wc -l
-echo "Interior Encounters (interior_encounter)"
-grep -o "interior_encounter" ARnPL_analyze.html | wc -l
+echo "Interior Encounters (<div class=\"interior_encounter\">)"
+grep -o "<div class=\"interior_encounter\">" ARnPL_analyze.html | wc -l
 echo "NPCs carrying items (Carrying)"
 grep -p "Carrying" ARnPL_analyze.html | wc -l
-echo "All Treasures (<p>Contains)"
-grep -o "<p>Contains" ARnPL_analyze.html | wc -l
+echo "All Treasures (<div class=\"treasure\">)"
+grep -o "<div class=\"treasure\">" ARnPL_analyze.html | wc -l
 echo "Spellbooks (<p>Contains Spell) [only in treasures]"
 grep -o "<p>Contains Spell" ARnPL_analyze.html | wc -l
 echo "Magical Items (<p>Contains magical)"
