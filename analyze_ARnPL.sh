@@ -1,6 +1,6 @@
 python hexpop.py --npcs ARnPL_npcs.json ARnPL_map.json ARnPL_tables.json > ARnPL_analyze.html
-echo "Adventure Hooks (adventure_hook)"
-grep -o "adventure_hook" ARnPL_analyze.html | wc -l
+echo "Adventure Hooks (<div class=\"adventure_hook\">)"
+grep -o "<div class=\"adventure_hook\">" ARnPL_analyze.html | wc -l
 echo "Total Landmarks (<h3>)"
 grep -o "<h3>" ARnPL_analyze.html | wc -l
 echo "Day Encounters (<strong>day)"
