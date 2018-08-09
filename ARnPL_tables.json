@@ -4350,11 +4350,11 @@
         "12": "{{COINS_OR_JEWELRY}}"
     },
     "TREASURE_OR_NO_EXTERIOR": {
-        "2": "<p>Contains {{TREASURE}}.</p>",
+        "2": "<div class=\"treasure\"><p>Contains {{TREASURE}}.</p></div>",
         "6": ""
     },
     "TREASURE_OR_NO_INTERIOR": {
-        "3": "<p>Contains {{TREASURE}}.</p>",
+        "3": "<div class=\"treasure\"><p>Contains {{TREASURE}}.</p></div>",
         "6": ""
     }
 }
