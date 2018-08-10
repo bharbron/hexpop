@@ -4009,7 +4009,8 @@
         "Milk & Honey (<strong>m&m</strong>)",
         "Salvific Apport (<strong>m&m</strong>)",
         "Aura of Renewal (<strong>m&m</strong>)",
-        "Last Oath (<strong>m&m</strong>)"
+        "Last Oath (<strong>m&m</strong>)",
+        "Arguments Against Design (<strong>ec</strong>)"
     ],
     "SPELL_ARNPL": [
         "Eelcurse (<strong>ar&pl</strong>)",
@@ -4033,6 +4034,8 @@
         "Into the Crypts of Rays (<strong>vam</strong>)",
         "My Journey to the Stars (<strong>vam</strong>)",
         "Chewing Through the Membranes of Time and Space (<strong>ec</strong>)",
+        "Graveyard of the Lightness Planets (<strong>ec</strong>)",
+        "Masquerade in Red (<strong>ec</strong>)",
         "Those Who Dwell in Stellar Void (<strong>ec</strong>)"
     ],
     "SPELL_EC": [
@@ -4108,7 +4111,8 @@
         "Ropebind (<strong>m&m</strong>)",
         "Cat's Cradle (<strong>m&m</strong>)",
         "Maze (<strong>lotfp</strong>)",
-        "Side Step (<strong>ar&pl</strong>)"
+        "Side Step (<strong>ar&pl</strong>)",
+        "Venus Project (<strong>ec</strong>)"
     ],
     "SPELL_LOTFP": [
         "Summon (<strong>lotfp</strong>)",
@@ -4179,8 +4183,9 @@
         "Sepulchral Voice (<strong>vam</strong>)",
         "Transform All Suffering into Plagues (<strong>vam</strong>)",
         "Transylvanian Hunger (<strong>vam</strong>)",
-        "Killing Yourself to Live (<strong>ec</strong>)",
-        "Curses Scribed in Gore (<strong>ec</strong>)"
+        "Baptized by the Black Urine of the Deceased (<strong>ec</strong>)",
+        "Electric Grave (<strong>ec</strong>)",
+        "Killing Yourself to Live (<strong>ec</strong>)"
     ],
     "SPELL_OSR": [
         "Catherine (<strong>osr</strong>)"
@@ -4196,19 +4201,10 @@
         "Wind Barrier (<strong>w&w</strong>)",
         "A Blaze in the Northern Sky (<strong>vam</strong>)",
         "Suicidal Winds (<strong>vam</strong>)",
-        "Anywhere Out of This World (<strong>ec</strong>)",
-        "Arguments Against Design (<strong>ec</strong>)",
-        "An Autumn to Cripple Children (<strong>ec</strong>)",
-        "Baptized by the Black Urine of the Deceased (<strong>ec</strong>)",
+        "Curses Scribed in Gore (<strong>ec</strong>)",
         "Daylight Torn (<strong>ec</strong>)",
-        "Electric Grave (<strong>ec</strong>)",
         "Evacuation Code Deciphered (<strong>ec</strong>)",
-        "Graveyard of the Lightness Planets (<strong>ec</strong>)",
         "Lunar Womb (<strong>ec</strong>)",
-        "Masquerade in Red (<strong>ec</strong>)",
-        "Omnipotent Crawling Chaos (<strong>ec</strong>)",
-        "The Planet That Once Used To Absorb Flesh In Order To Achieve Divinity And Immortality (Suffocated To The Flesh That It Desired) (<strong>ec</strong>)",
-        "Venus Project (<strong>ec</strong>)",
         "The Voyagers Beneath the Mare Imbrium (<strong>ec</strong>)",
         "{{SPELL}} and {{SPELL}}"
     ],
@@ -4235,8 +4231,9 @@
         "Summon (<strong>lotfp</strong>)",
         "White Tentacles (<strong>ar&pl</strong>)",
         "Chaosgoat Law (<strong>vam</strong>)",
-        "Robe of Ectoplasm (<strong>ec</strong>)",
-        "Saturn and Sacrifice (<strong>ec</strong>)"
+        "An Autumn to Cripple Children (<strong>ec</strong>)",
+        "Omnipotent Crawling Chaos (<strong>ec</strong>)",
+        "Robe of Ectoplasm (<strong>ec</strong>)"
     ],
     "SPELL_TRANSMUTATION": [
         "Bloodlust (<strong>w&w</strong>)",
@@ -4261,6 +4258,9 @@
         "Morbid Metal (<strong>vam</strong>)",
         "Those of the Unlight (<strong>vam</strong>)",
         "Volcanic Slut (<strong>vam</strong>)",
+        "Anywhere Out of This World (<strong>ec</strong>)",
+        "The Planet That Once Used To Absorb Flesh In Order To Achieve Divinity And Immortality (Suffocated To The Flesh That It Desired) (<strong>ec</strong>)",
+        "Saturn and Sacrifice (<strong>ec</strong>)",
         "The Thrash of Naked Limbs (<strong>ec</strong>)"
     ],
     "SPELL_VAM": [
